@@ -204,6 +204,7 @@
     }
   },
  
+
   "sss_joinfreeValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
@@ -242,8 +243,7 @@
       }
     }
   },
- 
-  "sss_freeValue": {
+   "sss_freeValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
       "capsID": "sss_freeValue",
