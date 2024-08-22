@@ -1,2 +1,0 @@
-
-"IptPicker1.tsx"

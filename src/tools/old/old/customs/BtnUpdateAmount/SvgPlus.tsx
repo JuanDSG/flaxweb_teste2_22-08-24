@@ -1,2 +1,0 @@
-
-"SvgPlus.tsx"

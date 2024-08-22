@@ -1,2 +1,0 @@
-
-"SvgView1.tsx"

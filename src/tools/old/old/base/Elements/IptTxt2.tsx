@@ -1,2 +1,0 @@
-
-"IptTxt2.tsx"

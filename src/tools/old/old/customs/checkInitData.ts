@@ -1,2 +1,0 @@
-
-"checkInitData.ts"

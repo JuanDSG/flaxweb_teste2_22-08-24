@@ -1,2 +1,0 @@
-
-"deleteDoc.ts"

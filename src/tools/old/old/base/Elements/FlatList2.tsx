@@ -1,2 +1,0 @@
-
-"FlatList2.tsx"

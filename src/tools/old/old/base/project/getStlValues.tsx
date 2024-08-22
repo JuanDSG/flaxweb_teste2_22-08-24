@@ -1,2 +1,0 @@
-
-"getStlValues.tsx"

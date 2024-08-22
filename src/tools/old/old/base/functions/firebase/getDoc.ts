@@ -1,2 +1,0 @@
-
-"getDoc.ts"

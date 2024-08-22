@@ -1,2 +1,0 @@
-
-"ImageBox.tsx"

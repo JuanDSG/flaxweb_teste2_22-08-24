@@ -1,2 +1,0 @@
-
-"uploadImgs.tsx"

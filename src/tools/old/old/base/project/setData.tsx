@@ -1,2 +1,0 @@
-
-"setData.tsx"

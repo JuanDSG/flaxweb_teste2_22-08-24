@@ -1,2 +1,0 @@
-
-"expoUpdate.tsx"
