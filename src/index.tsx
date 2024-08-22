@@ -10,7 +10,7 @@
         import { create } from 'zustand';
 
         // ---------- import Local Tools
-        import { Project } from './src/tools/base/project/';
+        import { Project } from './src/tools/base/project/index.tsx';
 
         // ---------- set Caps Inputs
         const currRoute = 'home';
