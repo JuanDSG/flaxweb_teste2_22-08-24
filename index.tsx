@@ -1,17 +1,54 @@
 
-// ---------- import React Packs
-import React from 'react';
-import * as RN from 'react-native';
 
-// ---------- import Internals
+        // ---------- import React Packs
+        import React from 'react';
+        import * as RN from 'react-native';
 
-export default function App() {
-  return <RN.Text>{'Olá Morfos 1!!!'}</RN.Text>;
-}
+        // ---------- import Variables Pack
+        import { create } from 'zustand';
 
-RN.AppRegistry.registerComponent('App', () => App);
+        // ---------- import Local Tools
+        import {mapElements} from './tools/base/project/mapElements';
+        import * as functions from './tools/base/functions';
+        import * as Elements from './tools/base/Elements';
+        import { Project } from './tools/base/project/';
+        import * as jsvals from './tools/base/jsvals';
+        import { props } from './tools/base/props';
+        import * as customs from './tools/customs';
+        import * as stls from './tools/base/stls';
+        import { tools } from "./tools";
 
-RN.AppRegistry.runApplication('App', {
-  rootTag: document.getElementById('root'),
-});
+        // ---------- set Caps Inputs
+        const currRoute = 'home'
 
+        let args:any = []
+
+        const screens = [
+          []
+        ]
+
+        const initCt = () => ({
+          true: "true"
+        });
+        const initObj = initCt();
+        // console.log(initObj);
+
+        const arrInitFuncs = [
+          ()=>{}
+        ];
+
+        export const useRoutes = create(() => ({ currRoute }));
+        export const useData = create(() => initObj);
+
+        // ---------- set Main Component
+        export const Router = () => {
+          return (
+            <Project
+              configData={{
+                screens,
+                initCt,
+                arrInitFuncs,
+              }}
+            />
+          );
+        };
