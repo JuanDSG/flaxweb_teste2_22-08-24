@@ -1,29 +1,18 @@
 
-      // ---------- import React Packs
-        import React from 'react';
-        import * as RN from 'react-native';
+// ---------- import React Packs
+import React from 'react';
+import * as RN from 'react-native';
 
-        // ---------- import Variables Pack
-        import { create } from 'zustand';
+// ---------- import Internals
+import { Router } from './src';
 
-        // ---------- import Local Tools
+export default function App() {
+  return <Router />;
+}
 
-        // ---------- set Caps Inputs
-        const currRoute = ''
+RN.AppRegistry.registerComponent('App', () => App);
 
-        let args:any = []
+RN.AppRegistry.runApplication('App', {
+  rootTag: document.getElementById('root'),
+});
 
-        const screens = []
-
-        const initCt = () => ({});
-        const initObj = initCt();
-
-        const arrInitFuncs = [];
-
-        export const useRoutes = create(() => ({ currRoute }));
-        export const useData = create(() => initObj);
-
-        // ---------- set Main Component
-        export const Router = () => {
-          return (<RN.Text>Base Project...</RN.Text>);
-      };
