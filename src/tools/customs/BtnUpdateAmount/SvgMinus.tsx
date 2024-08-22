@@ -1,0 +1,2 @@
+
+"SvgMinus.tsx"
