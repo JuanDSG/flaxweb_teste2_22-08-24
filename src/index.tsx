@@ -10,24 +10,16 @@
         import { create } from 'zustand';
 
         // ---------- import Local Tools
-        import {mapElements} from './tools/base/project/mapElements';
-        import * as functions from './tools/base/functions';
-        import * as Elements from './tools/base/Elements';
-        import { Project } from './tools/base/project/';
-        import * as jsvals from './tools/base/jsvals';
-        import { props } from './tools/base/props';
-        import * as customs from './tools/customs';
-        import * as stls from './tools/base/stls';
-        import { tools } from "./tools";
+        import { Project } from './src/tools/base/project/';
 
         // ---------- set Caps Inputs
-        const currRoute = 'home'
+        const currRoute = 'home';
 
-        let args:any = []
+        let args: any = [];
 
         const screens = [
           []
-        ]
+        ];
 
         const initCt = () => ({
           true: "true"
@@ -54,3 +46,4 @@
             />
           );
         };
+        
