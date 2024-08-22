@@ -33,6 +33,7 @@ export const Project = ({ configData }: Tprops) => {
     callFn().catch(err => console.log('Project Start Functions', { err }));
   }, []);
 
+  return <RN.Text>{'Tem alguém aí?'}</RN.Text>;
   return (
     <RN.View style={{ flexDirection: 'column', width: '100%' }}>
       <SafeAreaView
