@@ -1,5 +1,8 @@
 
-       // ---------- import React Packs
+
+//
+ 
+        // ---------- import React Packs
         import React from 'react';
         import * as RN from 'react-native';
 
@@ -7,23 +10,47 @@
         import { create } from 'zustand';
 
         // ---------- import Local Tools
+        import {mapElements} from './tools/base/project/mapElements';
+        import * as functions from './tools/base/functions';
+        import * as Elements from './tools/base/Elements';
+        import { Project } from './tools/base/project/';
+        import * as jsvals from './tools/base/jsvals';
+        import { props } from './tools/base/props';
+        import * as customs from './tools/customs';
+        import * as stls from './tools/base/stls';
+        import { tools } from "./tools";
 
         // ---------- set Caps Inputs
-        const currRoute = ''
+        const currRoute = 'home'
 
         let args:any = []
 
-        const screens = []
+        const screens = [
+          []
+        ]
 
-        const initCt = () => ({});
+        const initCt = () => ({
+          true: "true"
+        });
         const initObj = initCt();
+        // console.log(initObj);
 
-        const arrInitFuncs = [];
+        const arrInitFuncs = [
+          ()=>{}
+        ];
 
         export const useRoutes = create(() => ({ currRoute }));
         export const useData = create(() => initObj);
 
         // ---------- set Main Component
         export const Router = () => {
-          return (<RN.Text>Base Project...</RN.Text>);
-      };
+          return (
+            <Project
+              configData={{
+                screens,
+                initCt,
+                arrInitFuncs,
+              }}
+            />
+          );
+        };
