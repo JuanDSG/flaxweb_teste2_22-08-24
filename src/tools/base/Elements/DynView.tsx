@@ -59,7 +59,7 @@ export const DynView = (props: Tprops) => {
   };
 
   return <View></View>;
-  // // ---------- set Render
-  // return <>{condRender && <View {...allProps} />}</>;
+  // ---------- set Render
+  return <>{condRender && <View {...allProps} />}</>;
 };
 
