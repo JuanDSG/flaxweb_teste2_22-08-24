@@ -99,110 +99,61 @@
     }
   },
  
-"ccc_project": {
-    "capsCodeInfo": {
-      "1": {
-        "capsCodeVersionID": "1",
-        "capsVersionCreatedAt": {
-          "seconds": 1669821908,
-          "nanoseconds": 764000000
-        },
-        "capsLabel": {
-          "pt-br": "Projeto",
-          "en": "Project"
-        },
-        "capsDescription": {
-          "pt-br": "Cápsula contendo o código para iniciar um projeto.",
-          "en": "Capsule containing the code to start a project."
-        },
-        "capsCodeTypes": ["project"],
-        "capsCodeText": "\n          // ---------- import React Packs\n          import React from 'react';\n          import * as RN from 'react-native';\n\n          // ---------- import Variables Pack\n          import { create } from 'zustand';\n\n          // ---------- import Local Tools\n          import { mapElements } from './tools/base/project/mapElements';\n          import * as functions from './tools/base/functions';\n          // import * as Elements from './tools/base/Elements';\n          import * as Elements from './src/tools/base/Elements';\n          // import { Project } from './tools/base/project';\n          import { Project } from './src/tools/base/project/index.tsx';\n          import * as jsvals from './tools/base/jsvals';\n          import { props } from './tools/base/props';\n          import * as customs from './tools/customs';\n          import * as stls from './tools/base/stls';\n          import { tools } from './tools';\n\n          // ---------- set Caps Inputs\n          const currRoute = '!#!initial screen!#!';\n\n          let args: any = [];\n\n          const screens = [\n            // !#!Lista de Telas!#!\n          ];\n\n          const initCt = () => ({\n            // !#!Lista de Variáveis!#!\n          });\n          const initObj = initCt();\n          // console.log(initObj);\n\n          const arrInitFuncs = [\n            // !#!Start Functions!#!\n          ];\n\n          export const useRoutes = create(() => ({ currRoute }));\n          export const useData = create(() => initObj);\n\n          // ---------- set Main Component\n          export const Router = () => {\n            return (\n              <Project\n                configData={{\n                  screens,\n                  initCt,\n                  arrInitFuncs,\n                }}\n              />\n            );\n          };\n        ",
-        "capsCodeInputs": {
-          "ccc_project-0": {
-            "capsIptCodeID": "ccc_project-0",
-            "capsIptPosition": "0",
-            "capsIptRemoved": false,
-            "capsIptType": "text",
-            "capsIptTxtInfo": {
-              "capsIptTxtDfValue": "home",
-              "capsIptTxtLabel": {
-                "pt-br": "Tela Inicial",
-                "en": "Initial Screen"
-              },
-              "capsIptTxtDescription": {
-                "pt-br": "Adicione o Caminho de URL da tela que vai iniciar o seu projeto.",
-                "en": "Add the URL Path of the screen that will start your project."
-              }
-            }
-          },
-          "ccc_project-1": {
-            "capsIptCodeID": "ccc_project-1",
-            "capsIptPosition": "3",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Lista de Telas",
-                "en": "Screens List"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "Adicione Telas para o projeto.",
-                "en": "Add Screens to the project."
-              },
-              "capsIptCapsDfCode": "[]",
-              "capsIptCapsTypesToAdd": ["Tela"]
-            }
-          },
-          "ccc_project-2": {
-            "capsIptCodeID": "ccc_project-2",
-            "capsIptPosition": "2",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Lista de Variáveis",
-                "en": "Variables List"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "Adicione Variáveis para o projeto.",
-                "en": "Add Variables to the project."
-              },
-              "capsIptCapsDfCode": "true: \"true\"",
-              "capsIptCapsTypesToAdd": ["propValue"]
-            }
-          },
-          "ccc_project-3": {
-            "capsIptCodeID": "ccc_project-3",
-            "capsIptPosition": "1",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Função de Início",
-                "en": "Start Function"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsDfCode": "()=>{}",
-              "capsIptCapsTypesToAdd": ["function"]
-            }
-          }
-        }
-      }
-    },
-    "capsType": "code",
-    "capsDB": {
-      "capsPrjID": "yyy1",
-      "capsCreatedAt": {
-        "seconds": 1669821908,
-        "nanoseconds": 764000000
-      },
-      "capsID": "ccc_project",
-      "capsUserID": "xxx1"
-    }
-  },
+// ---------- import React Packs
+import React from 'react';
+import * as RN from 'react-native';
+
+// ---------- import Variables Pack
+import { create } from 'zustand';
+
+// ---------- import Local Tools
+import { mapElements } from './tools/base/project/mapElements';
+import * as functions from './tools/base/functions';
+import * as Elements from './tools/base/Elements';
+// import * as Elements from './src/tools/base/Elements';
+import { Project } from './tools/base/project';
+// import { Project } from './src/tools/base/project/index.tsx';
+import * as jsvals from './tools/base/jsvals';
+import { props } from './tools/base/props';
+import * as customs from './tools/customs';
+import * as stls from './tools/base/stls';
+import { tools } from './tools';
+
+// ---------- set Caps Inputs
+const currRoute = '!#!initial screen!#!';
+
+let args: any = [];
+
+const screens = [
+  // !#!Lista de Telas!#!
+];
+
+const initCt = () => ({
+  // !#!Lista de Variáveis!#!
+});
+const initObj = initCt();
+// console.log(initObj);
+
+const arrInitFuncs = [
+  // !#!Start Functions!#!
+];
+
+export const useRoutes = create(() => ({ currRoute }));
+export const useData = create(() => initObj);
+
+// ---------- set Main Component
+export const Router = () => {
+  return (
+    <Project
+      configData={{
+        screens,
+        initCt,
+        arrInitFuncs,
+      }}
+    />
+  );
+};
+
  
 "ccc_screen": {
     "capsCodeInfo": {
