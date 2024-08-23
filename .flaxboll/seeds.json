@@ -437,7 +437,555 @@
     }
   },
  
-   "ccc_flatList": {
+   "ccc_dirSeed": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "dirSeed",
+          "en": "dirSeed"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["flaxSystem", "dirSeed"],
+        "capsCodeText": "// \"!#!name!#!\", [!#!files!#!]",
+        "capsCodeInputs": {
+          "ccc_dirSeed-0": {
+            "capsIptCodeID": "ccc_dirSeed-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "",
+              "capsIptTxtLabel": {
+                "pt-br": "name",
+                "en": "name"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_dirSeed-1": {
+            "capsIptCodeID": "ccc_dirSeed-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Diretórios e Arquivos",
+                "en": "Directories and Files"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "",
+              "capsIptCapsTypesToAdd": ["flaxSystem"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_dirSeed",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_testeSystemSeed1": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "ccc_testeSystemSeed1",
+          "en": "ccc_testeSystemSeed1"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["flaxSystem"],
+        "capsCodeText": "\n// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n\n// ---------- set Caps Inputs\nconst string1 = \"!#!String 1!#!\"\nconst Arr1 = [!#!Arr 1!#!]\n\n// ---------- set Main Component\nexport const Router = () => {\n  const msg = 'Olá pessoal 1!!!'\n  return (\n    <RN.View><RN.Text style={{color: 'red'}}>{msg}</RN.Text></RN.View>\n  );\n};\n      ",
+        "capsCodeInputs": {
+          "ccc_testeSystemSeed1-0": {
+            "capsIptCodeID": "ccc_testeSystemSeed1-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "noName",
+              "capsIptTxtLabel": {
+                "pt-br": "String 1",
+                "en": "String 1"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_testeSystemSeed1-1": {
+            "capsIptCodeID": "ccc_testeSystemSeed1-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "code text",
+                "en": "code text"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Arr 1",
+                "en": "Arr 1"
+              },
+              "capsIptCapsDfCode": "\"No Items!\"",
+              "capsIptCapsTypesToAdd": ["string process", "project"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_testeSystemSeed1",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_fileSeed": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "fileSeed",
+          "en": "fileSeed"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["flaxSystem", "fileSeed"],
+        "capsCodeText": "\n// file: !#!name!#!\n!#!code!#!\n        ",
+        "capsCodeInputs": {
+          "ccc_fileSeed-0": {
+            "capsIptCodeID": "ccc_fileSeed-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "noName",
+              "capsIptTxtLabel": {
+                "pt-br": "name",
+                "en": "name"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_fileSeed-1": {
+            "capsIptCodeID": "ccc_fileSeed-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "code text",
+                "en": "code text"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "// no code to inject",
+              "capsIptCapsTypesToAdd": ["string process", "project"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_fileSeed",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_googlePlaces": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Autocomplete Google Places",
+          "en": "Autocomplete Google Places"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Elemento de Tela", "Autocomplete Google Places"],
+        "capsCodeText": "\n\n        (...args:any) => <Elements.AutocompleteGooglePlaces pass={{\n          apiKey: \"!#!Api Key!#!\",\n          pathList: [!#!Path List!#!],\n          args,\n        }}/>",
+        "capsCodeInputs": {
+          "ccc_googlePlaces-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_googlePlaces-0",
+            "capsIptPosition": "0",
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": "home",
+              "capsIptTxtLabel": {
+                "pt-br": "Api Key",
+                "en": "Api Key"
+              }
+            }
+          },
+          "ccc_googlePlaces-1": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_googlePlaces-1",
+            "capsIptPosition": "1",
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Caminho da Lista"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": ""
+              },
+              "capsIptCapsDfCode": "\"\"",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_googlePlaces",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_loader": {
+    "capsCodeInfo": {
+      "1": {
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 761000000
+        },
+        "capsCodeVersionID": "1",
+        "capsLabel": {
+          "pt-br": "Loader",
+          "en": "Loader"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Elemento de Tela", "Loader"],
+        "capsCodeText": "(...args:any) => <Elements.Loader pass={{\n            size: \"!#!tamanho!#!\",\n            color: !#!cor!#!,\n            args,\n        }}/>",
+        "capsCodeInputs": {
+          "ccc_loader-0": {
+            "capsIptCodeID": "ccc_loader-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "tamanho",
+                "en": "size"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "small or large.",
+                "en": "small or large."
+              },
+              "capsIptTxtDfValue": "small"
+            }
+          },
+          "ccc_loader-1": {
+            "capsIptPosition": "1",
+            "capsIptCodeID": "ccc_loader-1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "cor",
+                "en": "color"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["string process"],
+              "capsIptCapsDfCode": "' '"
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_loader",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 761000000
+      }
+    }
+  },
+  "ccc_pressable": {
+    "capsCodeInfo": {
+      "1": {
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 761000000
+        },
+        "capsCodeVersionID": "1",
+        "capsLabel": {
+          "pt-br": "Pressionável (botão)",
+          "en": "Pressable"
+        },
+        "capsDescription": {
+          "pt-br": "É um invólucro de componente principal que pode detectar vários estágios de interações de imprensa em qualquer um de seus filhos definidos.",
+          "en": "Is a Core Component wrapper that can detect various stages of press interactions on any of its defined children."
+        },
+        "capsCodeTypes": ["Elemento de Tela", "Pressable"],
+        "capsCodeText": "(...args:any) => <Elements.Pressable3 pass={{\n          elementProperties: [!#!1!#!],\n\n          styles: [!#!2!#!],\n\n          childrenItems: [!#!3!#!],\n\n          pressableFunctions: [!#!4!#!],\n\n          args,\n        }}/>",
+        "capsCodeInputs": {
+          "ccc_pressable-0": {
+            "capsIptCodeID": "ccc_pressable-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Propriedades de Elementos",
+                "en": "Element Properties"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "{}",
+              "capsIptCapsTypesToAdd": ["Propriedade Botão"]
+            }
+          },
+          "ccc_pressable-1": {
+            "capsIptCodeID": "ccc_pressable-1",
+            "capsIptType": "capsules",
+            "capsIptRemoved": false,
+            "capsIptPosition": "1",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Estilos",
+                "en": "Styles"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["Estilo Caixa"],
+              "capsIptCapsDfCode": "\n              {\n                backgroundColor: 'blue',\n                borderRadius: 20,\n                paddingVertical: 5,\n                paddingHorizontal: 20,\n                justifyContent: 'center',\n                alignItems: 'center',\n              }\n              "
+            }
+          },
+          "ccc_pressable-2": {
+            "capsIptCodeID": "ccc_pressable-2",
+            "capsIptRemoved": false,
+            "capsIptPosition": "3",
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Itens Filhos",
+                "en": "Children Items"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=><></>",
+              "capsIptCapsTypesToAdd": ["Elemento de Tela"]
+            }
+          },
+          "ccc_pressable-3": {
+            "capsIptCodeID": "ccc_pressable-3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptPosition": "2",
+            "capsIptCapsInfo": {
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsLabel": {
+                "pt-br": "Funções do Botão",
+                "en": "Pressable Functions"
+              },
+              "capsIptCapsTypesToAdd": ["function"],
+              "capsIptCapsDfCode": "()=>console.log(\"Você Clicou!\")"
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_pressable",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 761000000
+      }
+    }
+  },
+  "ccc_login": {
+    "capsCodeInfo": {
+      "1": {
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 761000000
+        },
+        "capsCodeVersionID": "1",
+        "capsLabel": {
+          "pt-br": "Login (botão)",
+          "en": "Login (button)"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Elemento de Tela", "Login"],
+        "capsCodeText": "(...args:any) => <Elements.Login pass={{\n          elementProperties: [!#!0!#!],\n          styles: [!#!1!#!],\n          childrenItems: [!#!2!#!],\n          pressableFunctions: [!#!3!#!],\n\n          args,\n        }}/>",
+        "capsCodeInputs": {
+          "ccc_login-0": {
+            "capsIptCodeID": "ccc_login-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Propriedades de Elementos",
+                "en": "Element Properties"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "{}",
+              "capsIptCapsTypesToAdd": ["Propriedade Botão"]
+            }
+          },
+          "ccc_login-1": {
+            "capsIptCodeID": "ccc_login-1",
+            "capsIptType": "capsules",
+            "capsIptRemoved": false,
+            "capsIptPosition": "1",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Estilos",
+                "en": "Styles"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["Estilo Caixa"],
+              "capsIptCapsDfCode": "\n              {\n                backgroundColor: 'blue',\n                borderRadius: 20,\n                paddingVertical: 5,\n                paddingHorizontal: 20,\n                justifyContent: 'center',\n                alignItems: 'center',\n              }\n              "
+            }
+          },
+          "ccc_login-2": {
+            "capsIptCodeID": "ccc_login-2",
+            "capsIptRemoved": false,
+            "capsIptPosition": "3",
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Itens Filhos",
+                "en": "Children Items"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "\n              () => (\n                <RN.Text style={{color: 'white'}}>\n                  Insira elementos aqui\n                </RN.Text>\n              )\n              ",
+              "capsIptCapsTypesToAdd": ["Elemento de Tela"]
+            }
+          },
+          "ccc_login-3": {
+            "capsIptCodeID": "ccc_login-3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptPosition": "2",
+            "capsIptCapsInfo": {
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsLabel": {
+                "pt-br": "Funções do Botão",
+                "en": "Pressable Functions"
+              },
+              "capsIptCapsTypesToAdd": ["function"],
+              "capsIptCapsDfCode": "()=>console.log(\"Você Clicou!\")"
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_login",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 761000000
+      }
+    }
+  },
+  "ccc_flatList": {
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
@@ -519,6 +1067,168 @@
     "capsType": "code",
     "capsDB": {
       "capsID": "ccc_flatList",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_project1_home1": {
+    "capsType": "code",
+    "capsDB": {
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsID": "ccc_project1_home1",
+      "capsUserID": "xxx1"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        },
+        "capsLabel": {
+          "pt-br": "Projeto",
+          "en": "project"
+        },
+        "capsDescription": {
+          "pt-br": "Cápsula contendo o código para iniciar um projeto.",
+          "en": "Capsule containing the code to start a project."
+        },
+        "capsCodeTypes": ["project"],
+        "capsCodeText": "\n        import React from 'react'\n        import * as RN from \"react-native-web\";\n\n        const Project = (  ) => {\n          const initRouter = { current: '!#!Tela Inicial!#!', list: [] };\n          const [sttRouter, setRouter] = React.useState(initRouter);\n          const [sttInit, setInit] = React.useState(true);\n\n          const [sttComps, setComps] = React.useState([]);\n\n          sttInit && fxInitLoop(sttInit,setInit,sttRouter,setRouter,setComps);\n\n          let CurrScreen;\n\n          sttComps.forEach(props => {\n            if (!props) return;\n            const { path, comp } = props;\n            if (sttRouter.current === path) CurrScreen = comp;\n          });\n\n          if (!CurrScreen) {\n            const firstItem = sttComps[0];\n            if (!firstItem) return <></>;\n\n            const FirstScreen = firstItem.comp;\n            return <FirstScreen />;\n          }\n\n          return <CurrScreen />;\n        }\n\n        const fxInitLoop = (sttInit,setInit,sttRouter,setRouter,setComps) => {\n          const funcToComps = [!#!Lista de Telas!#!]\n\n          const getComps = funcToComps.map(setItem => {\n            if (!sttInit) return;\n\n            const getRoute = (route) => {\n              const newRoute = { ...sttRouter, list: [...sttRouter.list, route] };\n              setRouter(newRoute);\n            };\n\n            const goTo = (path) => {\n              const changeRoute = { ...sttRouter, current: path };\n              setRouter(changeRoute);\n            };\n\n            setInit(false);\n            const Comp = setItem({ getRoute, goTo });\n\n            return Comp;\n          });\n\n          setComps(getComps);\n        };\n\n\n        RN.AppRegistry.registerComponent(\"Project\", () => Project)\n\n        RN.AppRegistry.runApplication(\"Project\", {\n          rootTag: document.getElementById(\"root\")\n        });\n        ",
+        "capsCodeInputs": {
+          "ccc_project1_home1-0": {
+            "capsIptCodeID": "ccc_project1_home1-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "home",
+              "capsIptTxtLabel": {
+                "pt-br": "Tela Inicial",
+                "en": "Initial Screen"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "Adicione o Caminho de URL da tela que vai iniciar o seu projeto.",
+                "en": "Add the URL path of the screen that will initiate your project"
+              }
+            }
+          },
+          "ccc_project1_home1-1": {
+            "capsIptCodeID": "ccc_project1_home1-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Lista de Telas",
+                "en": "List of Screens"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Adicione Telas para o projeto.",
+                "en": "Add screens to the project"
+              },
+              "capsIptCapsDfCode": "({ getRoute, goTo }) => {\n                const screenData = { path: 'home', name: 'Home' };\n                getRoute(screenData.path);\n\n                const Comp = () => {\n\n                  const [sttDbString, setDbString] = React.useState('carregando do firestore... (pausado)');\n\n                  const stlView = {\n                    backgroundColor: 'black',\n\n                    height: '100%',\n                    width: '100%',\n\n                    justifyContent:'center',\n                    alignItems:'center',\n                  }\n\n                  const stlText1 = {\n                    color:'#aaa',\n                    marginTop: 20,\n                    fontSize: 20,\n                    textAlign:'center',\n                  };\n                  const stlText2 = {\n                    ...stlText1,\n                    color:'#555',\n                    maxWidth: 180,\n                    fontSize: 14,\n                    fontStyle: 'italic'\n                  };\n\n                  return (\n                    <RN.View style={stlView}>\n                      <RN.Image\n                        style={{ width:165, height: 40,}}\n                        source={{uri: 'https://morfosweb.com/static/media/morfos-logo.d2181ead.png'}}\n                        />\n                      <RN.Text\n                        style={stlText2}\n                        children={sttDbString}\n                        />\n                      <RN.Text\n                        style={stlText1}\n                        children='Bem-Vindo!'\n                        />\n                      <RN.Text\n                        style={stlText2}\n                        children='Comece adicionando Telas ao seu projeto!'\n                        />\n                    </RN.View>\n                  )\n                };\n\n                return { path: screenData.path, comp: Comp };\n\n                return (\n                  <RN.Text children='Bem-Vindo!'/>\n                )\n              }",
+              "capsIptCapsTypesToAdd": ["Tela"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "ccc_image": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Imagem",
+          "en": "Image"
+        },
+        "capsDescription": {
+          "pt-br": "Um componente React para exibir diferentes tipos de imagens",
+          "en": "A React component for displaying different types of images"
+        },
+        "capsCodeTypes": ["Elemento de Tela", "Image"],
+        "capsCodeText": "\n\n    (...args:any) => <Elements.ImageBox pass={{\n      elementsProperties:[!#!1!#!],\n\n      styles:[!#!2!#!],\n\n      URIvariablePath:[!#!3!#!],\n\n      args,\n    }}/>",
+        "capsCodeInputs": {
+          "ccc_image-0": {
+            "capsIptCodeID": "ccc_image-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Propriedades de Elementos",
+                "en": "Elements Properties"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "{}",
+              "capsIptCapsTypesToAdd": [
+                "Propriedade Caixa",
+                "Propriedade Imagem"
+              ]
+            }
+          },
+          "ccc_image-1": {
+            "capsIptCodeID": "ccc_image-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Estilos",
+                "en": "Styles"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "\n              {\n                height: \"50px\",\n                width: \"80px\",\n                backgroundColor: \"#FDFDFD\",\n                borderWidth: 2,\n                borderColor: \"#EEE\"\n              }\n              ",
+              "capsIptCapsTypesToAdd": [
+                "Estilo Caixa",
+                "Estilo Layout",
+                "Estilo Imagem"
+              ]
+            }
+          },
+          "ccc_image-2": {
+            "capsIptPosition": "2",
+            "capsIptCodeID": "ccc_image-2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "caminho da variável URI",
+                "en": "URI variable path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["string process"],
+              "capsIptCapsDfCode": "\"https://images.unsplash.com/photo-1488831861984-179da3647265?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\""
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_image",
       "capsPrjID": "yyy1",
       "capsCreatedAt": {
         "seconds": 1669821908,
