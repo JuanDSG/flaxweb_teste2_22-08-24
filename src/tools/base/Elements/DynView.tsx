@@ -6,7 +6,7 @@ import { View } from 'react-native';
 // ---------- import Local Tools
 import { argSel, getStlValues, mapElements, pathSel } from '../project';
 import { useData } from '../../..';
-import { backgroundColor } from '../stls';
+import { backgroundColor, width } from '../stls';
 
 export const css =
   'color: lightblue; background-color: black; font-size: 11px; padding: 2px 6px; border-radius: 3px';
@@ -54,7 +54,7 @@ export const DynView = (props: Tprops) => {
   }
 
   const allProps = {
-    style: [stl],
+    style: [stl, {backgroundColor:'white', height:50, width:50}],
     children: mapElements(childrenItems, args),
     ...userElProps,
   };
