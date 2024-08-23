@@ -39,15 +39,8 @@ function Screen3Render(props: Tprops) {
 
   // ---------- set Variables Styles (If Exists)
   const stl = getStlValues(styles);
-  // const baseScreen = { width: '100%', height: '100vh' };
 
   // ---------- set Render
-  return (
-    <View style={[ stl]}>
-              <Text>{'Olá Screen!'}</Text>
-
-      {/* {mapElements(screenElements, args)} */}
-      </View>
-  );
+  return <View style={[stl]}>{/* {mapElements(screenElements, args)} */}</View>;
 }
 
