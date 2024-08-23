@@ -3,7 +3,7 @@
 import { getVarValue } from './getVarValue';
 
 // ---------- import Packs
-// import { Style, getStylesForProperty } from 'css-to-react-native';
+import { Style, getStylesForProperty } from 'css-to-react-native';
 
 // ----------- set Style Variable Selection
 export const getStlValues = (arrGetValues: any) => {
@@ -25,19 +25,19 @@ export const getStlValues = (arrGetValues: any) => {
 
       if (!condVar) {
         const valToPx = String(setPx(stlVal));
-        // const process2 = getStylesForProperty(key, valToPx);
+        const process2 = getStylesForProperty(key, valToPx);
         // console.log({ process2 });
-        // return process2;
+        return process2;
       }
 
       const varToPx = String(setPx(varValue));
-      // const process3 = getStylesForProperty(key, varToPx, true);
+      const process3 = getStylesForProperty(key, varToPx, true);
       // console.log({ process3 });
-      // return process3;
+      return process3;
     });
 
-    // return result as Style[];
-    return result;
+    return result as Style[];
+    // return result;
   });
 
   return allStls;
