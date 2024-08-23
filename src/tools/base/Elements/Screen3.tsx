@@ -1,7 +1,7 @@
 
 // ---------- import Packs
 import React from 'react';
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
 
 // ---------- import Local Tools
 import { getStlValues, mapElements } from '../project';
@@ -43,7 +43,11 @@ function Screen3Render(props: Tprops) {
 
   // ---------- set Render
   return (
-    <View style={[baseScreen, stl]}>{mapElements(screenElements, args)}</View>
+    <View style={[baseScreen, stl]}>
+              <Text>{'Olá Screen!'}</Text>
+
+      {/* {mapElements(screenElements, args)} */}
+      </View>
   );
 }
 
