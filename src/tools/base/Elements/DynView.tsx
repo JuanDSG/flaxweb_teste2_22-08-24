@@ -25,13 +25,13 @@ type Tprops = {
 export const DynView = (props: Tprops) => {
   return <View></View>;
 
-  // // ---------- set Props
-  // const { elementsProperties, variablePath, styles } = props.pass;
-  // const { expectedVal, childrenItems, args } = props.pass;
+  // ---------- set Props
+  const { elementsProperties, variablePath, styles } = props.pass;
+  const { expectedVal, childrenItems, args } = props.pass;
 
-  // // ---------- set VarPath and expectedVal as a single string
-  // let varPath = variablePath.join();
-  // const newVal = expectedVal.join();
+  // ---------- set VarPath and expectedVal as a single string
+  let varPath = variablePath.join();
+  const newVal = expectedVal.join();
 
   // const condHash = varPath.startsWith('#');
   // let compareVal = useData(ct => pathSel(ct, varPath));
