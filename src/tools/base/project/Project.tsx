@@ -38,10 +38,7 @@ export const Project = ({ configData }: Tprops) => {
   const baseStl: RN.ViewStyle = {
     flexDirection: 'column',
     width: '100%',
-    // @ts-ignore Juan: to work on web
-    // height: condWeb ? '100vh' : '100%',
     height: '100%',
-    backgroundColor:'green'
   };
 
   return (
