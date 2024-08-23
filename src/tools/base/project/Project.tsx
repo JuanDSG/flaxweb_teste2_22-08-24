@@ -35,21 +35,18 @@ export const Project = ({ configData }: Tprops) => {
 
   return (
     <RN.View
-      style={{ flexDirection: 'column', width: '100%', height: '100vh' }}
+      style={{
+        flexDirection: 'column',
+        width: '100%',
+        height: '100vh',
+        backgroundColor: '#450b2c',
+      }}
     >
-      <SafeAreaView
-        style={{ width: '100%', height: '100%', overflow: 'hidden' }}
-      >
-        {Platform.OS !== 'web' && (
-          <View style={{ height: 30, backgroundColor: '#450b2c' }} />
-        )}
+      <RN.Text>{'Olá Todos!'}</RN.Text>
 
-        <RN.Text>{'Olá Todos!'}</RN.Text>
+      {/* {mapElements(screens)} */}
 
-        {/* {mapElements(screens)} */}
-
-        {/* <StatusBar style="light" /> */}
-      </SafeAreaView>
+      {/* <StatusBar style="light" /> */}
     </RN.View>
   );
 };
