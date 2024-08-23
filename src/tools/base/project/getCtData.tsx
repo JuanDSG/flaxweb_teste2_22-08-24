@@ -1,7 +1,7 @@
 
 // ---------- import Local Tools
-import { useData } from '../../../';
-// import { useData } from './src/index.tsx';
+// import { useData } from '../../../';
+import { useData } from './src/index.tsx';
 import { pathSel } from './pathSel';
 
 export const getCtData = (path: string) => {
