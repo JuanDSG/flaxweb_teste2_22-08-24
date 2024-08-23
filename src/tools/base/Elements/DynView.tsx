@@ -33,9 +33,9 @@ export const DynView = (props: Tprops) => {
   let varPath = variablePath.join();
   const newVal = expectedVal.join();
 
-  // const condHash = varPath.startsWith('#');
-  // let compareVal = useData(ct => pathSel(ct, varPath));
-  // if (condHash) compareVal = argSel(args, varPath);
+  const condHash = varPath.startsWith('#');
+  let compareVal = useData(ct => pathSel(ct, varPath));
+  if (condHash) compareVal = argSel(args, varPath);
 
   // // ---------- set Conditional Element Render
   // let condRender = true;
