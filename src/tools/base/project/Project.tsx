@@ -41,7 +41,7 @@ export const Project = ({ configData }: Tprops) => {
     // @ts-ignore Juan: to work on web
     // height: condWeb ? '100vh' : '100%',
     height: '100%',
-    backgroundColor:'red'
+    backgroundColor:'green'
   };
 
   return (
