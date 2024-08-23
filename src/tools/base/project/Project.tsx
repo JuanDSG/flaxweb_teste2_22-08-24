@@ -33,7 +33,7 @@ export const Project = ({ configData }: Tprops) => {
     callFn().catch(err => console.log('Project Start Functions', { err }));
   }, []);
 
-  const condWeb = Platform.OS !== 'web';
+  const condWeb = Platform.OS === 'web';
 
   const baseStl: RN.ViewStyle = {
     flexDirection: 'column',
@@ -47,7 +47,7 @@ export const Project = ({ configData }: Tprops) => {
       <SafeAreaView
         style={{ width: '100%', height: '100%', overflow: 'hidden' }}
       >
-        {condWeb && <View style={{ height: 30 }} />}
+        {!condWeb && <View style={{ height: 30 }} />}
 
         {mapElements(screens)}
 
