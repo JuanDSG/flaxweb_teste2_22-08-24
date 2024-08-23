@@ -10,7 +10,7 @@
 
 // export { FlatList2 } from './FlatList2';
 
-// export { DynView } from './DynView';
+export { DynView } from './DynView';
 // export { MapPlaces } from './MapPlaces';
 
 // export { IptPicker1 } from './IptPicker1';
