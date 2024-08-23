@@ -229,6 +229,7 @@
       "capsUseConections": "1"
     }
   },
+
   "b04abd57-ebc1-404f-be58-280de1231524": {
     "capsType": "useCode",
     "capsDB": {
@@ -624,6 +625,330 @@
             "ccc_tools",
             "465f0fb3-3389-4d64-873f-fd8209bb50cc"
           ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "465f0fb3-3389-4d64-873f-fd8209bb50cc": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "465f0fb3-3389-4d64-873f-fd8209bb50cc",
+      "capsPrjID": "ZmSoHUguqudKsAbdDGkf",
+      "capsUserID": "ctvpFLaJmVbq4zw6fOPG",
+      "capsCreatedAt": 1724369305073
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "ccc_src"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1724369305073],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "index.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/index.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": [
+            "55172132-08ab-428f-8e67-be6cb43158a8",
+            "4c160732-aff5-43fb-a75b-cb5796ecaeae"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "55172132-08ab-428f-8e67-be6cb43158a8": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "55172132-08ab-428f-8e67-be6cb43158a8",
+      "capsPrjID": "ZmSoHUguqudKsAbdDGkf",
+      "capsUserID": "ctvpFLaJmVbq4zw6fOPG",
+      "capsCreatedAt": 1724369341952
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "465f0fb3-3389-4d64-873f-fd8209bb50cc"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1724369341952],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "//"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "4c160732-aff5-43fb-a75b-cb5796ecaeae": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "4c160732-aff5-43fb-a75b-cb5796ecaeae",
+      "capsPrjID": "ZmSoHUguqudKsAbdDGkf",
+      "capsUserID": "ctvpFLaJmVbq4zw6fOPG",
+      "capsCreatedAt": 1724369467712
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "465f0fb3-3389-4d64-873f-fd8209bb50cc"
+          }
+        }
+      },
+      "capsCodeID": "ccc_project",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1724369467712],
+      "capsUseLabel": {
+        "pt-br": "Project",
+        "en": "Project"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "ccc_project-0": {
+          "capsIptCodeID": "ccc_project-0",
+          "capsIptTxtValue": "home"
+        },
+        "ccc_project-1": {
+          "capsIptCodeID": "ccc_project-1",
+          "capsIptCapsValue": ["5ede7eb4-c85c-4ba5-a310-f3703459d65d"]
+        },
+        "ccc_project-2": {
+          "capsIptCodeID": "ccc_project-2",
+          "capsIptCapsValue": []
+        },
+        "ccc_project-3": {
+          "capsIptCodeID": "ccc_project-3",
+          "capsIptCapsValue": []
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "5ede7eb4-c85c-4ba5-a310-f3703459d65d": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "5ede7eb4-c85c-4ba5-a310-f3703459d65d",
+      "capsPrjID": "ZmSoHUguqudKsAbdDGkf",
+      "capsUserID": "ctvpFLaJmVbq4zw6fOPG",
+      "capsCreatedAt": 1724371277671
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "ccc_project-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "4c160732-aff5-43fb-a75b-cb5796ecaeae"
+          }
+        }
+      },
+      "capsCodeID": "ccc_screen",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1724371277671],
+      "capsUseLabel": {
+        "pt-br": "screen",
+        "en": "screen"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "ccc_screen-0": {
+          "capsIptCodeID": "ccc_screen-0",
+          "capsIptTxtValue": "home"
+        },
+        "ccc_screen-1": {
+          "capsIptCodeID": "ccc_screen-1",
+          "capsIptCapsValue": []
+        },
+        "ccc_screen-2": {
+          "capsIptCodeID": "ccc_screen-2",
+          "capsIptCapsValue": ["7cbadb9c-aa85-4f78-9f80-c8a1713384e6"]
+        },
+        "ccc_screen-3": {
+          "capsIptCodeID": "ccc_screen-3",
+          "capsIptCapsValue": []
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "7cbadb9c-aa85-4f78-9f80-c8a1713384e6": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "7cbadb9c-aa85-4f78-9f80-c8a1713384e6",
+      "capsPrjID": "ZmSoHUguqudKsAbdDGkf",
+      "capsUserID": "ctvpFLaJmVbq4zw6fOPG",
+      "capsCreatedAt": 1724375784319
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "ccc_screen-2",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "5ede7eb4-c85c-4ba5-a310-f3703459d65d"
+          }
+        }
+      },
+      "capsCodeID": "ccc_dynView",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1724375784319],
+      "capsUseLabel": {
+        "pt-br": "DynView",
+        "en": "DynView"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "ccc_dynView-0": {
+          "capsIptCodeID": "ccc_dynView-0",
+          "capsIptCapsValue": []
+        },
+        "ccc_dynView-1": {
+          "capsIptCodeID": "ccc_dynView-1",
+          "capsIptCapsValue": []
+        },
+        "ccc_dynView-2": {
+          "capsIptCodeID": "ccc_dynView-2",
+          "capsIptCapsValue": []
+        },
+        "ccc_dynView-3": {
+          "capsIptCodeID": "ccc_dynView-3",
+          "capsIptCapsValue": []
+        },
+        "ccc_dynView-4": {
+          "capsIptCodeID": "ccc_dynView-4",
+          "capsIptCapsValue": []
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "97495e17-9030-47e7-ad8a-d10b214039cc": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "97495e17-9030-47e7-ad8a-d10b214039cc",
+      "capsPrjID": "ZmSoHUguqudKsAbdDGkf",
+      "capsUserID": "ctvpFLaJmVbq4zw6fOPG",
+      "capsCreatedAt": 1724362301507
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "xxx_dir1"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1724362301507],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "index.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "index.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["a7bc994c-7dfd-4b9c-a0c1-6506fa4801bc"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "a7bc994c-7dfd-4b9c-a0c1-6506fa4801bc": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "a7bc994c-7dfd-4b9c-a0c1-6506fa4801bc",
+      "capsPrjID": "ZmSoHUguqudKsAbdDGkf",
+      "capsUserID": "ctvpFLaJmVbq4zw6fOPG",
+      "capsCreatedAt": 1724362306624
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "97495e17-9030-47e7-ad8a-d10b214039cc"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1724362306624],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n\n// ---------- import Internals\nimport { Router } from './src';\n\nexport default function App() {\n  return <Router />;\n}\n\nRN.AppRegistry.registerComponent('App', () => App);\n\nRN.AppRegistry.runApplication('App', {\n  rootTag: document.getElementById('root'),\n});\n"
         }
       },
       "capsUseConections": "1"
