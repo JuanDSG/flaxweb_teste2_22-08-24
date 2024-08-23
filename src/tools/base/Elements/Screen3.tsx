@@ -38,9 +38,10 @@ function Screen3Render(props: Tprops) {
   }, []);
 
   // ---------- set Variables Styles (If Exists)
+  console.log('AQUI 2', { styles });
   const stl = getStlValues(styles);
+  console.log('AQUI 3', { stl });
 
   // ---------- set Render
   return <View style={[stl]}>{mapElements(screenElements, args)}</View>;
 }
-
