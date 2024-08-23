@@ -33,15 +33,14 @@ export const Project = ({ configData }: Tprops) => {
     callFn().catch(err => console.log('Project Start Functions', { err }));
   }, []);
 
+  const baseStl: RN.ViewStyle = {
+    flexDirection: 'column',
+    width: '100%',
+    height: '100vh',
+  };
+
   return (
-    <RN.View
-      style={{
-        flexDirection: 'column',
-        width: '100%',
-        height: '100vh',
-        backgroundColor: '#450b2c',
-      }}
-    >
+    <RN.View style={baseStl}>
       <SafeAreaView
         style={{ width: '100%', height: '100%', overflow: 'hidden' }}
       >
