@@ -23,24 +23,24 @@ type Tprops = {
 
 // DynView - ccc_dynView Com Esquema Join Leitura de Var. (newBase)
 export const DynView = (props: Tprops) => {
-  return <View></View>;
-
+  
   // ---------- set Props
   const { elementsProperties, variablePath, styles } = props.pass;
   const { expectedVal, childrenItems, args } = props.pass;
-
+  
   // ---------- set VarPath and expectedVal as a single string
   let varPath = variablePath.join();
   const newVal = expectedVal.join();
-
+  
   const condHash = varPath.startsWith('#');
   let compareVal = useData(ct => pathSel(ct, varPath));
   if (condHash) compareVal = argSel(args, varPath);
-
-  // // ---------- set Conditional Element Render
-  // let condRender = true;
-  // if (variablePath.length > 0) condRender = compareVal === newVal;
-
+  
+  // ---------- set Conditional Element Render
+  let condRender = true;
+  if (variablePath.length > 0) condRender = compareVal === newVal;
+  
+  return <View></View>;
   // // ---------- set Variables Styles (If Exists)
   // const stl = getStlValues(styles);
 
