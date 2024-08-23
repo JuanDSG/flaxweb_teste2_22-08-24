@@ -3244,6 +3244,1377 @@
       "capsUserID": "xxx1"
     }
   },
+  "ccc_customPrepareData": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Preparar Informação personalizada",
+          "en": "custom Prepare Data"
+        },
+        "capsDescription": {
+          "pt-br": "Uma função para preparar informações",
+          "en": "A function to prepare customized data"
+        },
+        "capsCodeTypes": ["Função", "function", "prepareData"],
+        "capsCodeText": "Elements.F5({ pass: {args} })",
+        "capsCodeInputs": {
+          "ccc_customPrepareData-0": {
+            "capsIptCodeID": "ccc_customPrepareData-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "",
+              "capsIptTxtLabel": {
+                "pt-br": "inativo",
+                "en": "inactive"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_customPrepareData",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_fetchResponse_B": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "fetch Response",
+          "en": "fetch Response"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["fetch response"],
+        "capsCodeText": "async (...args) => {\n          // ---------- set Capsules Inputs\n          const resMethod = \"!#!method after response!#!\"\n          const pathToSet = \"!#!variable to save!#!\"\n          const argToPass = !#!arguments to pass!#!\n\n          // ---------- set Consoles Pattern\n          const css1 = 'color: yellow; background-color: black; font-size: 11px; padding: 2px 6px; border-radius: 3px';\n          const css2 = 'color: green; background-color: black; font-size: 10px; padding: 2px 6px; border-radius: 3px';\n\n          console.log(\"%cfetch response\", css1);\n\n          // ---------- set Update CtData\n          const response = args[0];\n          const value = await response[resMethod]();\n          const checkKeys = pathToSet.includes('{{');\n\n          let cleanPath = pathToSet;\n          if(checkKeys) {\n            cleanPath = pathToSet.replace(\"{{\", \"\").replace(\"}}\", \"\")\n          }\n\n          tools.setData({path: cleanPath, value});\n          console.log(\"%cfetch save path\", css2, cleanPath);\n          console.table(\"%cfetch save value\", css2, value);\n        }",
+        "capsCodeInputs": {
+          "ccc_fetchResponse_B-0": {
+            "capsIptCodeID": "ccc_fetchResponse_B-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "json",
+              "capsIptTxtLabel": {
+                "pt-br": "método após resposta",
+                "en": "method after response"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": " ",
+                "en": ""
+              }
+            }
+          },
+          "ccc_fetchResponse_B-1": {
+            "capsIptCodeID": "ccc_fetchResponse_B-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "sc.A1.lists.arrProds",
+              "capsIptTxtLabel": {
+                "pt-br": "variável para salvar",
+                "en": "variable to save"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": " ",
+                "en": ""
+              }
+            }
+          },
+          "ccc_fetchResponse_B-2": {
+            "capsIptCodeID": "ccc_fetchResponse_B-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsDfCode": "undefined",
+              "capsIptCapsTypesToAdd": ["jsValue"],
+              "capsIptCapsLabel": {
+                "pt-br": "argumentos para passar",
+                "en": "arguments to pass"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_fetchResponse_B",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_imagePicker": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "função imagePicker",
+          "en": "function imagePicker"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "imagePicker"],
+        "capsCodeText": "\n\n        // FIX_F6 //\n        Elements.F6({ pass: {\n          A: [\n            !#!return functions!#!\n          ],\n        }})",
+        "capsCodeInputs": {
+          "ccc_imagePicker-0": {
+            "capsIptCodeID": "ccc_imagePicker-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções de retorno",
+                "en": "return functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["Função", "function"],
+              "capsIptCapsDfCode": "() => console.log({args});"
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_imagePicker",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_promiseAll": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "promise all",
+          "en": "promise all"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["function", "promise all"],
+        "capsCodeText": "async (...args) => {\n          const arrFuncs = [!#!functions!#!];\n\n          const arrCalls = ()=> arrFuncs.map(async (item)=>item(args))\n          Promise.all(arrCalls())\n        }",
+        "capsCodeInputs": {
+          "ccc_promiseAll-0": {
+            "capsIptCodeID": "ccc_promiseAll-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Funções",
+                "en": "Functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_promiseAll",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_consoleLog": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "console log",
+          "en": "console log"
+        },
+        "capsDescription": {
+          "pt-br": "Exibe uma mensagem no console web",
+          "en": "Outputs a message to the web console"
+        },
+        "capsCodeTypes": ["function", "console log"],
+        "capsCodeText": "(...args) => {\n          // ---------- set Capsules Inputs\n          const itemsToLog = [!#!items to log!#!];\n\n          // ---------- set Console Log\n          itemsToLog.forEach(item=>{\n\n            if(typeof item === \"function\") return console.log({\n              function: item,\n              response: item(args)\n            });\n\n            if(typeof item === \"string\") {\n              // ---------- set Arguments Values (If Exists)\n              const checkArgs = item.startsWith('#');\n              if(checkArgs) item = tools.argSel(args, item);\n\n              // ---------- set Variables Values (If Exists)\n              const [condVar, varValue] = tools.getVarValue(item, \"noComponent\");\n              if(condVar) item = varValue;\n\n              return console.log(item);\n            }\n\n            console.log(item);\n          })\n        }",
+        "capsCodeInputs": {
+          "ccc_consoleLog-0": {
+            "capsIptCodeID": "ccc_consoleLog-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "itens para o log",
+                "en": "items to log"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "\"console log\"",
+              "capsIptCapsTypesToAdd": []
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_consoleLog",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_listFilter": {
+    "capsDB": {
+      "capsID": "ccc_listFilter",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsCodeVersionID": "1",
+        "capsDescription": {
+          "pt-br": "Recebe o valor por meio de parâmetro(s) e atualiza a lista com os resultados encontrados.",
+          "en": "Receives the value through parameter(s) and updates the list with the results found."
+        },
+        "capsLabel": {
+          "pt-br": "listFilterFromString",
+          "en": "listFilterFromString"
+        },
+        "capsCodeText": "async (...args) => {\n              // ---------- set Caps Inputs\n              let pathOrigin = \"!#!Origin Path!#!\";\n							const field = \"!#!Origin Field To Filter!#!\";\n							const arrFuncs = [!#!Get Value Functions!#!];\n\n							// ---------- set Arguments Values (If Exists)\n							const checkArgs = pathOrigin.startsWith('#');\n							if(checkArgs) pathOrigin = tools.argSel(args, pathOrigin);\n\n							// ---------- set Variables Values (If Exists)\n							const [condVar, varValue] = tools.getVarValue(pathOrigin, 'noComponent');\n							if(condVar) pathOrigin = varValue;\n\n              // ---------- set Filtered Array\n              const filteredArr = pathOrigin.filter(currItem => {\n                let term1 = \"\";\n								if(field) {\n									term1 = currItem[field].toLowerCase();\n								}\n								else{\n									term1 = currItem.toLowerCase();\n								}\n\n                const term2 = args[0].toLowerCase();\n\n                return term1.includes(term2);\n              })\n\n              // ---------- set Get Value Functions\n							for (const currFunc of arrFuncs) await currFunc(filteredArr, args);\n\n							return filteredArr;\n            }",
+        "capsCodeInputs": {
+          "ccc_listFilter-0": {
+            "capsIptCodeID": "ccc_listFilter-0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Caminho de Origem",
+                "en": "Origin Path"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": ""
+            }
+          },
+          "ccc_listFilter-1": {
+            "capsIptCodeID": "ccc_listFilter-1",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptPosition": "1",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Campo de origem para filtrar",
+                "en": "Origin Field To Filter"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": ""
+            }
+          },
+          "ccc_listFilter-2": {
+            "capsIptCodeID": "ccc_listFilter-2",
+            "capsIptRemoved": false,
+            "capsIptPosition": "2",
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Funções para Pegar Valores",
+                "en": "Get Value Functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "() => {}",
+              "capsIptCapsTypesToAdd": ["Função", "function"]
+            }
+          }
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 792000000
+        },
+        "capsCodeTypes": ["Função", "listFilter", "function"]
+      }
+    }
+  },
+  "ccc_arrayPush": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "enviar para array",
+          "en": "array push"
+        },
+        "capsDescription": {
+          "pt-br": "Adiciona uma informação na última posição do array",
+          "en": "Adds an item in the last position of an array"
+        },
+        "capsCodeTypes": ["Função", "function", "arrayPush"],
+        "capsCodeText": "async (...args) =>\n        functions.arrayPush({ args, pass:{\n          oldArr: \"!#!array variable path!#!\",\n          newValue: \"!#!new value!#!\",\n          passToFuncs: [!#!pass to functions!#!],\n        }})",
+        "capsCodeInputs": {
+          "ccc_arrayPush-0": {
+            "capsIptCodeID": "ccc_arrayPush-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "noName",
+              "capsIptTxtLabel": {
+                "pt-br": "caminho da variável do array",
+                "en": "array variable path"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_arrayPush-1": {
+            "capsIptCodeID": "ccc_arrayPush-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "noName",
+              "capsIptTxtLabel": {
+                "pt-br": "valor",
+                "en": "value"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_arrayPush-2": {
+            "capsIptCodeID": "ccc_arrayPush-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "passar para funções",
+                "en": "pass to functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["Função", "function"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_arrayPush",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_stringFunc": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "função string",
+          "en": "string function"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["string function"],
+        "capsCodeText": "(...args) => {\n          let value = \"!#!string value!#!\";\n\n          // ---------- set Arguments Values (If Exists)\n          const checkArgs = value.startsWith('#');\n          if(checkArgs) value = tools.argSel(args, value);\n\n          // ---------- set Variables Values (If Exists)\n          const [condVar, varValue] = tools.getVarValue(value, \"noComponent\");\n          if(condVar) value = varValue;\n\n          return value\n        }",
+        "capsCodeInputs": {
+          "ccc_stringFunc-0": {
+            "capsIptCodeID": "ccc_stringFunc-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "Hello stringFunction!",
+              "capsIptTxtLabel": {
+                "pt-br": "valor string",
+                "en": "string value"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_stringFunc",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_setEditFields": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "setEditFields",
+          "en": "setEditFields"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["function", "setEditFields"],
+        "capsCodeText": "async (...args) =>\n        functions.setEditFields({ args, pass:{\n          arrFieldsName: [!#!Variable Path!#!],\n          arrFormPath: [!#!Variable Path!#!],\n        }})",
+        "capsCodeInputs": {
+          "ccc_setEditFields-0": {
+            "capsIptCodeID": "ccc_setEditFields-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Nomes dos Campos",
+                "en": "Field Names"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "''",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_setEditFields-1": {
+            "capsIptCodeID": "ccc_setEditFields-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Caminho do Formulário",
+                "en": "Form Path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "''",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_setEditFields",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_funcGroup": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "func Group"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        },
+        "capsCodeTypes": ["function", "func Group"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "async (...args) =>\n          functions.funcGroup({ args, pass:{\n            arrFunctions: [!#!1!#!]\n          }})",
+        "capsDescription": {
+          "pt-br": ""
+        },
+        "capsCodeInputs": {
+          "ccc_funcGroup-0": {
+            "capsIptCodeID": "ccc_funcGroup-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        }
+      }
+    },
+    "capsDB": {
+      "capsID": "ccc_funcGroup",
+      "capsUserID": "xxx1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsPrjID": "yyy1"
+    },
+    "capsType": "code"
+  },
+  "ccc_setTimeout": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "setTimeout",
+          "en": "setTimeout"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "setTimeout"],
+        "capsCodeText": "\n\n        // FIX_F2 //\n        Elements.F2({ pass: {\n          A:\"!#!path timeout cash!#!\",\n          B:\"!#!miliseconds value!#!\",\n          C: [\n            !#!functions to execute on delay!#!\n          ],\n        }})",
+        "capsCodeInputs": {
+          "ccc_setTimeout-0": {
+            "capsIptCodeID": "ccc_setTimeout-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "",
+              "capsIptTxtLabel": {
+                "pt-br": "caminho do timeout cash",
+                "en": "path timeout cash"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_setTimeout-1": {
+            "capsIptCodeID": "ccc_setTimeout-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "1000",
+              "capsIptTxtLabel": {
+                "pt-br": "valor em milisegundos",
+                "en": "miliseconds value"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_setTimeout-2": {
+            "capsIptCodeID": "ccc_setTimeout-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções para executar no atraso",
+                "en": "functions to execute on delay"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["Função", "function"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_setTimeout",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_expoUpdate": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "expoUpdate",
+          "en": "expoUpdate"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "expoUpdate"],
+        "capsCodeText": "\n\n        Elements.FYy({ pass:{\n          variablePath: [\n            !#!variable path!#!\n          ],\n          variableValue: \"!#!Variable Value!#!\",\n        }})",
+        "capsCodeInputs": {
+          "ccc_expoUpdate-0": {
+            "capsIptCodeID": "ccc_expoUpdate-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "caminho da variável",
+                "en": "variable path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": [
+                "free value",
+                "join strings value",
+                "string value"
+              ],
+              "capsIptCapsDfCode": "\"{{true}}\""
+            }
+          },
+          "ccc_expoUpdate-1": {
+            "capsIptCodeID": "ccc_expoUpdate-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor da Variável",
+                "en": "Variable Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["jsValue"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_expoUpdate",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_uploadImgs": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "seed",
+          "en": "seed"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "uploadImgs"],
+        "capsCodeText": "Elements.F8({ pass: {\n          loopPath: [\n                !#!loop path!#!\n              ],\n              functions: [\n                !#!functions!#!\n              ],\n            args\n        }})",
+        "capsCodeInputs": {
+          "ccc_uploadImgs-0": {
+            "capsIptCodeID": "ccc_uploadImgs-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "caminho do loop",
+                "en": "loop path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": [
+                "free value",
+                "join strings value",
+                "string value"
+              ],
+              "capsIptCapsDfCode": "\"{{true}}\""
+            }
+          },
+          "ccc_uploadImgs-1": {
+            "capsIptCodeID": "ccc_uploadImgs-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções",
+                "en": "functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["Função", "function"],
+              "capsIptCapsDfCode": "() => console.log(\"função default code\");"
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_uploadImgs",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_callback": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "callback",
+          "en": "callback"
+        },
+        "capsDescription": {
+          "pt-br": "Invoca funções callback",
+          "en": "Invokes callback functions"
+        },
+        "capsCodeTypes": ["function", "callback"],
+        "capsCodeText": "Elements.F3({ pass: {\n          functions:[\n              !#!functions!#!\n            ],\n          }})",
+        "capsCodeInputs": {
+          "ccc_callback-0": {
+            "capsIptCodeID": "ccc_callback-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções",
+                "en": "functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "() => {}",
+              "capsIptCapsTypesToAdd": ["Função", "function"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_callback",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_callback_B": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "callback",
+          "en": "callback"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["function", "fetch response B"],
+        "capsCodeText": "async (...args) => {\n          // ---------- set Capsules Inputs\n          const resMethod = \"!#!method after response!#!\"\n          const pathToSet = \"!#!variable to save!#!\"\n          const argToPass = !#!arguments to pass!#!\n\n          // ---------- set Update CtData\n          // console.log({args});\n          const response = args[0];\n          // console.log({response});\n          const value = await response[resMethod](argToPass);\n          // console.log({value});\n\n          const cleanPath = pathToSet.replace(\"{{\", \"\").replace(\"}}\", \"\")\n          // console.log({cleanPath});\n          tools.setData({path: cleanPath, value});\n        }",
+        "capsCodeInputs": {
+          "ccc_callback_B-0": {
+            "capsIptCodeID": "ccc_callback_B-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "err",
+              "capsIptTxtLabel": {
+                "pt-br": "método depois da resposta",
+                "en": "method after response"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": " ",
+                "en": " "
+              }
+            }
+          },
+          "ccc_callback_B-1": {
+            "capsIptCodeID": "ccc_callback_B-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "response return value",
+              "capsIptTxtLabel": {
+                "pt-br": "variável para salvar",
+                "en": "variable to save"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": " ",
+                "en": " "
+              }
+            }
+          },
+          "ccc_callback_B-2": {
+            "capsIptCodeID": "ccc_callback_B-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsDfCode": "undefined",
+              "capsIptCapsTypesToAdd": ["jsValue"],
+              "capsIptCapsLabel": {
+                "pt-br": "argumentos a passar",
+                "en": "arguments to pass"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_callback_B",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_setVar": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "setVar",
+          "en": "setVar"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "setVar"],
+        "capsCodeText": "async (...args) =>\n        functions.setVar({ args, pass:{\n          keyPath: [!#!url!#!],\n          value: !#!2!#!\n        }})",
+        "capsCodeInputs": {
+          "ccc_setVar-0": {
+            "capsIptCodeID": "ccc_setVar-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Caminho da Variável",
+                "en": "Variable Path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "'example.A1.lists.iptsChanges.name'",
+              "capsIptCapsTypesToAdd": [
+                "free value",
+                "join strings value",
+                "string value",
+                "arg reader",
+                "var reader"
+              ]
+            }
+          },
+          "ccc_setVar-1": {
+            "capsIptCodeID": "ccc_setVar-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor da Variável",
+                "en": "Variable Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "'no value'",
+              "capsIptCapsTypesToAdd": ["jsValue", "findBy"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_setVar",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_funcXx": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "seed",
+          "en": "seed"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "LoopUpload"],
+        "capsCodeText": "\n\n        Elements.FXx({ pass:{\n          variablePath: [\n            !#!variable path!#!\n          ],\n          variableValue: \"!#!Variable Value!#!\",\n        }})",
+        "capsCodeInputs": {
+          "ccc_funcXx-0": {
+            "capsIptCodeID": "ccc_funcXx-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "caminho da variável",
+                "en": "variable path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": [
+                "free value",
+                "join strings value",
+                "string value"
+              ],
+              "capsIptCapsDfCode": "\"{{true}}\""
+            }
+          },
+          "ccc_funcXx-1": {
+            "capsIptCodeID": "ccc_funcXx-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "valor da variável",
+                "en": "Variable Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["jsValue"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_funcXx",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_fetch_B": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "fetch",
+          "en": "fetch"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["function", "fetch"],
+        "capsCodeText": "async (...args) => {\n          // ---------- set Capsules Inputs\n          const arrUrl = [!#!url!#!]\n          const initProps = {!#!initial properties!#!}\n          const errFuncs = [!#!callback error!#!];\n          const successFuncs = [!#!callback response!#!];\n          console.log({initProps});\n\n          // ---------- set Url Value as a single string\n          const url = arrUrl.reduce((prev,curr)=>prev + curr, '')\n          console.log({url});\n\n          // ---------- set Return\n          await fetch(url, initProps)\n          .then((res) => (async () => {\n            for (const currFunc of successFuncs){\n              // console.log({res, currFunc});\n              await currFunc(res, args);\n            }\n          })())\n          .catch(err => (async () => {\n            for (const currFunc of errFuncs){\n              await currFunc(err, args);\n            }\n          })());\n        }",
+        "capsCodeInputs": {
+          "ccc_fetch_B-0": {
+            "capsIptCodeID": "ccc_fetch_B-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "url",
+                "en": "url"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "'https://api.github.com/users'",
+              "capsIptCapsTypesToAdd": [
+                "free value",
+                "join strings value",
+                "string value"
+              ]
+            }
+          },
+          "ccc_fetch_B-1": {
+            "capsIptCodeID": "ccc_fetch_B-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "propriedades iniciais",
+                "en": "initial properties"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "\"method\":\"GET\"",
+              "capsIptCapsTypesToAdd": ["propValue"]
+            }
+          },
+          "ccc_fetch_B-2": {
+            "capsIptCodeID": "ccc_fetch_B-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "erro de callback",
+                "en": "callback error"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["fetch response"]
+            }
+          },
+          "ccc_fetch_B-3": {
+            "capsIptCodeID": "ccc_fetch_B-3",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "resposta de callback",
+                "en": "callback response"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["fetch response"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_fetch_B",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_loop": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "loop",
+          "en": "loop"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "loop"],
+        "capsCodeText": "Elements.F7({ pass: {\n            A: [\n                !#!loop path!#!\n              ],\n            B: [\n                !#!functions!#!\n              ],\n            args\n        }})",
+        "capsCodeInputs": {
+          "ccc_loop-0": {
+            "capsIptCodeID": "ccc_loop-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "caminho do loop",
+                "en": "loop path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": [
+                "free value",
+                "join strings value",
+                "string value"
+              ],
+              "capsIptCapsDfCode": "\"{{true}}\""
+            }
+          },
+          "ccc_loop-1": {
+            "capsIptCodeID": "ccc_loop-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções",
+                "en": "functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["Função", "function"],
+              "capsIptCapsDfCode": "() => console.log(\"função default code\");"
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_loop",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_goTo": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "goTo",
+          "en": "goTo"
+        },
+        "capsDescription": {
+          "pt-br": "Função para mudar de tela",
+          "en": "Go to another screen function"
+        },
+        "capsCodeTypes": ["function", "goTo"],
+        "capsCodeText": "\n        (...args) => {\n          // ---------- get Function from A_Project Scope\n          return tools.goTo(\"!#!Screen Path!#!\");\n        }\n        ",
+        "capsCodeInputs": {
+          "ccc_goTo-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_goTo-0",
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": "home",
+              "capsIptTxtLabel": {
+                "pt-br": "Caminho da Tela",
+                "en": "Screen Path"
+              }
+            },
+            "capsIptPosition": "0"
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_goTo",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
  
 
   "sss_joinfreeValue": {
