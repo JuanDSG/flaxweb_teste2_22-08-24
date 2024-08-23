@@ -10,17 +10,17 @@
           import { create } from 'zustand';
 
           // ---------- import Local Tools
-          // import { mapElements } from './tools/base/project/mapElements';
-          // import * as functions from './tools/base/functions';
+          import { mapElements } from './tools/base/project/mapElements';
+          import * as functions from './tools/base/functions';
           // import * as Elements from './tools/base/Elements';
           import * as Elements from './src/tools/base/Elements';
           // import { Project } from './tools/base/project';
           import { Project } from './src/tools/base/project/index.tsx';
-          // import * as jsvals from './tools/base/jsvals';
-          // import { props } from './tools/base/props';
-          // import * as customs from './tools/customs';
-          // import * as stls from './tools/base/stls';
-          // import { tools } from './tools';
+          import * as jsvals from './tools/base/jsvals';
+          import { props } from './tools/base/props';
+          import * as customs from './tools/customs';
+          import * as stls from './tools/base/stls';
+          import { tools } from './tools';
 
           // ---------- set Caps Inputs
           const currRoute = 'home';

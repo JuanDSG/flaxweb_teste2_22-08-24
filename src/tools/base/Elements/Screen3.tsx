@@ -5,8 +5,8 @@ import { View } from 'react-native';
 
 // ---------- import Local Tools
 import { getStlValues, mapElements } from '../project';
-// import { useRoutes } from '../../..';
-import { useRoutes } from './src/index.tsx';
+import { useRoutes } from '../../..';
+// import { useRoutes } from './src/index.tsx';
 
 type Tprops = {
   pass: {
