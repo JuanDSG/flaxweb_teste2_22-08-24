@@ -44,7 +44,9 @@ export const Project = ({ configData }: Tprops) => {
           <View style={{ height: 30, backgroundColor: '#450b2c' }} />
         )}
 
-        {mapElements(screens)}
+        <RN.Text>{'Olá Todos!'}</RN.Text>
+
+        {/* {mapElements(screens)} */}
 
         {/* <StatusBar style="light" /> */}
       </SafeAreaView>
