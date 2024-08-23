@@ -41,6 +41,6 @@ function Screen3Render(props: Tprops) {
   const stl = getStlValues(styles);
 
   // ---------- set Render
-  return <View style={[stl]}>{/* {mapElements(screenElements, args)} */}</View>;
+  return <View style={[stl]}>{mapElements(screenElements, args)}</View>;
 }
 
