@@ -52,13 +52,13 @@ export const DynView = (props: Tprops) => {
     }
   }
 
-  return <View></View>;
-  // const allProps = {
-  //   style: [stl],
-  //   children: mapElements(childrenItems, args),
-  //   ...userElProps,
-  // };
+  const allProps = {
+    style: [stl],
+    children: mapElements(childrenItems, args),
+    ...userElProps,
+  };
 
+  return <View></View>;
   // // ---------- set Render
   // return <>{condRender && <View {...allProps} />}</>;
 };
