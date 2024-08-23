@@ -7,7 +7,7 @@
           "connID": "conn_1",
           "capsParentIptID": "",
           "parentData": {
-            "parentConnID": "",
+            "parentConnID": "conn_1",
             "capsParentID": ""
           }
         }
@@ -251,17 +251,9 @@
       "parents": {
         "conn_1": {
           "connID": "conn_1",
-          "capsParentIptID": "sss_fileSystem-1",
-          "parentData": {
-            "parentConnID": "conn_1",
-            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
-          }
-        },
-        "conn_2": {
-          "connID": "conn_2",
           "capsParentIptID": "sss_joinfreeValue-0",
           "parentData": {
-            "parentConnID": "conn_2",
+            "parentConnID": "conn_1",
             "capsParentID": "cc6cd4a5-38ff-4e45-ba73-e386f62ae0a9"
           }
         }
@@ -300,17 +292,9 @@
       "parents": {
         "conn_1": {
           "connID": "conn_1",
-          "capsParentIptID": "sss_fileSystem-1",
-          "parentData": {
-            "parentConnID": "conn_1",
-            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
-          }
-        },
-        "conn_2": {
-          "connID": "conn_2",
           "capsParentIptID": "sss_joinfreeValue-0",
           "parentData": {
-            "parentConnID": "conn_2",
+            "parentConnID": "conn_1",
             "capsParentID": "cc6cd4a5-38ff-4e45-ba73-e386f62ae0a9"
           }
         }
@@ -516,17 +500,9 @@
       "parents": {
         "conn_1": {
           "connID": "conn_1",
-          "capsParentIptID": "sss_fileSystem-1",
-          "parentData": {
-            "parentConnID": "conn_1",
-            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
-          }
-        },
-        "conn_2": {
-          "connID": "conn_2",
           "capsParentIptID": "sss_joinfreeValue-0",
           "parentData": {
-            "parentConnID": "conn_2",
+            "parentConnID": "conn_1",
             "capsParentID": "c17cb5c1-5b09-44b8-89fa-84df83b3571d"
           }
         }
@@ -565,17 +541,9 @@
       "parents": {
         "conn_1": {
           "connID": "conn_1",
-          "capsParentIptID": "sss_fileSystem-1",
-          "parentData": {
-            "parentConnID": "conn_1",
-            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
-          }
-        },
-        "conn_2": {
-          "connID": "conn_2",
           "capsParentIptID": "sss_joinfreeValue-0",
           "parentData": {
-            "parentConnID": "conn_2",
+            "parentConnID": "conn_1",
             "capsParentID": "c17cb5c1-5b09-44b8-89fa-84df83b3571d"
           }
         }
@@ -706,7 +674,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "e77455bb-a010-422b-b8f8-407059ea5af0"
           }
         }
       },
@@ -755,7 +723,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "48333b92-f9de-484d-a8e3-12cb0ef22f82"
           }
         }
       },
@@ -811,7 +779,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -886,7 +854,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -933,7 +901,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7b14c255-9ee6-4110-99ea-b576479fc815"
           }
         }
       },
@@ -974,7 +942,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1021,7 +989,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5775e788-1a42-498c-97cb-7039349a398b"
           }
         }
       },
@@ -1062,7 +1030,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1109,7 +1077,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2cbbaa55-681d-43bd-8e7b-2484270a95d1"
           }
         }
       },
@@ -1150,7 +1118,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1197,7 +1165,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c0e26b00-54c2-422e-84fe-2553e706e57e"
           }
         }
       },
@@ -1238,7 +1206,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1285,7 +1253,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "e8f7f2cd-665e-4c0a-8e8d-50a6014611ad"
           }
         }
       },
@@ -1326,7 +1294,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1373,7 +1341,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "0bb36b5d-052a-400b-9f54-1db1e5a772fe"
           }
         }
       },
@@ -1414,7 +1382,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1461,7 +1429,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "62682f26-eac5-4a96-bae5-d527cd90e0e3"
           }
         }
       },
@@ -1502,7 +1470,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1549,7 +1517,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "a0d0fe41-6bbe-47b7-b9e6-d5c42b5129a2"
           }
         }
       },
@@ -1590,7 +1558,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1637,7 +1605,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "8e94f8c6-5592-454e-bd64-aca30ccaac84"
           }
         }
       },
@@ -1678,7 +1646,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1725,7 +1693,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f36180a0-60e2-4a95-8b7e-f3926eeea229"
           }
         }
       },
@@ -1766,7 +1734,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1813,7 +1781,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5f04d41e-421d-47db-b7df-1f8b3add6d50"
           }
         }
       },
@@ -1854,7 +1822,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1901,7 +1869,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "0e20204b-c93d-4fa1-8137-8b8a4366b7c7"
           }
         }
       },
@@ -1942,7 +1910,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -1989,7 +1957,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "4aad5a40-cf8a-484f-b371-12022bb5acce"
           }
         }
       },
@@ -2030,7 +1998,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2077,7 +2045,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "56978f47-1b4b-455c-ab14-5026ac499219"
           }
         }
       },
@@ -2118,7 +2086,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2165,7 +2133,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "37ada825-e943-4ece-b556-4f059037355f"
           }
         }
       },
@@ -2206,7 +2174,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2253,7 +2221,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9255232d-01f5-4b20-9190-495917a75708"
           }
         }
       },
@@ -2294,7 +2262,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2341,7 +2309,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "cb5deb21-3487-458b-ae37-0e62df006e40"
           }
         }
       },
@@ -2382,7 +2350,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2429,7 +2397,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "588bfa28-251e-4ff8-b20f-57179741e418"
           }
         }
       },
@@ -2470,7 +2438,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2517,7 +2485,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "6b1f06b1-cf6a-4dd0-8cc1-eee8e2d4ca2e"
           }
         }
       },
@@ -2558,7 +2526,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2605,7 +2573,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "8c332c33-0928-4a34-a70a-3b4dd9a9a2a2"
           }
         }
       },
@@ -2646,7 +2614,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2693,7 +2661,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "a12d0c75-aab8-4735-82a8-ba6856ba9366"
           }
         }
       },
@@ -2734,7 +2702,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2781,7 +2749,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "55a06d50-f296-4d65-ae6a-86cb6ea14a9f"
           }
         }
       },
@@ -2822,7 +2790,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2869,7 +2837,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "44209b6c-6454-434c-a7e2-14f052f3772a"
           }
         }
       },
@@ -2910,7 +2878,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -2957,7 +2925,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "08a01d99-ff31-44d1-9d7e-1b17fb97a0e1"
           }
         }
       },
@@ -2998,7 +2966,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -3045,7 +3013,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "aae7b2e2-530f-4c37-adb7-bb84e8c813f9"
           }
         }
       },
@@ -3086,7 +3054,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -3133,7 +3101,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c49c4cc8-fd60-448f-a1cd-cdf6711d18ed"
           }
         }
       },
@@ -3174,7 +3142,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -3221,7 +3189,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5cf30a1d-0e9d-43aa-8c66-db56001b76ed"
           }
         }
       },
@@ -3262,7 +3230,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -3309,7 +3277,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f3aecc87-3e87-4b64-9fbd-f7541fd49112"
           }
         }
       },
@@ -3350,7 +3318,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3717340e-4abc-4136-a33b-ba26b866f83c"
           }
         }
       },
@@ -3397,7 +3365,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d253c6ce-c120-49db-8441-9c7f73e8f258"
           }
         }
       },
@@ -3438,7 +3406,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -3485,7 +3453,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "057edfa1-147f-41f8-87d0-63091b87963c"
           }
         }
       },
@@ -3532,7 +3500,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eff5e3e0-4d30-456f-9e16-4c333e4f1784"
           }
         }
       },
@@ -3573,7 +3541,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -3633,7 +3601,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -3680,7 +3648,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "84ab1966-98aa-4fbb-aee9-655d2d19273c"
           }
         }
       },
@@ -3721,7 +3689,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -3768,7 +3736,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7956c804-b77b-4e3a-9ef0-2c9e15ef4e29"
           }
         }
       },
@@ -3809,7 +3777,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -3856,7 +3824,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "bf8dc993-831c-4727-afa9-0f94ab75be5f"
           }
         }
       },
@@ -3897,7 +3865,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -3944,7 +3912,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "84bd0db9-415d-404c-b24c-7a5f957a73ac"
           }
         }
       },
@@ -3985,7 +3953,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -4041,7 +4009,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4088,7 +4056,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "e0e7da92-f09a-41b5-a595-c7478f5274a8"
           }
         }
       },
@@ -4129,7 +4097,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4176,7 +4144,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1cda8e77-e739-4fbc-bf19-98d7c028a3ef"
           }
         }
       },
@@ -4217,7 +4185,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4264,7 +4232,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "19ca4e6a-1522-417d-9308-fc0784b8adb5"
           }
         }
       },
@@ -4305,7 +4273,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4352,7 +4320,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7da40aeb-945a-4baf-83c5-7d72ca6ed643"
           }
         }
       },
@@ -4393,7 +4361,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4440,7 +4408,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f5738d6b-83e4-49b5-91b6-f13a26885b27"
           }
         }
       },
@@ -4481,7 +4449,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4528,7 +4496,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "36821e43-9793-4b84-913c-76bccadc48fc"
           }
         }
       },
@@ -4569,7 +4537,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4616,7 +4584,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fe885814-0e33-4f35-b1ea-114dfba26264"
           }
         }
       },
@@ -4657,7 +4625,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4704,7 +4672,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7a15e715-6238-46a2-b694-3929765e3d7b"
           }
         }
       },
@@ -4745,7 +4713,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4792,7 +4760,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fdd47706-e2b8-461d-b1f2-cf7a0418a452"
           }
         }
       },
@@ -4833,7 +4801,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9792f36a-1684-4141-81a5-3322facbe90e"
           }
         }
       },
@@ -4880,7 +4848,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "92027f19-c4cc-49c8-b218-e6be7b7eedc2"
           }
         }
       },
@@ -4921,7 +4889,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -4968,7 +4936,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "6d2246ee-4a4a-41c6-8037-b802d08700fa"
           }
         }
       },
@@ -5009,7 +4977,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -5056,7 +5024,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7b4df24f-07ea-46f0-af09-0985fd36decc"
           }
         }
       },
@@ -5097,7 +5065,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -5144,7 +5112,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "01a61592-48c5-47ab-af10-2a52cc970994"
           }
         }
       },
@@ -5185,7 +5153,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -5232,7 +5200,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "cdbd70a6-a5cd-443c-8970-1600aa76bdc4"
           }
         }
       },
@@ -5273,7 +5241,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -5320,7 +5288,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "38218edc-96cc-4407-961e-76d37e9f1676"
           }
         }
       },
@@ -5361,7 +5329,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -5408,7 +5376,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "704359b3-9f55-4213-b71a-8a564aca521a"
           }
         }
       },
@@ -5449,7 +5417,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -5496,7 +5464,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "73bdebd6-2011-4c8b-9eeb-0dafd7e297ea"
           }
         }
       },
@@ -5537,7 +5505,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -5584,7 +5552,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5ba1ee66-5fc2-4ae3-b6b9-4cd086d056f2"
           }
         }
       },
@@ -5625,7 +5593,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "41d368fd-3bd0-4711-a9ce-176fe158a0fd"
           }
         }
       },
@@ -5672,7 +5640,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "4306d933-6b55-4fcf-846d-8078f4582fa0"
           }
         }
       },
@@ -5713,7 +5681,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -5760,7 +5728,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d846dc21-ec60-41af-9f50-c543607abd62"
           }
         }
       },
@@ -5807,7 +5775,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "446e8f4f-e3cf-402c-adf1-cdc377a99bda"
           }
         }
       },
@@ -5848,7 +5816,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -5902,7 +5870,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2f0382a3-09bd-4918-96f9-663624aa55f3"
           }
         }
       },
@@ -5949,7 +5917,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ddda2705-2889-4e14-b6f2-bc4938305922"
           }
         }
       },
@@ -5990,7 +5958,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2f0382a3-09bd-4918-96f9-663624aa55f3"
           }
         }
       },
@@ -6037,7 +6005,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "102187b7-c5e0-4f6d-8541-b1c1558dc0f0"
           }
         }
       },
@@ -6078,7 +6046,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2f0382a3-09bd-4918-96f9-663624aa55f3"
           }
         }
       },
@@ -6125,7 +6093,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "8b6ad726-0b51-4d6f-8e19-c974e5d648c6"
           }
         }
       },
@@ -6166,7 +6134,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2f0382a3-09bd-4918-96f9-663624aa55f3"
           }
         }
       },
@@ -6213,7 +6181,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "6a57973b-6c8e-42cb-aa06-765b8c075b71"
           }
         }
       },
@@ -6254,7 +6222,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2f0382a3-09bd-4918-96f9-663624aa55f3"
           }
         }
       },
@@ -6301,7 +6269,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "45f4c7e0-9f1b-4b4f-8dc4-5d032f430284"
           }
         }
       },
@@ -6342,7 +6310,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2f0382a3-09bd-4918-96f9-663624aa55f3"
           }
         }
       },
@@ -6389,7 +6357,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c914ad5f-2cec-455c-9689-c0ab6642c69e"
           }
         }
       },
@@ -6430,7 +6398,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2f0382a3-09bd-4918-96f9-663624aa55f3"
           }
         }
       },
@@ -6477,7 +6445,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "35a1e71d-e310-4a0e-8a57-826a95f36899"
           }
         }
       },
@@ -6518,7 +6486,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2f0382a3-09bd-4918-96f9-663624aa55f3"
           }
         }
       },
@@ -6565,7 +6533,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "194a340c-03e8-4027-bd91-289ef1425747"
           }
         }
       },
@@ -6606,7 +6574,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -6664,7 +6632,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -6711,7 +6679,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2b920c24-5613-483c-bf65-f35f01655a4a"
           }
         }
       },
@@ -6752,7 +6720,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -6799,7 +6767,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d99bd179-413c-441c-8261-b8a3950304f0"
           }
         }
       },
@@ -6840,7 +6808,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -6887,7 +6855,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "02345225-53e7-473e-b293-d6f80012a9f1"
           }
         }
       },
@@ -6928,7 +6896,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -6975,7 +6943,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d6ae4659-22ce-42fb-9a8b-1bb34abd6af6"
           }
         }
       },
@@ -7016,7 +6984,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -7063,7 +7031,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "21b09531-7226-46e9-9ef4-ec8395fd441c"
           }
         }
       },
@@ -7104,7 +7072,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -7151,7 +7119,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7dfd0da7-c7d5-496e-a328-4ce8654218c7"
           }
         }
       },
@@ -7192,7 +7160,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -7239,7 +7207,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d30988f2-29dd-4db3-a95d-4fb7f21a7031"
           }
         }
       },
@@ -7280,7 +7248,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -7327,7 +7295,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "cb31feb3-3c74-44b5-bc08-93fc00c9da8d"
           }
         }
       },
@@ -7456,7 +7424,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -7503,7 +7471,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "bd884666-0506-43af-8f8d-de83ac861696"
           }
         }
       },
@@ -7544,7 +7512,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -7591,7 +7559,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "bf5744ca-bb07-4b47-9832-13636f805b98"
           }
         }
       },
@@ -7632,7 +7600,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1ba8ec92-05de-40ba-ae20-8f6965ba18e9"
           }
         }
       },
@@ -7679,7 +7647,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "823638aa-0a97-4d7f-9757-6523775ca1b9"
           }
         }
       },
@@ -7720,7 +7688,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -7776,7 +7744,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -7823,7 +7791,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "21b7e0df-2bac-40a3-9a57-10b1c1843700"
           }
         }
       },
@@ -7870,7 +7838,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7064fd4f-498a-4fd2-89bd-2ce8af266841"
           }
         }
       },
@@ -7911,7 +7879,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -7958,7 +7926,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "a2d0185c-e02e-4d08-b383-f4c9a3c053c8"
           }
         }
       },
@@ -8005,7 +7973,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "8084ee31-2a27-44a2-b05b-e430a22c03b8"
           }
         }
       },
@@ -8046,7 +8014,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -8093,7 +8061,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "0e9e7411-073c-47d9-951d-b6e398218813"
           }
         }
       },
@@ -8134,7 +8102,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -8181,7 +8149,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fd1bdf7c-5f34-4223-a592-4e6e9a97ab83"
           }
         }
       },
@@ -8228,7 +8196,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "e7832f1d-fbd7-4706-bccc-d28c01522da9"
           }
         }
       },
@@ -8269,7 +8237,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -8316,7 +8284,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9ff367c6-4b3f-4aae-b52e-b2edc5874871"
           }
         }
       },
@@ -8363,7 +8331,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "a47ea6f0-29ae-416b-8d23-b12dc4a0b5be"
           }
         }
       },
@@ -8404,7 +8372,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -8451,7 +8419,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "807ddf2a-aeb9-426b-a590-23a1b8ca03f3"
           }
         }
       },
@@ -8498,7 +8466,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f4492945-9712-414d-8a13-05230b3d5903"
           }
         }
       },
@@ -8539,7 +8507,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -8586,7 +8554,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "730e846b-320f-4394-99a1-e46cf9dff421"
           }
         }
       },
@@ -8627,7 +8595,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -8674,7 +8642,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "347b5bd8-0a18-4e7a-bc4d-d688a5e2955e"
           }
         }
       },
@@ -8721,7 +8689,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "9d7fc546-a1d5-4f7b-9ccf-473cd8e68453"
           }
         }
       },
@@ -8762,7 +8730,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -8809,7 +8777,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d0dd7bfc-dbaf-4c13-a22e-46447b8d1eb8"
           }
         }
       },
@@ -8856,7 +8824,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "8023b40f-a34a-42d6-a377-2f4530a2ef7e"
           }
         }
       },
@@ -8897,7 +8865,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "82900dec-890c-423a-ba92-ce414e88c866"
           }
         }
       },
@@ -8944,7 +8912,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "4b5c2e3d-943f-4ef8-b148-82ddb5238be1"
           }
         }
       },
@@ -8991,7 +8959,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "acc706f4-7b5c-491c-b0d0-36e86fc21a6c"
           }
         }
       },
@@ -9032,7 +9000,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -9085,7 +9053,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fa5782f7-ede1-44fc-b4b7-7614491f6c35"
           }
         }
       },
@@ -9132,7 +9100,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "740805da-aa19-4832-a366-d4ca59d33bc9"
           }
         }
       },
@@ -9179,7 +9147,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f41bad62-d22d-45fe-b21c-0a5382328a3c"
           }
         }
       },
@@ -9220,7 +9188,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fa5782f7-ede1-44fc-b4b7-7614491f6c35"
           }
         }
       },
@@ -9267,7 +9235,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "011d5ad7-8a36-467a-85e7-03d4b96ac683"
           }
         }
       },
@@ -9308,7 +9276,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fa5782f7-ede1-44fc-b4b7-7614491f6c35"
           }
         }
       },
@@ -9355,7 +9323,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "09b7c05f-2ada-4ed4-8faf-c5bfe46ceacd"
           }
         }
       },
@@ -9402,7 +9370,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "42d05980-b8d6-43da-83d9-f8d1506af8a6"
           }
         }
       },
@@ -9443,7 +9411,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fa5782f7-ede1-44fc-b4b7-7614491f6c35"
           }
         }
       },
@@ -9490,7 +9458,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "622e6c62-4111-4512-8fe0-cd936ee5754a"
           }
         }
       },
@@ -9537,7 +9505,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3afea246-0647-4356-b9d1-02ef000170ea"
           }
         }
       },
@@ -9578,7 +9546,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fa5782f7-ede1-44fc-b4b7-7614491f6c35"
           }
         }
       },
@@ -9625,7 +9593,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d4f58b27-277a-49aa-bbbf-b155d74446c3"
           }
         }
       },
@@ -9672,7 +9640,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "49d524e5-bc1d-4bf9-88ba-49c317f501cf"
           }
         }
       },
@@ -9713,7 +9681,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fa5782f7-ede1-44fc-b4b7-7614491f6c35"
           }
         }
       },
@@ -9760,7 +9728,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "76feb036-f430-4c78-ac65-c7293a9e9601"
           }
         }
       },
@@ -9807,7 +9775,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "b3b7b04e-a24d-4c09-aa4b-147790dedcf4"
           }
         }
       },
@@ -9848,7 +9816,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fa5782f7-ede1-44fc-b4b7-7614491f6c35"
           }
         }
       },
@@ -9895,7 +9863,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "bf4e41e6-8ebe-41db-9391-d8577b0d4c07"
           }
         }
       },
@@ -9942,7 +9910,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f4fee563-2047-4dce-bda6-0efbed0a2faf"
           }
         }
       },
@@ -9983,7 +9951,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -10032,7 +10000,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c97a6a61-8a17-44aa-a69b-acbad3fb2b81"
           }
         }
       },
@@ -10079,7 +10047,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "30c19e75-0576-4381-95ad-8a45e246a63d"
           }
         }
       },
@@ -10120,7 +10088,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c97a6a61-8a17-44aa-a69b-acbad3fb2b81"
           }
         }
       },
@@ -10167,7 +10135,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "97f0cb22-af73-468d-ada4-8877c465f4df"
           }
         }
       },
@@ -10208,7 +10176,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c97a6a61-8a17-44aa-a69b-acbad3fb2b81"
           }
         }
       },
@@ -10255,7 +10223,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "2711f907-8bf0-4431-84c9-dc82287a36a4"
           }
         }
       },
@@ -10296,7 +10264,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5be72142-83db-487e-9d64-5d84fa90d96f"
           }
         }
       },
@@ -10343,7 +10311,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7a9274c5-1e2e-47f4-91b3-385591140d57"
           }
         }
       },
@@ -10384,7 +10352,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "48333b92-f9de-484d-a8e3-12cb0ef22f82"
           }
         }
       },
@@ -10445,7 +10413,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -10496,7 +10464,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ba7e1a17-424c-430e-8800-437aba091b62"
           }
         }
       },
@@ -10543,7 +10511,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "903f2666-13a2-4c49-a19f-ab113eaeb64d"
           }
         }
       },
@@ -10584,7 +10552,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ba7e1a17-424c-430e-8800-437aba091b62"
           }
         }
       },
@@ -10631,7 +10599,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "4ea64c20-cc38-40c2-b090-e5c0eec2d735"
           }
         }
       },
@@ -10672,7 +10640,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ba7e1a17-424c-430e-8800-437aba091b62"
           }
         }
       },
@@ -10719,7 +10687,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "940ff5f0-c5d1-49ba-8bf9-ad7e93f8247c"
           }
         }
       },
@@ -10760,7 +10728,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ba7e1a17-424c-430e-8800-437aba091b62"
           }
         }
       },
@@ -10807,7 +10775,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "dcb69136-2bbb-40be-abd1-1931f2dea1c2"
           }
         }
       },
@@ -10848,7 +10816,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ba7e1a17-424c-430e-8800-437aba091b62"
           }
         }
       },
@@ -10895,7 +10863,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ea0d1faa-e936-442d-a093-79e5be632d57"
           }
         }
       },
@@ -10936,7 +10904,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -10983,7 +10951,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "faafc6cd-9517-4f4f-bddf-6f42375cc93e"
           }
         }
       },
@@ -11030,7 +10998,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "4f9b6143-79bd-4131-bd94-a6efd7facc07"
           }
         }
       },
@@ -11071,7 +11039,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -11118,7 +11086,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "5c5e01fb-2425-4e80-88a2-e370848805b1"
           }
         }
       },
@@ -11165,7 +11133,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ed8d71f0-52f7-4158-ad8b-2a908e29c067"
           }
         }
       },
@@ -11206,7 +11174,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -11253,7 +11221,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "698483ed-0ba8-483b-a975-72fdb437e327"
           }
         }
       },
@@ -11300,7 +11268,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "8f985692-21e7-466c-9b5f-e30bc461757f"
           }
         }
       },
@@ -11341,7 +11309,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -11388,7 +11356,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ce2940a4-8a39-4188-bb4d-1cb96ed8d01a"
           }
         }
       },
@@ -11435,7 +11403,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ce53e829-5b66-4088-978e-b9120d62c088"
           }
         }
       },
@@ -11476,7 +11444,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -11524,7 +11492,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb2bef03-c940-4243-92d2-8cfcb3ca9eb7"
           }
         }
       },
@@ -11576,7 +11544,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "73769692-391c-4e83-8190-1f6259a4d8d8"
           }
         }
       },
@@ -11623,7 +11591,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "dbeb1699-7f36-454e-a279-a3606efb2b80"
           }
         }
       },
@@ -11664,7 +11632,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "73769692-391c-4e83-8190-1f6259a4d8d8"
           }
         }
       },
@@ -11711,7 +11679,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ada68aa7-9e44-4822-a261-fc72caf28ba1"
           }
         }
       },
@@ -11752,7 +11720,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "73769692-391c-4e83-8190-1f6259a4d8d8"
           }
         }
       },
@@ -11799,7 +11767,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "4f963436-6df6-493a-bb4f-5e566466e4c5"
           }
         }
       },
@@ -11840,7 +11808,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "73769692-391c-4e83-8190-1f6259a4d8d8"
           }
         }
       },
@@ -11887,7 +11855,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "a012190c-8f24-45b1-ae5f-be4f47db9074"
           }
         }
       },
@@ -11928,7 +11896,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "73769692-391c-4e83-8190-1f6259a4d8d8"
           }
         }
       },
@@ -11975,7 +11943,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ba838d36-7030-4681-a529-a368bdf2acf3"
           }
         }
       },
@@ -12016,7 +11984,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "73769692-391c-4e83-8190-1f6259a4d8d8"
           }
         }
       },
@@ -12063,7 +12031,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d9b51612-5388-4efe-807e-4248111c76cb"
           }
         }
       },
@@ -12104,7 +12072,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb2bef03-c940-4243-92d2-8cfcb3ca9eb7"
           }
         }
       },
@@ -12151,7 +12119,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "20fbce34-39da-4c81-a674-34a41e2fdd7d"
           }
         }
       },
@@ -12192,7 +12160,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -12243,7 +12211,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "65f1a325-3842-4752-9e90-e2b85a14221e"
           }
         }
       },
@@ -12290,7 +12258,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d7eaa214-866c-400f-b273-83f5e916c5b5"
           }
         }
       },
@@ -12331,7 +12299,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "65f1a325-3842-4752-9e90-e2b85a14221e"
           }
         }
       },
@@ -12378,7 +12346,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "66d4c19b-f4d2-493a-88d8-410c32e80fd3"
           }
         }
       },
@@ -12419,7 +12387,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "65f1a325-3842-4752-9e90-e2b85a14221e"
           }
         }
       },
@@ -12466,7 +12434,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "23e95ab5-9e1c-4945-adc3-034476bb2948"
           }
         }
       },
@@ -12507,7 +12475,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "65f1a325-3842-4752-9e90-e2b85a14221e"
           }
         }
       },
@@ -12554,7 +12522,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "6a991f97-4c49-4288-a10d-b6fb9e563bbb"
           }
         }
       },
@@ -12595,7 +12563,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "65f1a325-3842-4752-9e90-e2b85a14221e"
           }
         }
       },
@@ -12642,7 +12610,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "cc094250-401a-4398-98a9-b887b2386666"
           }
         }
       },
@@ -12683,7 +12651,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -12730,7 +12698,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "afdc85a9-41c9-4b39-8b9c-7e7bdc4a76fd"
           }
         }
       },
@@ -12771,7 +12739,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -12818,7 +12786,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "56bd1ab8-06dd-4638-9dfd-c1a8b668ede0"
           }
         }
       },
@@ -12865,7 +12833,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1336ab5d-155b-4b63-a8c6-9f305c92b9ae"
           }
         }
       },
@@ -12906,7 +12874,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -12953,7 +12921,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "0a843602-9f5c-42d3-914c-edea8a2c8aaa"
           }
         }
       },
@@ -13000,7 +12968,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f3e7cde6-319f-4ba1-855a-315bb33d0cb8"
           }
         }
       },
@@ -13041,7 +13009,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -13088,7 +13056,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f193f7d5-8381-4a02-8cef-ecfbb0eb308a"
           }
         }
       },
@@ -13129,7 +13097,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -13176,7 +13144,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c606d797-de4a-4b0a-a912-7057d8e0ca73"
           }
         }
       },
@@ -13223,7 +13191,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "4d523875-bc63-4727-849a-24029b6a0dd3"
           }
         }
       },
@@ -13264,7 +13232,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -13311,7 +13279,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f41afaef-9403-418e-9115-c1b38ca0fa16"
           }
         }
       },
@@ -13352,7 +13320,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -13408,7 +13376,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -13455,7 +13423,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "ba7ee411-fc5d-4562-b870-8ea366f56826"
           }
         }
       },
@@ -13502,7 +13470,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "06b192bc-39bd-4ba1-83cf-b37571ccdf0e"
           }
         }
       },
@@ -13543,7 +13511,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -13590,7 +13558,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "18d2e4e6-d211-4a2c-912f-e94980a76129"
           }
         }
       },
@@ -13631,7 +13599,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -13678,7 +13646,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "d0a6bff4-3d43-46b0-bd84-33e6c81b3999"
           }
         }
       },
@@ -13719,7 +13687,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -13766,7 +13734,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "73ff5bef-72cd-4c23-afd2-0d4ba01080fc"
           }
         }
       },
@@ -13807,7 +13775,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -13854,7 +13822,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "17cf66b2-5724-4411-be2d-8948c58c2092"
           }
         }
       },
@@ -13895,7 +13863,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -13949,7 +13917,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb77995e-a95b-4df0-9560-181671b5adc3"
           }
         }
       },
@@ -13996,7 +13964,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "0fc1c8fa-b273-422e-bb80-908853e5b4bc"
           }
         }
       },
@@ -14037,7 +14005,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb77995e-a95b-4df0-9560-181671b5adc3"
           }
         }
       },
@@ -14084,7 +14052,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c160fe6e-ca38-4773-9a01-560678ff1427"
           }
         }
       },
@@ -14125,7 +14093,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb77995e-a95b-4df0-9560-181671b5adc3"
           }
         }
       },
@@ -14172,7 +14140,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "8a30584b-a01b-45ea-953e-c000889f6c99"
           }
         }
       },
@@ -14213,7 +14181,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb77995e-a95b-4df0-9560-181671b5adc3"
           }
         }
       },
@@ -14260,7 +14228,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "f2013868-1582-4537-a47a-e5ac162e0159"
           }
         }
       },
@@ -14301,7 +14269,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb77995e-a95b-4df0-9560-181671b5adc3"
           }
         }
       },
@@ -14348,7 +14316,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "e4aceeac-d268-44a8-aeb9-57ce7f4171f1"
           }
         }
       },
@@ -14389,7 +14357,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb77995e-a95b-4df0-9560-181671b5adc3"
           }
         }
       },
@@ -14436,7 +14404,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "4b01c7ff-fabc-4ab6-929c-c0a5e8bf0c35"
           }
         }
       },
@@ -14477,7 +14445,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb77995e-a95b-4df0-9560-181671b5adc3"
           }
         }
       },
@@ -14524,7 +14492,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "c9a6cc0d-4859-4a99-abf0-862dd3baf4a8"
           }
         }
       },
@@ -14565,7 +14533,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "eb77995e-a95b-4df0-9560-181671b5adc3"
           }
         }
       },
@@ -14612,7 +14580,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "31972f36-3d8b-4710-bd17-e18dcf597be3"
           }
         }
       },
@@ -14653,7 +14621,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -14700,7 +14668,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "66ceb400-2ef5-4ece-b2e8-eb265c58324f"
           }
         }
       },
@@ -14741,7 +14709,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -14788,7 +14756,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "81b21560-4c67-4392-b1bd-4705b0258c2a"
           }
         }
       },
@@ -14829,7 +14797,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -14878,7 +14846,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "b387d034-4f0a-4b0d-90f4-67c3353ce496"
           }
         }
       },
@@ -14925,7 +14893,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "28179386-34a7-4a5e-9e0d-b6e6ea474fa0"
           }
         }
       },
@@ -14966,7 +14934,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "b387d034-4f0a-4b0d-90f4-67c3353ce496"
           }
         }
       },
@@ -15013,7 +14981,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "1670da12-5192-4451-a239-d34e8f4e772c"
           }
         }
       },
@@ -15054,7 +15022,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "b387d034-4f0a-4b0d-90f4-67c3353ce496"
           }
         }
       },
@@ -15101,7 +15069,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "a279d7c2-92b5-4ede-a80d-38c924765232"
           }
         }
       },
@@ -15142,7 +15110,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "7c1de7ee-d2ab-4c30-a150-192783e53fa1"
           }
         }
       },
@@ -15189,7 +15157,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "734408a5-66db-4443-a270-7692e5f6851b"
           }
         }
       },
@@ -15230,7 +15198,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "fca7c7aa-af5f-4213-a0bd-1423e6694eb7"
           }
         }
       },
@@ -15278,7 +15246,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "83dc9b18-726a-41f2-a209-8dcc0d7ae474"
           }
         }
       },
@@ -15325,7 +15293,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "14e59555-8f11-4603-892c-17a408041db8"
           }
         }
       },
@@ -15366,7 +15334,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "83dc9b18-726a-41f2-a209-8dcc0d7ae474"
           }
         }
       },
@@ -15413,7 +15381,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "3a37c74d-586c-42ab-889e-bb25882ec654"
           }
         }
       },
@@ -15454,7 +15422,7 @@
           "capsParentIptID": "sss_dirSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "48333b92-f9de-484d-a8e3-12cb0ef22f82"
           }
         }
       },
@@ -15501,7 +15469,7 @@
           "capsParentIptID": "sss_fileSystem-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": ""
+            "capsParentID": "e8eb831f-0de3-4d6a-bc2d-016b193337ac"
           }
         }
       },
