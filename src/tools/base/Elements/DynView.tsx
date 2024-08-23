@@ -23,37 +23,36 @@ type Tprops = {
 
 // DynView - ccc_dynView Com Esquema Join Leitura de Var. (newBase)
 export const DynView = (props: Tprops) => {
-  
   // ---------- set Props
   const { elementsProperties, variablePath, styles } = props.pass;
   const { expectedVal, childrenItems, args } = props.pass;
-  
+
   // ---------- set VarPath and expectedVal as a single string
   let varPath = variablePath.join();
   const newVal = expectedVal.join();
-  
+
   const condHash = varPath.startsWith('#');
   let compareVal = useData(ct => pathSel(ct, varPath));
   if (condHash) compareVal = argSel(args, varPath);
-  
+
   // ---------- set Conditional Element Render
   let condRender = true;
   if (variablePath.length > 0) condRender = compareVal === newVal;
-  
+
+  // ---------- set Variables Styles (If Exists)
+  const stl = getStlValues(styles);
+
+  // ------- set User Element Properties (If Exists)
+  const userElProps: any = {};
+
+  for (const object of elementsProperties) {
+    for (const keyProp in object) {
+      const valueProp = object[keyProp];
+      userElProps[keyProp] = valueProp;
+    }
+  }
+
   return <View></View>;
-  // // ---------- set Variables Styles (If Exists)
-  // const stl = getStlValues(styles);
-
-  // // ------- set User Element Properties (If Exists)
-  // const userElProps: any = {};
-
-  // for (const object of elementsProperties) {
-  //   for (const keyProp in object) {
-  //     const valueProp = object[keyProp];
-  //     userElProps[keyProp] = valueProp;
-  //   }
-  // }
-
   // const allProps = {
   //   style: [stl],
   //   children: mapElements(childrenItems, args),
