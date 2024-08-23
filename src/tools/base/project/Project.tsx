@@ -42,11 +42,17 @@ export const Project = ({ configData }: Tprops) => {
         backgroundColor: '#450b2c',
       }}
     >
-      <RN.Text>{'Olá Todos!'}</RN.Text>
+      <SafeAreaView
+        style={{ width: '100%', height: '100%', overflow: 'hidden' }}
+      >
+        {Platform.OS !== 'web' && <View style={{ height: 30 }} />}
 
-      {/* {mapElements(screens)} */}
+        <RN.Text>{'Olá Todos!'}</RN.Text>
 
-      {/* <StatusBar style="light" /> */}
+        {/* {mapElements(screens)} */}
+
+        {/* <StatusBar style="light" /> */}
+      </SafeAreaView>
     </RN.View>
   );
 };
