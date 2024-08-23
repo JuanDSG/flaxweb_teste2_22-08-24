@@ -45,3 +45,4 @@ function Screen3Render(props: Tprops) {
   // ---------- set Render
   return <View style={[stl]}>{mapElements(screenElements, args)}</View>;
 }
+

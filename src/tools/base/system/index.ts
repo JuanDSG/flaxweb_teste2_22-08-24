@@ -1,2 +1,4 @@
 
-"index.ts"
+export { dirSeed } from './dirSeed';
+export { fileSeed } from './fileSeed';
+
