@@ -47,9 +47,7 @@ export const Project = ({ configData }: Tprops) => {
       >
         {Platform.OS !== 'web' && <View style={{ height: 30 }} />}
 
-        <RN.Text>{'Olá Todos!'}</RN.Text>
-
-        {/* {mapElements(screens)} */}
+        {mapElements(screens)}
 
         {/* <StatusBar style="light" /> */}
       </SafeAreaView>
