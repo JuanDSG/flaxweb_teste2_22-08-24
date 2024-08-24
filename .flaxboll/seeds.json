@@ -4617,6 +4617,1223 @@
       "capsUserID": "xxx1"
     }
   },
+  "ccc_condition": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "condição (if)",
+          "en": "condition (if)"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "condition"],
+        "capsCodeText": "async (...args) =>\n        functions.condition({ args, pass:{\n          conditionPath: [!#!variable path!#!],\n          expectedValue: [!#!expected value!#!],\n          functionsTrue: [!#!functions (case true)!#!],\n          functionsFalse: [!#!functions (case false)!#!],\n          args\n        }})",
+        "capsCodeInputs": {
+          "ccc_condition-0": {
+            "capsIptCodeID": "ccc_condition-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Caminho da Variável",
+                "en": "variable path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["string process"],
+              "capsIptCapsDfCode": " "
+            }
+          },
+          "ccc_condition-1": {
+            "capsIptCodeID": "ccc_condition-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor Esperado",
+                "en": "Expected Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_condition-2": {
+            "capsIptCodeID": "ccc_condition-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções (caso verdadeiro)",
+                "en": "functions (case true)"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          },
+          "ccc_condition-3": {
+            "capsIptCodeID": "ccc_condition-3",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções (caso falso)",
+                "en": "functions (case false)"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_condition",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_condFuncs": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "conditional functions (multiple conds - if)",
+          "en": "conditional functions (multiple conds - if)"
+        },
+        "capsDescription": {
+          "pt-br": "Para o operador informar as seguintes opções: \"falsy\", \"===\",\"||\" ou \"!==\".",
+          "en": ""
+        },
+        "capsCodeTypes": ["Função", "function", "toggle functions"],
+        "capsCodeText": "async (...args) =>\n        functions.togglFuncs({ args, pass:{\n          conditions: [!#!variable path!#!],\n          expectedValue: [!#!expected value!#!],\n          functionsTrue: [!#!functions (case true)!#!],\n          functionsFalse: [!#!functions (case false)!#!],\n          args\n        }})",
+        "capsCodeInputs": {
+          "ccc_condFuncs-0": {
+            "capsIptCodeID": "ccc_condFuncs-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "...",
+                "en": "..."
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["string process"],
+              "capsIptCapsDfCode": " "
+            }
+          },
+          "ccc_condFuncs-1": {
+            "capsIptCodeID": "ccc_condFuncs-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Condições",
+                "en": "Conditions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["where conditions"]
+            }
+          },
+          "ccc_condFuncs-2": {
+            "capsIptCodeID": "ccc_condFuncs-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções (caso verdadeiro)",
+                "en": "functions (case true)"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          },
+          "ccc_condFuncs-3": {
+            "capsIptCodeID": "ccc_condFuncs-3",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "funções (caso falso)",
+                "en": "functions (case false)"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_condFuncs",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_increment": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "increment amount",
+          "en": "increment amount"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["function", "increment amount"],
+        "capsCodeText": "(...args) => {\n            //   !#!functions!#!\n            console.log(\"increment\");\n          }",
+        "capsCodeInputs": {
+          "ccc_increment-0": {
+            "capsIptCodeID": "ccc_increment-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "input 1",
+                "en": "input 1"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "() => {}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_increment",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_decrement": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "decrement amount",
+          "en": "decrement amount"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["function", "decrement amount"],
+        "capsCodeText": "(...args) => {\n            //   !#!functions!#!\n            console.log(\"decrement\");\n\n          }",
+        "capsCodeInputs": {
+          "ccc_decrement-0": {
+            "capsIptCodeID": "ccc_decrement-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "input 1",
+                "en": "input 1"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "() => {}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_decrement",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_arrayValue": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "ccc_arrayValue",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 766000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "valor de array",
+          "en": "array value"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["jsValue", "array value"],
+        "capsCodeText": "jsvals.j8({pass: {\n          propertieValues: [!#!Values!#!]\n        }})",
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "ccc_arrayValue-0": {
+            "capsIptType": "capsules",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_arrayValue-0",
+            "capsIptPosition": "0",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Values",
+                "en": "Values"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["jsValue"]
+            }
+          }
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 766000000
+        }
+      }
+    }
+  },
+  "ccc_joinStringsValue": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "valor join strings",
+          "en": "join strings value"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["join strings value", "jsValue", "string process"],
+        "capsCodeText": "jsvals.j3({pass: {\n          arrayStrings: [!#!String Values!#!],\n          joinSeparator: \"!#!join separator!#!\"\n        }})",
+        "capsCodeInputs": {
+          "ccc_joinStringsValue-0": {
+            "capsIptCodeID": "ccc_joinStringsValue-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valores String",
+                "en": "String Values"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["string value", "join strings value"]
+            }
+          },
+          "ccc_joinStringsValue-1": {
+            "capsIptCodeID": "ccc_joinStringsValue-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "",
+              "capsIptTxtLabel": {
+                "pt-br": "separador da junção",
+                "en": "join separator"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_joinStringsValue",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_number": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "ccc_number",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 766000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "número",
+          "en": "number"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["jsValue", "number"],
+        "capsCodeText": "jsvals.j8({pass: {\n          propertieValues: !#!number!#!\n        }})\n        ",
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "ccc_number-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_number-0",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "número",
+                "en": "number"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": "0"
+            }
+          }
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 766000000
+        }
+      }
+    }
+  },
+  "ccc_objectValue": {
+    "capsDB": {
+      "capsID": "ccc_objectValue",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 766000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "valor objeto",
+          "en": "object value"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 766000000
+        },
+        "capsCodeTypes": ["jsValue"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "jsvals.j8({pass: {\n          propertieValues: {!#!object properties!#!}\n        }})",
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeInputs": {
+          "ccc_objectValue-0": {
+            "capsIptCodeID": "ccc_objectValue-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "propriedades de objeto",
+                "en": "object properties"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["propValue"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "ccc_propArray": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "prop array",
+          "en": "prop array"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["propValue"],
+        "capsCodeText": "'!#!property name!#!': jsvals.j8({pass: {\n          propertieValues: [ !#!values!#! ]\n        }})",
+        "capsCodeInputs": {
+          "ccc_propArray-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_propArray-0",
+            "capsIptPosition": "0",
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "nome da propriedade",
+                "en": "property name"
+              },
+              "capsIptTxtDfValue": "no name",
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_propArray-1": {
+            "capsIptCodeID": "ccc_propArray-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "valores",
+                "en": "values"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["jsValue"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_propArray",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_propJoinStrings": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "prop join strings",
+          "en": "prop join strings"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["propValue", "prop join strings"],
+        "capsCodeText": "'!#!property name!#!': jsvals.j3({pass: {\n          arrayStrings: [!#!String Values!#!],\n          joinSeparator: \"!#!join separator!#!\"\n        }})",
+        "capsCodeInputs": {
+          "ccc_propJoinStrings-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_propJoinStrings-0",
+            "capsIptPosition": "0",
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "nome da propriedade",
+                "en": "property name"
+              },
+              "capsIptTxtDfValue": "no name",
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_propJoinStrings-1": {
+            "capsIptCodeID": "ccc_propJoinStrings-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "String Values",
+                "en": "String Values"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_propJoinStrings-2": {
+            "capsIptCodeID": "ccc_propJoinStrings-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "",
+              "capsIptTxtLabel": {
+                "pt-br": "separador de junção",
+                "en": "join separator"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_propJoinStrings",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_propJsonStringfy": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "prop jsonStringfy",
+          "en": "prop jsonStringfy"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["propValue", "prop jsonStringfy"],
+        "capsCodeText": "'!#!property name!#!': jsvals.j7({pass: {\n          objectProperties: { !#!object properties!#! }\n        }})",
+        "capsCodeInputs": {
+          "ccc_propJsonStringfy-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_propJsonStringfy-0",
+            "capsIptPosition": "0",
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "nome da propriedade",
+                "en": "property name"
+              },
+              "capsIptTxtDfValue": "no name",
+              "capsIptTxtDescription": {
+                "pt-br": " ",
+                "en": " "
+              }
+            }
+          },
+          "ccc_propJsonStringfy-1": {
+            "capsIptCodeID": "ccc_propJsonStringfy-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "propriedades de objetos",
+                "en": "object properties"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "noValue:'noValue'",
+              "capsIptCapsTypesToAdd": ["propValue", "string process"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_propJsonStringfy",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_propObj": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "prop obj",
+          "en": "prop obj"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["propValue"],
+        "capsCodeText": "'!#!property name!#!': jsvals.j8({pass: {\n          propertieValues: { !#!properties values!#! }\n        }})",
+        "capsCodeInputs": {
+          "ccc_propObj-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_propObj-0",
+            "capsIptPosition": "0",
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "nome da propriedade",
+                "en": "property name"
+              },
+              "capsIptTxtDfValue": "no name",
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_propObj-1": {
+            "capsIptCodeID": "ccc_propObj-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "properties",
+                "en": "properties"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": " ",
+              "capsIptCapsTypesToAdd": ["propValue"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_propObj",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_propString_B": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "prop string",
+          "en": "prop string"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["propValue"],
+        "capsCodeText": "\"!#!property name!#!\": jsvals.j8({pass: {\n          propertieValues: \"!#!string value!#!\"\n        }})",
+        "capsCodeInputs": {
+          "ccc_propString_B-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_propString_B-0",
+            "capsIptPosition": "0",
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "property name",
+                "en": "property name"
+              },
+              "capsIptTxtDfValue": "no name",
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          },
+          "ccc_propString_B-1": {
+            "capsIptCodeID": "ccc_propString_B-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "valor string",
+                "en": "string value"
+              },
+              "capsIptTxtDfValue": "no value",
+              "capsIptTxtDescription": {
+                "pt-br": " ",
+                "en": " "
+              }
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_propString_B",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_propUrlEncoded": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "prop urlEncoded",
+          "en": "prop urlEncoded"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["propValue", "prop urlEncoded"],
+        "capsCodeText": "'!#!property name!#!': jsvals.j10({pass: {\n          objectProperties: {!#!object properties!#!}\n        }})",
+        "capsCodeInputs": {
+          "ccc_propUrlEncoded-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_propUrlEncoded-0",
+            "capsIptPosition": "0",
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "nome da propriedade",
+                "en": "property name"
+              },
+              "capsIptTxtDfValue": "no name",
+              "capsIptTxtDescription": {
+                "pt-br": " ",
+                "en": " "
+              }
+            }
+          },
+          "ccc_propUrlEncoded-1": {
+            "capsIptCodeID": "ccc_propUrlEncoded-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "propriedades de objeto",
+                "en": "object properties"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "noValue:'noValue'",
+              "capsIptCapsTypesToAdd": ["propValue"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_propUrlEncoded",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_stringValue": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "ccc_stringValue",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 766000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "valor string",
+          "en": "string value"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["string value", "jsValue", "string process"],
+        "capsCodeText": "jsvals.j8({pass: {\n          propertieValues: \"!#!string value!#!\"\n        }})",
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "ccc_stringValue-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_stringValue-0",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "valor string",
+                "en": "string value"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": ""
+            }
+          }
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 766000000
+        }
+      }
+    }
+  },
+  "ccc_toggleVar": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "toggleVar",
+          "en": "toggleVar"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["jsValue", "toggleVar"],
+        "capsCodeText": "jsvals.j12({pass: {\n          varToToggle: \"!#!var to toggle!#!\",\n          args\n        }})",
+        "capsCodeInputs": {
+          "ccc_toggleVar-0": {
+            "capsIptCodeID": "ccc_toggleVar-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "",
+              "capsIptTxtLabel": {
+                "pt-br": "var para toggle",
+                "en": "var to toggle"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              }
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_toggleVar",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+  "ccc_varReader": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "ccc_varReader",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 766000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "leitor var",
+          "en": "var reader"
+        },
+        "capsDescription": {
+          "pt-br": "leitor var",
+          "en": "var reader"
+        },
+        "capsCodeTypes": ["var reader", "jsValue", "string process"],
+        "capsCodeText": "jsvals.varReader({pass: {\n          path: !#!string value!#!\n        }})",
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "ccc_varReader-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_varReader-0",
+            "capsIptPosition": "0",
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "caminho string",
+                "en": "string path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escreva o path do local da variável que deseja pegar o valor.",
+                "en": "Write the path to the location of the variable you want to get the value."
+              },
+              "capsIptCapsDfCode": "\"true\"",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 766000000
+        }
+      }
+    }
+  },
+  "ccc_argReader": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "ccc_argReader",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 766000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "leitor arg",
+          "en": "arg reader"
+        },
+        "capsDescription": {
+          "pt-br": "leitor arg",
+          "en": "arg reader"
+        },
+        "capsCodeTypes": ["jsValue", "arg reader", "string process"],
+        "capsCodeText": "jsvals.argReader({pass: {\n          argPath: !#!string value!#!,\n          args\n        }})",
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "ccc_argReader-0": {
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_argReader-0",
+            "capsIptPosition": "0",
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "caminho string",
+                "en": "string path"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escreva o path do argumento que deseja pegar o valor.",
+                "en": "Write the path of the argument you want to get the value."
+              },
+              "capsIptCapsDfCode": "'#0'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 766000000
+        }
+      }
+    }
+  },
+  "ccc_stlGroup": {
+    "capsDB": {
+      "capsID": "ccc_stlGroup",
+      "capsUserID": "xxx1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsPrjID": "yyy1"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "stlGroup"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        },
+        "capsCodeTypes": [
+          "Estilo Texto",
+          "Estilo Caixa",
+          "Estilo Imagem",
+          "Estilo Layout",
+          "Grupo de Estilos"
+        ],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "!#!1!#!",
+        "capsDescription": {
+          "pt-br": ""
+        },
+        "capsCodeInputs": {
+          "ccc_stlGroup-0": {
+            "capsIptCodeID": "ccc_stlGroup-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Add Styles"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": ""
+              },
+              "capsIptCapsDfCode": "[]",
+              "capsIptCapsTypesToAdd": [
+                "Estilo Texto",
+                "Estilo Caixa",
+                "Estilo Imagem",
+                "Estilo Layout",
+                "Grupo de Estilos"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
  
    
  
