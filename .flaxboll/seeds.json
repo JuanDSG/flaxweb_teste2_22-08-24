@@ -11505,7 +11505,1995 @@
     "capsType": "code"
   },
  
-   
+   "alwaysBounceHorizontal": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "alwaysBounceHorizontal",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Quicar na Horizontal - alwaysBounceHorizontal",
+          "en": "alwaysBounceHorizontal"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.alwaysBounceHorizontal({ pass: {\n          alwaysBounceHorizontal: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "O modo de exibição de rolagem é devolvido horizontalmente quando chega ao final, mesmo que o conteúdo seja menor do que o próprio modo de exibição de rolagem",
+          "en": "When true, the scroll view bounces horizontally when it reaches the end even if the content is smaller than the scroll view itself."
+        },
+        "capsCodeInputs": {
+          "alwaysBounceHorizontal-0": {
+            "capsIptCodeID": "alwaysBounceHorizontal-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Quicar na Horizontal - alwaysBounceHorizontal",
+                "en": "alwaysBounceHorizontal"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "When true, the scroll view bounces horizontally when it reaches the end even if the content is smaller than the scroll view itself."
+              },
+              "capsIptCapsTypesToAdd": ["string process"],
+              "capsIptCapsDfCode": "false"
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "alwaysBounceVertical": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "alwaysBounceVertical",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Quicar na Vertical - alwaysBounceVertical",
+          "en": "alwaysBounceVertical"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.alwaysBounceVertical({ pass: {\n          alwaysBounceVertical: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "O modo de exibição de rolagem é devolvido Verticalmente quando chega ao final, mesmo que o conteúdo seja menor do que o próprio modo de exibição de rolagem",
+          "en": "When true, the scroll view bounces vertically when it reaches the end even if the content is smaller than the scroll view itself."
+        },
+        "capsCodeInputs": {
+          "alwaysBounceVertical-0": {
+            "capsIptCodeID": "alwaysBounceVertical-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Quicar na Vertical - alwaysBounceVertical",
+                "en": "alwaysBounceVertical"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "When true, the scroll view bounces vertically when it reaches the end even if the content is smaller than the scroll view itself."
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "bounces": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "bounces",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Quicar - bounces",
+          "en": "bounces"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.bounces({ pass: {\n          bounces: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "O modo de exibição de rolagem é devolvido quando chega ao final, mesmo que o conteúdo seja menor do que o próprio modo de exibição de rolagem",
+          "en": "When true, the scroll view bounces when it reaches the end of the content if the content is larger than the scroll view along the axis of the scroll direction. When false, it disables all bouncing even if the alwaysBounce* props are true."
+        },
+        "capsCodeInputs": {
+          "bounces-0": {
+            "capsIptCodeID": "bounces-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Quicar - Bounces",
+                "en": "Bounces"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "When true, the scroll view bounces when it reaches the end of the content if the content is larger than the scroll view along the axis of the scroll direction. When false, it disables all bouncing even if the alwaysBounce* props are true."
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "bouncesZoom": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "bouncesZoom",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Animação de Zoom - bouncesZoom",
+          "en": "bouncesZoom"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.bouncesZoom({ pass: {\n          bouncesZoom: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Quando verdadeiro os gestos podem direcionar o zoom para além de min/max e o zoom será animado para o valor min/max no final do gesto, caso contrário, o zoom não excederá os limites",
+          "en": "When true, gestures can drive zoom past min/max and the zoom will animate to the min/max value at gesture end, otherwise the zoom will not exceed the limits."
+        },
+        "capsCodeInputs": {
+          "bouncesZoom-0": {
+            "capsIptCodeID": "bouncesZoom-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Animação de Zoom - BouncesZoom",
+                "en": "BouncesZoom"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "When true, gestures can drive zoom past min/max and the zoom will animate to the min/max value at gesture end, otherwise the zoom will not exceed the limits."
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "automaticallyAdjustContentInsets": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "automaticallyAdjustContentInsets",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Ajuste automático da inserção de conteúdo - automaticallyAdjustContentInsets ",
+          "en": "automaticallyAdjustContentInsets "
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.automaticallyAdjustContentInsets({ pass: {\n          automaticallyAdjustContentInsets: [!#!1!#!]\n          }})",
+        "capsDescription": {
+          "pt-br": "O modo de exibição de rolagem é devolvido quando chega ao final, mesmo que o conteúdo seja menor do que o próprio modo de exibição de rolagem",
+          "en": "Controls whether the ScrollView should automatically adjust its contentInset and scrollViewInsets when the Keyboard changes its size."
+        },
+        "capsCodeInputs": {
+          "automaticallyAdjustContentInsets-0": {
+            "capsIptCodeID": "automaticallyAdjustContentInsets-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Ajuste automático da inserção de conteúdo - automaticallyAdjustContentInsets ",
+                "en": "automaticallyAdjustContentInsets "
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "Controls whether the ScrollView should automatically adjust its contentInset and scrollViewInsets when the Keyboard changes its size."
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "automaticallyAdjustKeyboardInsets": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "automaticallyAdjustKeyboardInsets",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Ajuste automático ao tamanho do teclado - automaticallyAdjustKeyboardInsets",
+          "en": "automaticallyAdjustKeyboardInsets"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.automaticallyAdjustKeyboardInsets({ pass: {\n          automaticallyAdjustKeyboardInsets: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Controla se o ScrollView deve ajustar automaticamente o seu e quando o teclado altera o seu tamanho",
+          "en": "Controls whether the ScrollView should automatically adjust its contentInset and scrollViewInsets when the Keyboard changes its size."
+        },
+        "capsCodeInputs": {
+          "automaticallyAdjustKeyboardInsets-0": {
+            "capsIptCodeID": "automaticallyAdjustKeyboardInsets-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Ajuste automático ao tamanho do teclado - automaticallyAdjustKeyboardInsets",
+                "en": "automaticallyAdjustKeyboardInsets"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "Controls whether the ScrollView should automatically adjust its contentInset and scrollViewInsets when the Keyboard changes its size."
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "automaticallyAdjustsScrollIndicatorInsets": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "automaticallyAdjustsScrollIndicatorInsets",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Ajustar automático das inserções do indicador de rolagem - automaticallyAdjustsScrollIndicatorInsets",
+          "en": "automaticallyAdjustsScrollIndicatorInsets"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.automaticallyAdjustsScrollIndicatorInsets({ pass: {\n          automaticallyAdjustsScrollIndicatorInsets: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Controla se o iOS deve ajustar automaticamente as inserções do indicador de rolagem.",
+          "en": "Controls whether iOS should automatically adjust the content inset for scroll views that are placed behind a navigation bar or tab bar/toolbar."
+        },
+        "capsCodeInputs": {
+          "automaticallyAdjustsScrollIndicatorInsets-0": {
+            "capsIptCodeID": "automaticallyAdjustsScrollIndicatorInsets-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Ajustar automático das inserções do indicador de rolagem - automaticallyAdjustsScrollIndicatorInsets",
+                "en": "automaticallyAdjustsScrollIndicatorInsets"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "Controls whether iOS should automatically adjust the scroll indicator insets."
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "canCancelContentTouches": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "canCancelContentTouches",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Ignorar movimento no Touch - canCancelContentTouches",
+          "en": "canCancelContentTouches"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.canCancelContentTouches({ pass: {\n          canCancelContentTouches: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Uma vez iniciado o rastreamento, não tentará arrastar se o toque se mover",
+          "en": "A Boolean value that controls whether touches in the content view always lead to tracking."
+        },
+        "capsCodeInputs": {
+          "canCancelContentTouches-0": {
+            "capsIptCodeID": "canCancelContentTouches-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Ignorar movimento no Touch - canCancelContentTouches",
+                "en": "canCancelContentTouches"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "A Boolean value that controls whether touches in the content view always lead to tracking."
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "centerContent": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "centerContent",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Centralizar Conteúdo - centerContent",
+          "en": "centerContent"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.centerContent({ pass: {\n          centerContent: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Centraliza automaticamente o conteúdo quando o conteúdo é menor do que os limites do modo de exibição de rolagem",
+          "en": "When true, the scroll view automatically centers the content when the content is smaller than the scroll view bounds; when the content is larger than the scroll view, this property has no effect."
+        },
+        "capsCodeInputs": {
+          "centerContent-0": {
+            "capsIptCodeID": "centerContent-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Centralizar Conteúdo - centerContent",
+                "en": "centerContent"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "When true, the scroll view automatically centers the content when the content is smaller than the scroll view bounds; when the content is larger than the scroll view, this property has no effect."
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "contentContainerStyle": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "contentContainerStyle",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Estilo de Conteúdo do Container - contentContainerStyle",
+          "en": "contentContainerStyle"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.contentContainerStyle({ pass: {\n          contentContainerStyle: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Esses estilos serão aplicados ao contêiner de conteúdo do modo de exibição de rolagem que encapsula todos os modos de exibição filho",
+          "en": "These styles will be applied to the scroll view content container which wraps all of the child views. "
+        },
+        "capsCodeInputs": {
+          "contentContainerStyle-0": {
+            "capsIptCodeID": "contentContainerStyle-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Estilo de Conteúdo do Container - contentContainerStyle",
+                "en": "contentContainerStyle"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Entre estilos de exibição separados por virgulas",
+                "en": "These styles will be applied to the scroll view content container which wraps all of the child views."
+              },
+              "capsIptCapsDfCode": "paddingVertical: 20,",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "contentInset": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "contentInset",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Posicionamento do Conteúdo - contentInset",
+          "en": "contentInset"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.contentInset({ pass: {\n          contentInset: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "A quantidade pela qual o conteúdo do modo de exibição de rolagem é inserido a partir das bordas do modo de exibição de rolagem.",
+          "en": "The amount by which the scroll view content is inset from the edges of the scroll view."
+        },
+        "capsCodeInputs": {
+          "contentInset-0": {
+            "capsIptCodeID": "contentInset-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Posicionamento do Conteúdo - contentInset",
+                "en": "contentInset"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar.",
+                "en": "The amount by which the scroll view content is inset from the edges of the scroll view."
+              },
+              "capsIptCapsDfCode": "{top: 0, left: 0, bottom: 0, right: 0}",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "contentInsetAdjustmentBehavior": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "contentInsetAdjustmentBehavior",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Posicionamento do Conteúdo na Área Segura - contentInsetAdjustmentBehavior",
+          "en": "contentInsetAdjustmentBehavior"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.contentInsetAdjustmentBehavior({ pass: {\n          contentInsetAdjustmentBehavior: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Essa propriedade especifica como as indefinições de área segura são usadas para modificar a área de conteúdo do modo de exibição de rolagem. Disponível no iOS 11 e posterior.",
+          "en": "This property specifies how the safe area insets are used to modify the content area of the scroll view. Available on iOS 11 and later."
+        },
+        "capsCodeInputs": {
+          "contentInsetAdjustmentBehavior-0": {
+            "capsIptCodeID": "contentInsetAdjustmentBehavior-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Posicionamento do Conteúdo na Área Segura - contentInsetAdjustmentBehavior",
+                "en": "contentInsetAdjustmentBehavior"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Digite para definir",
+                "en": "This property specifies how the safe area insets are used to modify the content area of the scroll view. Available on iOS 11 and later."
+              },
+              "capsIptCapsDfCode": "never",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "contentOffset": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "contentOffset",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "deslocamento de rolagem inicial - contentOffset",
+          "en": "contentOffset"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.contentOffset({ pass: {\n          contentOffset: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Usado para definir manualmente o deslocamento de rolagem inicial.",
+          "en": "Used to manually set the starting scroll offset."
+        },
+        "capsCodeInputs": {
+          "contentOffset-0": {
+            "capsIptCodeID": "contentOffset-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "deslocamento de rolagem inicial - contentOffset",
+                "en": "contentOffset"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Digite para definir a posição na horizontal e vertical",
+                "en": "Used to manually set the starting scroll offset."
+              },
+              "capsIptCapsDfCode": "{x: 0, y: 0}",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "decelerationRate": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "decelerationRate",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Taxa de desaceleração - decelerationRate",
+          "en": "decelerationRate"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.decelerationRate({ pass: {\n          decelerationRate: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Um número de ponto flutuante que determina a rapidez com que a exibição de rolagem desacelera depois que o usuário levanta o dedo",
+          "en": "A floating-point number that determines how quickly the scroll view decelerates after the user lifts their finger."
+        },
+        "capsCodeInputs": {
+          "decelerationRate-0": {
+            "capsIptCodeID": "decelerationRate-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Taxa de desaceleração - decelerationRate",
+                "en": "decelerationRate"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a velocidade",
+                "en": "A floating-point number that determines how quickly the scroll view decelerates after the user lifts their finger."
+              },
+              "capsIptCapsDfCode": "normal",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "directionalLockEnabled": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "directionalLockEnabled",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Bloqueio de Rolagem Direcional - directionalLockEnabled",
+          "en": "directionalLockEnabled"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.directionalLockEnabled({ pass: {\n          directionalLockEnabled: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Quando verdadeiro, o ScrollView tentará bloquear apenas a rolagem vertical ou horizontal durante o arrasto.",
+          "en": "When true, the ScrollView will try to lock to only vertical or horizontal scrolling while dragging."
+        },
+        "capsCodeInputs": {
+          "directionalLockEnabled-0": {
+            "capsIptCodeID": "directionalLockEnabled-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Bloqueio de Rolagem Direcional - directionalLockEnabled",
+                "en": "directionalLockEnabled"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "disableIntervalMomentum": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "disableIntervalMomentum",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Navegação por índices - disableIntervalMomentum",
+          "en": "disableIntervalMomentum"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.disableIntervalMomentum({ pass: {\n          disableIntervalMomentum: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Quando verdadeiro, o modo de exibição de rolagem pára no próximo índice (em relação à posição de rolagem na liberação), independentemente da rapidez do gesto. Isso pode ser usado para paginação quando a página é menor do que a largura do ScrollView horizontal ou a altura do ScrollView vertical..",
+          "en": "When true, the scroll view stops on the next index (in relation to scroll position at release) regardless of how fast the gesture is. This can be used for pagination when the page is less than the width of the horizontal ScrollView or the height of the vertical ScrollView."
+        },
+        "capsCodeInputs": {
+          "disableIntervalMomentum-0": {
+            "capsIptCodeID": "disableIntervalMomentum-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Navegação por índices - disableIntervalMomentum",
+                "en": "disableIntervalMomentum"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "disableScrollViewPanResponder": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "disableScrollViewPanResponder",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Desabilitar  controle de toques da View - disableScrollViewPanResponder",
+          "en": "disableScrollViewPanResponder"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.disableScrollViewPanResponder({ pass: {\n          disableScrollViewPanResponder: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Controle de toques do ScrollView é desabilitado e o controle total sobre os toques dentro do ScrollView é deixado para seus componentes filho",
+          "en": "When true, the default JS pan responder on the ScrollView is disabled, and full control over touches inside the ScrollView is left to its child components. "
+        },
+        "capsCodeInputs": {
+          "disableScrollViewPanResponder-0": {
+            "capsIptCodeID": "disableScrollViewPanResponder-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Desabilitar  controle de toques da View - disableScrollViewPanResponder",
+                "en": "disableScrollViewPanResponder"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "endFillColor": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "endFillColor",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Cor de preenchimento da rolagem - endFillColor",
+          "en": "endFillColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.endFillColor({ pass: {\n          endFillColor: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Preencherá o resto da visualização de rolagem com uma cor",
+          "en": "Will fill the rest of the scrollview with a color"
+        },
+        "capsCodeInputs": {
+          "endFillColor-0": {
+            "capsIptCodeID": "endFillColor-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Cor de preenchimento da rolagem - endFillColor",
+                "en": "endFillColor"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "white",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "fadingEdgeLength": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "fadingEdgeLength",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Cor de preenchimento da rolagem - fadingEdgeLength ",
+          "en": "fadingEdgeLength "
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.fadingEdgeLength({ pass: {\n          fadingEdgeLength: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Desvanece as bordas do conteúdo de rolagem.",
+          "en": "Fades out the edges of the the scroll content."
+        },
+        "capsCodeInputs": {
+          "fadingEdgeLength-0": {
+            "capsIptCodeID": "fadingEdgeLength-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Cor de preenchimento da rolagem - fadingEdgeLength ",
+                "en": "fadingEdgeLength"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Número",
+                "en": "Number"
+              },
+              "capsIptCapsDfCode": "0",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "indicatorStyle": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "indicatorStyle",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Estilo dos indicadores  - indicatorStyle",
+          "en": "indicatorStyle"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.indicatorStyle({ pass: {\n          indicatorStyle: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "O estilo dos indicadores de rolagem.",
+          "en": "The style of the scroll indicators."
+        },
+        "capsCodeInputs": {
+          "indicatorStyle-0": {
+            "capsIptCodeID": "indicatorStyle-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Estilo dos indicadores - indicatorStyle ",
+                "en": "indicatorStyle"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha black contra fundo claro e white contra fundo escuro.",
+                "en": "Set black against a light background and white against a dark background."
+              },
+              "capsIptCapsTypesToAdd": ["string process"],
+              "capsIptCapsDfCode": "default"
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "invertStickyHeaders": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "invertStickyHeaders",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Inverter Cabeçalho  - invertStickyHeaders",
+          "en": "invertStickyHeaders"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.invertStickyHeaders({ pass: {\n          invertStickyHeaders: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Se cabeçalhos adesivos devem ficar na parte inferior em vez da parte superior do ScrollView.",
+          "en": "If sticky headers should stick at the bottom instead of the top of the ScrollView."
+        },
+        "capsCodeInputs": {
+          "invertStickyHeaders-0": {
+            "capsIptCodeID": "invertStickyHeaders-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Inverter Cabeçalho - invertStickyHeaders ",
+                "en": "invertStickyHeaders"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "keyboardDismissMode": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "keyboardDismissMode",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Descartar Teclado  - keyboardDismissMode",
+          "en": "keyboardDismissMode"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.keyboardDismissMode({ pass: {\n          keyboardDismissMode: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Determina se o teclado é dispensado em resposta a um arrasto.",
+          "en": "Determines whether the keyboard gets dismissed in response to a drag."
+        },
+        "capsCodeInputs": {
+          "keyboardDismissMode-0": {
+            "capsIptCodeID": "keyboardDismissMode-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Descartar Teclado - keyboardDismissMode",
+                "en": "keyboardDismissMode"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha o modo",
+                "en": "Set mode"
+              },
+              "capsIptCapsDfCode": "none",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "keyboardShouldPersistTaps": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "keyboardShouldPersistTaps",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Teclado Segue Visível  - keyboardShouldPersistTaps",
+          "en": "keyboardShouldPersistTaps"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.keyboardShouldPersistTaps({ pass: {\n          keyboardShouldPersistTaps: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Determina quando o teclado deve permanecer visível após um toque.",
+          "en": "Determines when the keyboard should stay visible after a tap."
+        },
+        "capsCodeInputs": {
+          "keyboardShouldPersistTaps-0": {
+            "capsIptCodeID": "keyboardShouldPersistTaps-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Teclado Segue Visível - keyboardShouldPersistTaps",
+                "en": "keyboardShouldPersistTaps"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha o modo",
+                "en": "Set mode"
+              },
+              "capsIptCapsDfCode": "never",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "maintainVisibleContentPosition": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "maintainVisibleContentPosition",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Fixar Posição do Conteúdo Visível  - maintainVisibleContentPosition",
+          "en": "maintainVisibleContentPosition"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.maintainVisibleContentPosition({ pass: {\n          maintainVisibleContentPosition: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Quando definido, o modo de exibição de rolagem ajustará a posição de rolagem para que o primeiro filho que está atualmente visível e em ou além não mude de posição.",
+          "en": "When set, the scroll view will adjust the scroll position so that the first child that is currently visible and at or beyond will not change position."
+        },
+        "capsCodeInputs": {
+          "maintainVisibleContentPosition-0": {
+            "capsIptCodeID": "maintainVisibleContentPosition-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Fixar Posição do Conteúdo Visível - maintainVisibleContentPosition",
+                "en": "maintainVisibleContentPosition"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Mudar valor numérico para ignorar elementos",
+                "en": "Change numeric value to ignore elements"
+              },
+              "capsIptCapsDfCode": "{ minIndexForVisible: 0, autoscrollToTopThreshold: 0 }",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "maximumZoomScale": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "maximumZoomScale",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Escala máxima de Zoom  - maximumZoomScale",
+          "en": "maximumZoomScale"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.maximumZoomScale({ pass: {\n          maximumZoomScale: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "A escala de zoom máxima permitida.",
+          "en": "The maximum allowed zoom scale."
+        },
+        "capsCodeInputs": {
+          "maximumZoomScale-0": {
+            "capsIptCodeID": "maximumZoomScale-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Escala máxima de Zoom - maximumZoomScale",
+                "en": "maximumZoomScale"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Mudar valor numérico para ajustar",
+                "en": "Change numeric value to adjust"
+              },
+              "capsIptCapsDfCode": "1.0",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "minimumZoomScale": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "minimumZoomScale",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Escala mínima de Zoom - minimumZoomScale",
+          "en": "minimumZoomScale"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.minimumZoomScale({ pass: {\n          minimumZoomScale: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "A escala de zoom mínima permitida.",
+          "en": "The minimum allowed zoom scale."
+        },
+        "capsCodeInputs": {
+          "minimumZoomScale-0": {
+            "capsIptCodeID": "minimumZoomScale-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Escala mínima de Zoom - minimumZoomScale",
+                "en": "minimumZoomScale"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Mudar valor numérico para ajustar",
+                "en": "Change numeric value to adjust"
+              },
+              "capsIptCapsDfCode": "1.0",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "nestedScrollEnabled": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "nestedScrollEnabled",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Rolagem aninhada  - nestedScrollEnabled",
+          "en": "nestedScrollEnabled"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.nestedScrollEnabled({ pass: {\n          nestedScrollEnabled: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Ativa a rolagem aninhada para API Android nível 21+.",
+          "en": "Enables nested scrolling for Android API level 21+."
+        },
+        "capsCodeInputs": {
+          "nestedScrollEnabled-0": {
+            "capsIptCodeID": "nestedScrollEnabled-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Rolagem aninhada - nestedScrollEnabled",
+                "en": "nestedScrollEnabled"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para ativar ou \"false\" para desativar",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "overScrollMode": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "overScrollMode",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Substituição do overScroll - overScrollMode",
+          "en": "overScrollMode"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.overScrollMode({ pass: {\n          overScrollMode: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Usado para substituir o valor padrão do modo overScroll.",
+          "en": "Used to override default value of overScroll mode."
+        },
+        "capsCodeInputs": {
+          "overScrollMode-0": {
+            "capsIptCodeID": "overScrollMode-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Substituição do overScroll - overScrollMode",
+                "en": "overScrollMode"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Define novo valor para o modo overScroll.",
+                "en": "Set new value for overScroll mode."
+              },
+              "capsIptCapsDfCode": "auto",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "pagingEnabled": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "pagingEnabled",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Habilitar paginação - pagingEnabled",
+          "en": "pagingEnabled"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.pagingEnabled({ pass: {\n          pagingEnabled: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Quando verdadeiro, o modo de exibição de rolagem pára em múltiplos do tamanho do modo de exibição de rolagem durante a rolagem",
+          "en": "When true, the scroll view stops on multiples of the scroll views size when scrolling."
+        },
+        "capsCodeInputs": {
+          "pagingEnabled-0": {
+            "capsIptCodeID": "pagingEnabled-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Habilitar paginação - pagingEnabled",
+                "en": "pagingEnabled"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para habilitar ou \"false\" para desabilitar.",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "persistentScrollbar": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "persistentScrollbar",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Manter barra de rolagem - persistentScrollbar",
+          "en": "persistentScrollbar"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.persistentScrollbar({ pass: {\n          persistentScrollbar: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Faz com que as barras de rolagem não se tornem transparentes quando não estiverem em uso.",
+          "en": "Causes the scrollbars not to turn transparent when they are not in use."
+        },
+        "capsCodeInputs": {
+          "persistentScrollbar-0": {
+            "capsIptCodeID": "persistentScrollbar-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Manter barra de rolagem - persistentScrollbar",
+                "en": "persistentScrollbar"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para habilitar ou \"false\" para desabilitar.",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "pinchGestureEnabled": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "pinchGestureEnabled",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Gestos de pinça para Zoom - pinchGestureEnabled",
+          "en": "pinchGestureEnabled"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.pinchGestureEnabled({ pass: {\n          pinchGestureEnabled: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Quando verdadeiro, o ScrollView permite o uso de gestos de pinça para aumentar e diminuir o zoom.",
+          "en": "When true, ScrollView allows use of pinch gestures to zoom in and out."
+        },
+        "capsCodeInputs": {
+          "pinchGestureEnabled-0": {
+            "capsIptCodeID": "pinchGestureEnabled-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Gestos de pinça para Zoom - pinchGestureEnabled",
+                "en": "pinchGestureEnabled"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para habilitar ou \"false\" para desabilitar.",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "removeClippedSubviews": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "removeClippedSubviews",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Remoção de Subvisualização Cortada - removeClippedSubviews",
+          "en": "removeClippedSubviews"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.removeClippedSubviews({ pass: {\n          removeClippedSubviews: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Um componente removeClippedSubviews, usado para fornecer funcionalidade pull-to-refresh para o ScrollView.",
+          "en": ""
+        },
+        "capsCodeInputs": {
+          "removeClippedSubviews-0": {
+            "capsIptCodeID": "removeClippedSubviews-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Remoção de Subvisualização Cortada - removeClippedSubviews",
+                "en": "removeClippedSubviews"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para habilitar ou \"false\" para desabilitar.",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "scrollEnabled": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "scrollEnabled",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Habilitar rolagem - scrollEnabled",
+          "en": "scrollEnabled"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.scrollEnabled({ pass: {\n          scrollEnabled: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Quando false, a visualização não pode ser rolada por meio da interação por toque.",
+          "en": "When false, the view cannot be scrolled via touch interaction."
+        },
+        "capsCodeInputs": {
+          "scrollEnabled-0": {
+            "capsIptCodeID": "scrollEnabled-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Habilitar rolagem - scrollEnabled",
+                "en": "scrollEnabled"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina \"true\" para habilitar ou \"false\" para desabilitar.",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "scrollEventThrottle": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "scrollEventThrottle",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Disparador de evento de rolagem - scrollEventThrottle",
+          "en": "scrollEventThrottle"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.scrollEventThrottle({ pass: {\n          scrollEventThrottle: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Controla a frequência com que o evento de rolagem será disparado durante a rolagem.",
+          "en": "This controls how often the scroll event will be fired while scrolling"
+        },
+        "capsCodeInputs": {
+          "scrollEventThrottle-0": {
+            "capsIptCodeID": "scrollEventThrottle-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Disparador de evento de rolagem - scrollEventThrottle",
+                "en": "scrollEventThrottle"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina o valor do intervalo",
+                "en": "Set the range value"
+              },
+              "capsIptCapsDfCode": "0",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "scrollIndicatorInsets": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "scrollIndicatorInsets",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Inserção de Indicadores de Rolagem - scrollIndicatorInsets",
+          "en": "scrollIndicatorInsets"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.scrollIndicatorInsets({ pass: {\n          scrollIndicatorInsets: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "A quantidade pela qual os indicadores de exibição de rolagem são inseridos a partir das bordas do modo de exibição de rolagem.",
+          "en": "The amount by which the scroll view indicators are inset from the edges of the scroll view."
+        },
+        "capsCodeInputs": {
+          "scrollIndicatorInsets-0": {
+            "capsIptCodeID": "scrollIndicatorInsets-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Inserção de Indicadores de Rolagem - scrollIndicatorInsets",
+                "en": "scrollIndicatorInsets"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina os valores base",
+                "en": "Set the range value"
+              },
+              "capsIptCapsDfCode": "{top: 0, left: 0, bottom: 0, right: 0}",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "scrollToOverflowEnabled": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "scrollToOverflowEnabled",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Rolar além do conteúdo - scrollToOverflowEnabled",
+          "en": "scrollToOverflowEnabled"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.scrollToOverflowEnabled({ pass: {\n          scrollToOverflowEnabled: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "O modo de exibição de rolagem pode ser programaticamente rolado além de seu tamanho de conteúdo.",
+          "en": "When true, the scroll view can be programmatically scrolled beyond its content size."
+        },
+        "capsCodeInputs": {
+          "scrollToOverflowEnabled-0": {
+            "capsIptCodeID": "scrollToOverflowEnabled-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Rolar além do conteúdo - scrollToOverflowEnabled",
+                "en": "scrollToOverflowEnabled"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina \"true\" para habilitar ou \"false\" para desabilitar.",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "false",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "scrollsToTop": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "scrollsToTop",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Voltar ao Topo - scrollsToTop",
+          "en": "scrollsToTop"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.scrollsToTop({ pass: {\n          scrollsToTop: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Rola para cima quando a barra de status é tocada.",
+          "en": "When true, the scroll view scrolls to top when the status bar is tapped."
+        },
+        "capsCodeInputs": {
+          "scrollsToTop-0": {
+            "capsIptCodeID": "scrollsToTop-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Voltar ao Topo - scrollsToTop",
+                "en": "scrollsToTop"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina \"true\" para habilitar ou \"false\" para desabilitar.",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "showsHorizontalScrollIndicator": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "showsHorizontalScrollIndicator",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Mostrar Barra Horizontal - showsHorizontalScrollIndicator",
+          "en": "showsHorizontalScrollIndicator"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.showsHorizontalScrollIndicator({ pass: {\n          showsHorizontalScrollIndicator: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Mostra um Mostrar Barra Horizontal.",
+          "en": "Shows a horizontal scroll indicator."
+        },
+        "capsCodeInputs": {
+          "showsHorizontalScrollIndicator-0": {
+            "capsIptCodeID": "showsHorizontalScrollIndicator-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Mostrar Barra Horizontal - showsHorizontalScrollIndicator",
+                "en": "showsHorizontalScrollIndicator"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina \"true\" para habilitar ou \"false\" para desabilitar.",
+                "en": "Set \"true\" or \"false\""
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "ShowsVerticalScrollIndicator": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "ShowsVerticalScrollIndicator",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 779000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Mostrar Barra Vertical - showsVerticalScrollIndicator",
+          "en": "showsVerticalScrollIndicator"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 779000000
+        },
+        "capsCodeTypes": ["Propriedade Rolagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "(...args:any) => props.ShowsVerticalScrollIndicator({ pass: {\n         ShowsVerticalScrollIndicator: [!#!1!#!]\n        }})",
+        "capsDescription": {
+          "pt-br": "Mostra um indicador de rolagem vertical",
+          "en": "Shows a vertical scroll indicator"
+        },
+        "capsCodeInputs": {
+          "ShowsVerticalScrollIndicator-0": {
+            "capsIptCodeID": "ShowsVerticalScrollIndicator-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Mostrar Barra Vertical - showsVerticalScrollIndicator",
+                "en": "showsVerticalScrollIndicator"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Escolha \"true\" para mostrar a barra vertical ou \"false\" para ocultá-la.",
+                "en": "Set \"true\" (show) or \"false\" (hide)"
+              },
+              "capsIptCapsDfCode": "true",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
  
 
   "sss_joinfreeValue": {
