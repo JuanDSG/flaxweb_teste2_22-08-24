@@ -29,7 +29,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "DiretÃ³rios e Arquivos",
+                "pt-br": "Diretórios e Arquivos",
                 "en": "Directories and Files"
               },
               "capsIptCapsDescription": { "pt-br": "", "en": "" },
@@ -112,11 +112,11 @@
           "en": "Project"
         },
         "capsDescription": {
-          "pt-br": "CÃ¡psula contendo o cÃ³digo para iniciar um projeto.",
+          "pt-br": "Cápsula contendo o código para iniciar um projeto.",
           "en": "Capsule containing the code to start a project."
         },
         "capsCodeTypes": ["project"],
-        "capsCodeText": "\n          // ---------- import React Packs\n          import React from 'react';\n          import * as RN from 'react-native';\n\n          // ---------- import Variables Pack\n          import { create } from 'zustand';\n\n          // ---------- import Local Tools\n          import { mapElements } from './tools/base/project/mapElements';\n          import * as functions from './tools/base/functions';\n          import * as Elements from './tools/base/Elements';\n          import { Project } from './tools/base/project';\n          import * as jsvals from './tools/base/jsvals';\n          import { props } from './tools/base/props';\n          import * as customs from './tools/customs';\n          import * as stls from './tools/base/stls';\n          import { tools } from './tools';\n\n          // ---------- set Caps Inputs\n          const currRoute = '!#!initial screen!#!';\n\n          let args: any = [];\n\n          const screens = [\n            // !#!Lista de Telas!#!\n          ];\n\n          const initCt = () => ({\n            // !#!Lista de VariÃ¡veis!#!\n          });\n          const initObj = initCt();\n          // console.log(initObj);\n\n          const arrInitFuncs = [\n            // !#!Start Functions!#!\n          ];\n\n          export const useRoutes = create(() => ({ currRoute }));\n          export const useData = create(() => initObj);\n\n          // ---------- set Main Component\n          export const Router = () => {\n            return (\n              <Project\n                configData={{\n                  screens,\n                  initCt,\n                  arrInitFuncs,\n                }}\n              />\n            );\n          };\n        ",
+        "capsCodeText": "\n          // ---------- import React Packs\n          import React from 'react';\n          import * as RN from 'react-native';\n\n          // ---------- import Variables Pack\n          import { create } from 'zustand';\n\n          // ---------- import Local Tools\n          import { mapElements } from './tools/base/project/mapElements';\n          import * as functions from './tools/base/functions';\n          import * as Elements from './tools/base/Elements';\n          import { Project } from './tools/base/project';\n          import * as jsvals from './tools/base/jsvals';\n          import { props } from './tools/base/props';\n          import * as customs from './tools/customs';\n          import * as stls from './tools/base/stls';\n          import { tools } from './tools';\n\n          // ---------- set Caps Inputs\n          const currRoute = '!#!initial screen!#!';\n\n          let args: any = [];\n\n          const screens = [\n            // !#!Lista de Telas!#!\n          ];\n\n          const initCt = () => ({\n            // !#!Lista de Variáveis!#!\n          });\n          const initObj = initCt();\n          // console.log(initObj);\n\n          const arrInitFuncs = [\n            // !#!Start Functions!#!\n          ];\n\n          export const useRoutes = create(() => ({ currRoute }));\n          export const useData = create(() => initObj);\n\n          // ---------- set Main Component\n          export const Router = () => {\n            return (\n              <Project\n                configData={{\n                  screens,\n                  initCt,\n                  arrInitFuncs,\n                }}\n              />\n            );\n          };\n        ",
         "capsCodeInputs": {
           "ccc_project-0": {
             "capsIptCodeID": "ccc_project-0",
@@ -160,11 +160,11 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Lista de VariÃ¡veis",
+                "pt-br": "Lista de Variáveis",
                 "en": "Variables List"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Adicione VariÃ¡veis para o projeto.",
+                "pt-br": "Adicione Variáveis para o projeto.",
                 "en": "Add Variables to the project."
               },
               "capsIptCapsDfCode": "true: \"true\"",
@@ -178,7 +178,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ã£o de InÃ­cio",
+                "pt-br": "Função de Início",
                 "en": "Start Function"
               },
               "capsIptCapsDescription": {
@@ -269,7 +269,7 @@
                 "en": "Screen Elements"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Permite a inserÃ§Ã£o de elementos filhos",
+                "pt-br": "Permite a inserção de elementos filhos",
                 "en": "Add children items"
               },
               "capsIptCapsDfCode": "() => {\n                  const textStyle = {\n                    fontSize: 20,\n                    color: '#fff2',\n                    textAlign:'center',\n                    maxWidth: 200,\n                    // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!\n                  };\n\n                  return (\n                    <RN.Text style={textStyle}>\n                      {'Adicione Elementos nessa tela!'}\n                    </RN.Text>);\n                }",
@@ -283,7 +283,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes de InÃ­cio",
+                "pt-br": "Funções de Início",
                 "en": "Start Functions"
               },
               "capsIptCapsDescription": {
@@ -370,7 +370,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Caminho da VariÃ¡vel",
+                "pt-br": "Caminho da Variável",
                 "en": "variable path"
               },
               "capsIptCapsDescription": {
@@ -475,7 +475,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "DiretÃ³rios e Arquivos",
+                "pt-br": "Diretórios e Arquivos",
                 "en": "Directories and Files"
               },
               "capsIptCapsDescription": {
@@ -517,7 +517,7 @@
           "en": ""
         },
         "capsCodeTypes": ["flaxSystem"],
-        "capsCodeText": "\n// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n\n// ---------- set Caps Inputs\nconst string1 = \"!#!String 1!#!\"\nconst Arr1 = [!#!Arr 1!#!]\n\n// ---------- set Main Component\nexport const Router = () => {\n  const msg = 'OlÃ¡ pessoal 1!!!'\n  return (\n    <RN.View><RN.Text style={{color: 'red'}}>{msg}</RN.Text></RN.View>\n  );\n};\n      ",
+        "capsCodeText": "\n// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n\n// ---------- set Caps Inputs\nconst string1 = \"!#!String 1!#!\"\nconst Arr1 = [!#!Arr 1!#!]\n\n// ---------- set Main Component\nexport const Router = () => {\n  const msg = 'Olá pessoal 1!!!'\n  return (\n    <RN.View><RN.Text style={{color: 'red'}}>{msg}</RN.Text></RN.View>\n  );\n};\n      ",
         "capsCodeInputs": {
           "ccc_testeSystemSeed1-0": {
             "capsIptCodeID": "ccc_testeSystemSeed1-0",
@@ -784,11 +784,11 @@
         },
         "capsCodeVersionID": "1",
         "capsLabel": {
-          "pt-br": "PressionÃ¡vel (botÃ£o)",
+          "pt-br": "Pressionável (botão)",
           "en": "Pressable"
         },
         "capsDescription": {
-          "pt-br": "Ã‰ um invÃ³lucro de componente principal que pode detectar vÃ¡rios estÃ¡gios de interaÃ§Ãµes de imprensa em qualquer um de seus filhos definidos.",
+          "pt-br": "É um invólucro de componente principal que pode detectar vários estágios de interações de imprensa em qualquer um de seus filhos definidos.",
           "en": "Is a Core Component wrapper that can detect various stages of press interactions on any of its defined children."
         },
         "capsCodeTypes": ["Elemento de Tela", "Pressable"],
@@ -809,7 +809,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "{}",
-              "capsIptCapsTypesToAdd": ["Propriedade BotÃ£o"]
+              "capsIptCapsTypesToAdd": ["Propriedade Botão"]
             }
           },
           "ccc_pressable-1": {
@@ -859,11 +859,11 @@
                 "en": ""
               },
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes do BotÃ£o",
+                "pt-br": "Funções do Botão",
                 "en": "Pressable Functions"
               },
               "capsIptCapsTypesToAdd": ["function"],
-              "capsIptCapsDfCode": "()=>console.log(\"VocÃª Clicou!\")"
+              "capsIptCapsDfCode": "()=>console.log(\"Você Clicou!\")"
             }
           }
         }
@@ -889,7 +889,7 @@
         },
         "capsCodeVersionID": "1",
         "capsLabel": {
-          "pt-br": "Login (botÃ£o)",
+          "pt-br": "Login (botão)",
           "en": "Login (button)"
         },
         "capsDescription": {
@@ -914,7 +914,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "{}",
-              "capsIptCapsTypesToAdd": ["Propriedade BotÃ£o"]
+              "capsIptCapsTypesToAdd": ["Propriedade Botão"]
             }
           },
           "ccc_login-1": {
@@ -964,11 +964,11 @@
                 "en": ""
               },
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes do BotÃ£o",
+                "pt-br": "Funções do Botão",
                 "en": "Pressable Functions"
               },
               "capsIptCapsTypesToAdd": ["function"],
-              "capsIptCapsDfCode": "()=>console.log(\"VocÃª Clicou!\")"
+              "capsIptCapsDfCode": "()=>console.log(\"Você Clicou!\")"
             }
           }
         }
@@ -993,7 +993,7 @@
           "en": "FlatList"
         },
         "capsDescription": {
-          "pt-br": "Uma interface eficiente para renderizar listas simples bÃ¡sicas",
+          "pt-br": "Uma interface eficiente para renderizar listas simples básicas",
           "en": "A performant interface for rendering basic, flat lists"
         },
         "capsCodeTypes": ["Elemento de Tela", "FlatList"],
@@ -1098,7 +1098,7 @@
           "en": "project"
         },
         "capsDescription": {
-          "pt-br": "CÃ¡psula contendo o cÃ³digo para iniciar um projeto.",
+          "pt-br": "Cápsula contendo o código para iniciar um projeto.",
           "en": "Capsule containing the code to start a project."
         },
         "capsCodeTypes": ["project"],
@@ -1207,7 +1207,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "caminho da variÃ¡vel URI",
+                "pt-br": "caminho da variável URI",
                 "en": "URI variable path"
               },
               "capsIptCapsDescription": {
@@ -1250,7 +1250,7 @@
           "en": "Elements Library"
         },
         "capsDescription": {
-          "pt-br": "Agrupa elementos para serem visualizados e copiados. NÃ£o renderiza nada.",
+          "pt-br": "Agrupa elementos para serem visualizados e copiados. Não renderiza nada.",
           "en": "Groups elements to be viewed and copied. Doesn't render anything."
         },
         "capsCodeTypes": ["Tela"],
@@ -1264,7 +1264,7 @@
             "capsIptCapsInfo": {
               "capsIptCapsTypesToAdd": ["SVG Icon"],
               "capsIptCapsLabel": {
-                "pt-br": "Ãcones SVG",
+                "pt-br": "Ícones SVG",
                 "en": "SVG Icons"
               },
               "capsIptCapsDescription": {
@@ -1351,11 +1351,11 @@
         },
         "capsCodeVersionID": "1",
         "capsLabel": {
-          "pt-br": "Biblioteca de FunÃ§Ãµes",
+          "pt-br": "Biblioteca de Funções",
           "en": "Function Library"
         },
         "capsDescription": {
-          "pt-br": "Agrupa funÃ§Ãµes para serem visualizadas e copiadas. NÃ£o renderiza nem executa nada.",
+          "pt-br": "Agrupa funções para serem visualizadas e copiadas. Não renderiza nem executa nada.",
           "en": "Groups functions to be viewed and copied. It doesn't render or execute anything."
         },
         "capsCodeTypes": ["Tela"],
@@ -1371,7 +1371,7 @@
                 "pt-br": "Utils",
                 "en": ""
               },
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"],
+              "capsIptCapsTypesToAdd": ["Função", "function"],
               "capsIptCapsDescription": {
                 "pt-br": "",
                 "en": ""
@@ -1389,7 +1389,7 @@
                 "pt-br": "Firebase",
                 "en": "Firebase"
               },
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"],
+              "capsIptCapsTypesToAdd": ["Função", "function"],
               "capsIptCapsDescription": {
                 "pt-br": "",
                 "en": ""
@@ -1407,7 +1407,7 @@
                 "pt-br": "APIs",
                 "en": "APIs"
               },
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"],
+              "capsIptCapsTypesToAdd": ["Função", "function"],
               "capsIptCapsDescription": {
                 "pt-br": "",
                 "en": ""
@@ -1425,7 +1425,7 @@
                 "pt-br": "Controle de Estado",
                 "en": "State Control"
               },
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"],
+              "capsIptCapsTypesToAdd": ["Função", "function"],
               "capsIptCapsDescription": {
                 "pt-br": "",
                 "en": ""
@@ -1439,13 +1439,13 @@
             "capsIptRemoved": false,
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
-              "capsIptCapsTypesToAdd": ["Grupo de FunÃ§Ãµes"],
+              "capsIptCapsTypesToAdd": ["Grupo de Funções"],
               "capsIptCapsLabel": {
                 "pt-br": "Grupos Base",
                 "en": "Base Groups"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Grupos de funÃ§Ãµes menores para serem usadas dentro dos grupos compostos.",
+                "pt-br": "Grupos de funções menores para serem usadas dentro dos grupos compostos.",
                 "en": ""
               },
               "capsIptCapsDfCode": "()=>{}"
@@ -1461,7 +1461,7 @@
                 "pt-br": "Grupos Compostos",
                 "en": "Composite Groups"
               },
-              "capsIptCapsTypesToAdd": ["Grupo de FunÃ§Ãµes"],
+              "capsIptCapsTypesToAdd": ["Grupo de Funções"],
               "capsIptCapsDescription": {
                 "pt-br": "",
                 "en": ""
@@ -1513,7 +1513,7 @@
                 "en": ""
               },
               "capsIptCapsLabel": {
-                "pt-br": "VariÃ¡vel (Monitorar)",
+                "pt-br": "Variável (Monitorar)",
                 "en": "Variable (Track)"
               },
               "capsIptCapsTypesToAdd": ["string process"],
@@ -1549,11 +1549,11 @@
                 "en": ""
               },
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes de InÃ­cio",
+                "pt-br": "Funções de Início",
                 "en": "Start Functions"
               },
               "capsIptCapsTypesToAdd": ["function"],
-              "capsIptCapsDfCode": "()=>console.log(\"VocÃª Clicou!\")"
+              "capsIptCapsDfCode": "()=>console.log(\"Você Clicou!\")"
             }
           }
         }
@@ -1583,7 +1583,7 @@
           "en": "Style Library"
         },
         "capsDescription": {
-          "pt-br": "Agrupa estilos para serem visualizados e copiados. NÃ£o renderiza nada.",
+          "pt-br": "Agrupa estilos para serem visualizados e copiados. Não renderiza nada.",
           "en": "Groups styles to be viewed and copied. Doesn't render anything."
         },
         "capsCodeTypes": ["Tela"],
@@ -1625,7 +1625,7 @@
                 "Estilo Imagem"
               ],
               "capsIptCapsLabel": {
-                "pt-br": "EspaÃ§amento",
+                "pt-br": "Espaçamento",
                 "en": "Spacing"
               },
               "capsIptCapsDescription": {
@@ -1883,7 +1883,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -1996,7 +1996,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -2030,7 +2030,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "MÃ¡scara CNPJ - Entrada de Texto",
+          "pt-br": "Máscara CNPJ - Entrada de Texto",
           "en": ""
         },
         "capsDescription": {
@@ -2109,7 +2109,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -2143,7 +2143,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "MÃ¡scara CPF - Entrada de Texto",
+          "pt-br": "Máscara CPF - Entrada de Texto",
           "en": ""
         },
         "capsDescription": {
@@ -2222,7 +2222,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -2256,7 +2256,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "MÃ¡scara RG - Entrada de Texto",
+          "pt-br": "Máscara RG - Entrada de Texto",
           "en": ""
         },
         "capsDescription": {
@@ -2335,7 +2335,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -2369,7 +2369,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "MÃ¡scara Telefone - Entrada de Texto",
+          "pt-br": "Máscara Telefone - Entrada de Texto",
           "en": ""
         },
         "capsDescription": {
@@ -2448,7 +2448,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -2482,7 +2482,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "MÃ¡scara CartÃ£o de CrÃ©dito - Entrada de Texto",
+          "pt-br": "Máscara Cartão de Crédito - Entrada de Texto",
           "en": ""
         },
         "capsDescription": {
@@ -2561,7 +2561,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -2595,7 +2595,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "MÃ¡scara Senha - Entrada de Texto",
+          "pt-br": "Máscara Senha - Entrada de Texto",
           "en": ""
         },
         "capsDescription": {
@@ -2674,7 +2674,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -2708,7 +2708,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "MÃ¡scara Apenas NÃºmeros - Entrada de Texto",
+          "pt-br": "Máscara Apenas Números - Entrada de Texto",
           "en": ""
         },
         "capsDescription": {
@@ -2787,7 +2787,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -2805,7 +2805,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "NÃºmero Limite de Caracteres",
+                "pt-br": "Número Limite de Caracteres",
                 "en": ""
               },
               "capsIptCapsDescription": {
@@ -2969,7 +2969,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes da Entrada",
+                "pt-br": "Funções da Entrada",
                 "en": "Input Functions"
               },
               "capsIptCapsDescription": {
@@ -2977,7 +2977,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "() => {}",
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o"]
+              "capsIptCapsTypesToAdd": ["Função"]
             }
           },
           "ccc_textPicker-8": {
@@ -3057,11 +3057,11 @@
         },
         "capsCodeVersionID": "1",
         "capsLabel": {
-          "pt-br": "Ãcone SVG",
+          "pt-br": "Ícone SVG",
           "en": "SVG Icon"
         },
         "capsDescription": {
-          "pt-br": "Use um SVG como Ã­cone",
+          "pt-br": "Use um SVG como ícone",
           "en": "Use a SVG as an Icon"
         },
         "capsCodeTypes": ["Elemento de Tela", "SVG Icon"],
@@ -3079,7 +3079,7 @@
                 "en": "Svg as Component"
               },
               "capsIptTxtDescription": {
-                "pt-br": "Transforme um svg usando o link https://bit.ly/SVG-RN-6 e cole apenas o que estÃ¡ depois do return nesse campo.",
+                "pt-br": "Transforme um svg usando o link https://bit.ly/SVG-RN-6 e cole apenas o que está depois do return nesse campo.",
                 "en": "Transform a svg in https://bit.ly/SVG-RN-6 adn paste the return here."
               }
             }
@@ -3096,7 +3096,7 @@
                 "en": "Svg Original"
               },
               "capsIptTxtDescription": {
-                "pt-br": "Armazene aqui o cÃ³digo svg original.",
+                "pt-br": "Armazene aqui o código svg original.",
                 "en": "Enter the original code"
               }
             }
@@ -3248,14 +3248,14 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Preparar InformaÃ§Ã£o personalizada",
+          "pt-br": "Preparar Informação personalizada",
           "en": "custom Prepare Data"
         },
         "capsDescription": {
-          "pt-br": "Uma funÃ§Ã£o para preparar informaÃ§Ãµes",
+          "pt-br": "Uma função para preparar informações",
           "en": "A function to prepare customized data"
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "prepareData"],
+        "capsCodeTypes": ["Função", "function", "prepareData"],
         "capsCodeText": "Elements.F5({ pass: {args} })",
         "capsCodeInputs": {
           "ccc_customPrepareData-0": {
@@ -3316,7 +3316,7 @@
             "capsIptTxtInfo": {
               "capsIptTxtDfValue": "json",
               "capsIptTxtLabel": {
-                "pt-br": "mÃ©todo apÃ³s resposta",
+                "pt-br": "método após resposta",
                 "en": "method after response"
               },
               "capsIptTxtDescription": {
@@ -3333,7 +3333,7 @@
             "capsIptTxtInfo": {
               "capsIptTxtDfValue": "sc.A1.lists.arrProds",
               "capsIptTxtLabel": {
-                "pt-br": "variÃ¡vel para salvar",
+                "pt-br": "variável para salvar",
                 "en": "variable to save"
               },
               "capsIptTxtDescription": {
@@ -3383,14 +3383,14 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "funÃ§Ã£o imagePicker",
+          "pt-br": "função imagePicker",
           "en": "function imagePicker"
         },
         "capsDescription": {
           "pt-br": "",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "imagePicker"],
+        "capsCodeTypes": ["Função", "function", "imagePicker"],
         "capsCodeText": "\n\n        // FIX_F6 //\n        Elements.F6({ pass: {\n          A: [\n            !#!return functions!#!\n          ],\n        }})",
         "capsCodeInputs": {
           "ccc_imagePicker-0": {
@@ -3400,14 +3400,14 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes de retorno",
+                "pt-br": "funções de retorno",
                 "en": "return functions"
               },
               "capsIptCapsDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"],
+              "capsIptCapsTypesToAdd": ["Função", "function"],
               "capsIptCapsDfCode": "() => console.log({args});"
             }
           }
@@ -3451,7 +3451,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes",
+                "pt-br": "Funções",
                 "en": "Functions"
               },
               "capsIptCapsDescription": {
@@ -3547,7 +3547,7 @@
       "1": {
         "capsCodeVersionID": "1",
         "capsDescription": {
-          "pt-br": "Recebe o valor por meio de parÃ¢metro(s) e atualiza a lista com os resultados encontrados.",
+          "pt-br": "Recebe o valor por meio de parâmetro(s) e atualiza a lista com os resultados encontrados.",
           "en": "Receives the value through parameter(s) and updates the list with the results found."
         },
         "capsLabel": {
@@ -3597,7 +3597,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "FunÃ§Ãµes para Pegar Valores",
+                "pt-br": "Funções para Pegar Valores",
                 "en": "Get Value Functions"
               },
               "capsIptCapsDescription": {
@@ -3605,7 +3605,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "() => {}",
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"]
+              "capsIptCapsTypesToAdd": ["Função", "function"]
             }
           }
         },
@@ -3613,7 +3613,7 @@
           "seconds": 1669821908,
           "nanoseconds": 792000000
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "listFilter", "function"]
+        "capsCodeTypes": ["Função", "listFilter", "function"]
       }
     }
   },
@@ -3625,10 +3625,10 @@
           "en": "array push"
         },
         "capsDescription": {
-          "pt-br": "Adiciona uma informaÃ§Ã£o na Ãºltima posiÃ§Ã£o do array",
+          "pt-br": "Adiciona uma informação na última posição do array",
           "en": "Adds an item in the last position of an array"
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "arrayPush"],
+        "capsCodeTypes": ["Função", "function", "arrayPush"],
         "capsCodeText": "async (...args) =>\n        functions.arrayPush({ args, pass:{\n          oldArr: \"!#!array variable path!#!\",\n          newValue: \"!#!new value!#!\",\n          passToFuncs: [!#!pass to functions!#!],\n        }})",
         "capsCodeInputs": {
           "ccc_arrayPush-0": {
@@ -3639,7 +3639,7 @@
             "capsIptTxtInfo": {
               "capsIptTxtDfValue": "noName",
               "capsIptTxtLabel": {
-                "pt-br": "caminho da variÃ¡vel do array",
+                "pt-br": "caminho da variável do array",
                 "en": "array variable path"
               },
               "capsIptTxtDescription": {
@@ -3672,7 +3672,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "passar para funÃ§Ãµes",
+                "pt-br": "passar para funções",
                 "en": "pass to functions"
               },
               "capsIptCapsDescription": {
@@ -3680,7 +3680,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "false",
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"]
+              "capsIptCapsTypesToAdd": ["Função", "function"]
             }
           }
         },
@@ -3706,7 +3706,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "funÃ§Ã£o string",
+          "pt-br": "função string",
           "en": "string function"
         },
         "capsDescription": {
@@ -3791,7 +3791,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Caminho do FormulÃ¡rio",
+                "pt-br": "Caminho do Formulário",
                 "en": "Form Path"
               },
               "capsIptCapsDescription": {
@@ -3879,7 +3879,7 @@
           "pt-br": "",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "setTimeout"],
+        "capsCodeTypes": ["Função", "function", "setTimeout"],
         "capsCodeText": "\n\n        // FIX_F2 //\n        Elements.F2({ pass: {\n          A:\"!#!path timeout cash!#!\",\n          B:\"!#!miliseconds value!#!\",\n          C: [\n            !#!functions to execute on delay!#!\n          ],\n        }})",
         "capsCodeInputs": {
           "ccc_setTimeout-0": {
@@ -3923,7 +3923,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes para executar no atraso",
+                "pt-br": "funções para executar no atraso",
                 "en": "functions to execute on delay"
               },
               "capsIptCapsDescription": {
@@ -3931,7 +3931,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "false",
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"]
+              "capsIptCapsTypesToAdd": ["Função", "function"]
             }
           }
         },
@@ -3964,7 +3964,7 @@
           "pt-br": "",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "expoUpdate"],
+        "capsCodeTypes": ["Função", "function", "expoUpdate"],
         "capsCodeText": "\n\n        Elements.FYy({ pass:{\n          variablePath: [\n            !#!variable path!#!\n          ],\n          variableValue: \"!#!Variable Value!#!\",\n        }})",
         "capsCodeInputs": {
           "ccc_expoUpdate-0": {
@@ -3974,7 +3974,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "caminho da variÃ¡vel",
+                "pt-br": "caminho da variável",
                 "en": "variable path"
               },
               "capsIptCapsDescription": {
@@ -3996,7 +3996,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Valor da VariÃ¡vel",
+                "pt-br": "Valor da Variável",
                 "en": "Variable Value"
               },
               "capsIptCapsDescription": {
@@ -4037,7 +4037,7 @@
           "pt-br": "",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "uploadImgs"],
+        "capsCodeTypes": ["Função", "function", "uploadImgs"],
         "capsCodeText": "Elements.F8({ pass: {\n          loopPath: [\n                !#!loop path!#!\n              ],\n              functions: [\n                !#!functions!#!\n              ],\n            args\n        }})",
         "capsCodeInputs": {
           "ccc_uploadImgs-0": {
@@ -4069,15 +4069,15 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes",
+                "pt-br": "funções",
                 "en": "functions"
               },
               "capsIptCapsDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"],
-              "capsIptCapsDfCode": "() => console.log(\"funÃ§Ã£o default code\");"
+              "capsIptCapsTypesToAdd": ["Função", "function"],
+              "capsIptCapsDfCode": "() => console.log(\"função default code\");"
             }
           }
         },
@@ -4107,7 +4107,7 @@
           "en": "callback"
         },
         "capsDescription": {
-          "pt-br": "Invoca funÃ§Ãµes callback",
+          "pt-br": "Invoca funções callback",
           "en": "Invokes callback functions"
         },
         "capsCodeTypes": ["function", "callback"],
@@ -4120,7 +4120,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes",
+                "pt-br": "funções",
                 "en": "functions"
               },
               "capsIptCapsDescription": {
@@ -4128,7 +4128,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "() => {}",
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"]
+              "capsIptCapsTypesToAdd": ["Função", "function"]
             }
           }
         },
@@ -4172,7 +4172,7 @@
             "capsIptTxtInfo": {
               "capsIptTxtDfValue": "err",
               "capsIptTxtLabel": {
-                "pt-br": "mÃ©todo depois da resposta",
+                "pt-br": "método depois da resposta",
                 "en": "method after response"
               },
               "capsIptTxtDescription": {
@@ -4189,7 +4189,7 @@
             "capsIptTxtInfo": {
               "capsIptTxtDfValue": "response return value",
               "capsIptTxtLabel": {
-                "pt-br": "variÃ¡vel para salvar",
+                "pt-br": "variável para salvar",
                 "en": "variable to save"
               },
               "capsIptTxtDescription": {
@@ -4246,7 +4246,7 @@
           "pt-br": "",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "setVar"],
+        "capsCodeTypes": ["Função", "function", "setVar"],
         "capsCodeText": "async (...args) =>\n        functions.setVar({ args, pass:{\n          keyPath: [!#!url!#!],\n          value: !#!2!#!\n        }})",
         "capsCodeInputs": {
           "ccc_setVar-0": {
@@ -4256,7 +4256,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Caminho da VariÃ¡vel",
+                "pt-br": "Caminho da Variável",
                 "en": "Variable Path"
               },
               "capsIptCapsDescription": {
@@ -4280,7 +4280,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Valor da VariÃ¡vel",
+                "pt-br": "Valor da Variável",
                 "en": "Variable Value"
               },
               "capsIptCapsDescription": {
@@ -4321,7 +4321,7 @@
           "pt-br": "",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "LoopUpload"],
+        "capsCodeTypes": ["Função", "function", "LoopUpload"],
         "capsCodeText": "\n\n        Elements.FXx({ pass:{\n          variablePath: [\n            !#!variable path!#!\n          ],\n          variableValue: \"!#!Variable Value!#!\",\n        }})",
         "capsCodeInputs": {
           "ccc_funcXx-0": {
@@ -4331,7 +4331,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "caminho da variÃ¡vel",
+                "pt-br": "caminho da variável",
                 "en": "variable path"
               },
               "capsIptCapsDescription": {
@@ -4353,7 +4353,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "valor da variÃ¡vel",
+                "pt-br": "valor da variável",
                 "en": "Variable Value"
               },
               "capsIptCapsDescription": {
@@ -4503,7 +4503,7 @@
           "pt-br": "",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "loop"],
+        "capsCodeTypes": ["Função", "function", "loop"],
         "capsCodeText": "Elements.F7({ pass: {\n            A: [\n                !#!loop path!#!\n              ],\n            B: [\n                !#!functions!#!\n              ],\n            args\n        }})",
         "capsCodeInputs": {
           "ccc_loop-0": {
@@ -4535,15 +4535,15 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes",
+                "pt-br": "funções",
                 "en": "functions"
               },
               "capsIptCapsDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsTypesToAdd": ["FunÃ§Ã£o", "function"],
-              "capsIptCapsDfCode": "() => console.log(\"funÃ§Ã£o default code\");"
+              "capsIptCapsTypesToAdd": ["Função", "function"],
+              "capsIptCapsDfCode": "() => console.log(\"função default code\");"
             }
           }
         },
@@ -4573,7 +4573,7 @@
           "en": "goTo"
         },
         "capsDescription": {
-          "pt-br": "FunÃ§Ã£o para mudar de tela",
+          "pt-br": "Função para mudar de tela",
           "en": "Go to another screen function"
         },
         "capsCodeTypes": ["function", "goTo"],
@@ -4619,14 +4619,14 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "condiÃ§Ã£o (if)",
+          "pt-br": "condição (if)",
           "en": "condition (if)"
         },
         "capsDescription": {
           "pt-br": "",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "condition"],
+        "capsCodeTypes": ["Função", "function", "condition"],
         "capsCodeText": "async (...args) =>\n        functions.condition({ args, pass:{\n          conditionPath: [!#!variable path!#!],\n          expectedValue: [!#!expected value!#!],\n          functionsTrue: [!#!functions (case true)!#!],\n          functionsFalse: [!#!functions (case false)!#!],\n          args\n        }})",
         "capsCodeInputs": {
           "ccc_condition-0": {
@@ -4636,7 +4636,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "Caminho da VariÃ¡vel",
+                "pt-br": "Caminho da Variável",
                 "en": "variable path"
               },
               "capsIptCapsDescription": {
@@ -4672,7 +4672,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes (caso verdadeiro)",
+                "pt-br": "funções (caso verdadeiro)",
                 "en": "functions (case true)"
               },
               "capsIptCapsDescription": {
@@ -4690,7 +4690,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes (caso falso)",
+                "pt-br": "funções (caso falso)",
                 "en": "functions (case false)"
               },
               "capsIptCapsDescription": {
@@ -4728,10 +4728,10 @@
           "en": "conditional functions (multiple conds - if)"
         },
         "capsDescription": {
-          "pt-br": "Para o operador informar as seguintes opÃ§Ãµes: \"falsy\", \"===\",\"||\" ou \"!==\".",
+          "pt-br": "Para o operador informar as seguintes opções: \"falsy\", \"===\",\"||\" ou \"!==\".",
           "en": ""
         },
-        "capsCodeTypes": ["FunÃ§Ã£o", "function", "toggle functions"],
+        "capsCodeTypes": ["Função", "function", "toggle functions"],
         "capsCodeText": "async (...args) =>\n        functions.togglFuncs({ args, pass:{\n          conditions: [!#!variable path!#!],\n          expectedValue: [!#!expected value!#!],\n          functionsTrue: [!#!functions (case true)!#!],\n          functionsFalse: [!#!functions (case false)!#!],\n          args\n        }})",
         "capsCodeInputs": {
           "ccc_condFuncs-0": {
@@ -4759,7 +4759,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "CondiÃ§Ãµes",
+                "pt-br": "Condições",
                 "en": "Conditions"
               },
               "capsIptCapsDescription": {
@@ -4777,7 +4777,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes (caso verdadeiro)",
+                "pt-br": "funções (caso verdadeiro)",
                 "en": "functions (case true)"
               },
               "capsIptCapsDescription": {
@@ -4795,7 +4795,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsLabel": {
-                "pt-br": "funÃ§Ãµes (caso falso)",
+                "pt-br": "funções (caso falso)",
                 "en": "functions (case false)"
               },
               "capsIptCapsDescription": {
@@ -5018,7 +5018,7 @@
             "capsIptTxtInfo": {
               "capsIptTxtDfValue": "",
               "capsIptTxtLabel": {
-                "pt-br": "separador da junÃ§Ã£o",
+                "pt-br": "separador da junção",
                 "en": "join separator"
               },
               "capsIptTxtDescription": {
@@ -5060,7 +5060,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "nÃºmero",
+          "pt-br": "número",
           "en": "number"
         },
         "capsDescription": {
@@ -5078,7 +5078,7 @@
             "capsIptPosition": "0",
             "capsIptTxtInfo": {
               "capsIptTxtLabel": {
-                "pt-br": "nÃºmero",
+                "pt-br": "número",
                 "en": "number"
               },
               "capsIptTxtDescription": {
@@ -5272,7 +5272,7 @@
             "capsIptTxtInfo": {
               "capsIptTxtDfValue": "",
               "capsIptTxtLabel": {
-                "pt-br": "separador de junÃ§Ã£o",
+                "pt-br": "separador de junção",
                 "en": "join separator"
               },
               "capsIptTxtDescription": {
@@ -5707,7 +5707,7 @@
                 "en": "string path"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Escreva o path do local da variÃ¡vel que deseja pegar o valor.",
+                "pt-br": "Escreva o path do local da variável que deseja pegar o valor.",
                 "en": "Write the path to the location of the variable you want to get the value."
               },
               "capsIptCapsDfCode": "\"true\"",
@@ -5858,7 +5858,7 @@
         "capsCodeText": "stls.overlayColor({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
           "pt-br": "When the image has rounded corners, specifying an overlayColor will cause the remaining space in the corners to be filled with a solid color.",
-          "en": "Quando a imagem tiver cantos arredondados, especificar uma overlayColor farÃ¡ com que o espaÃ§o restante nos cantos seja preenchido com uma cor sÃ³lida"
+          "en": "Quando a imagem tiver cantos arredondados, especificar uma overlayColor fará com que o espaço restante nos cantos seja preenchido com uma cor sólida"
         },
         "capsCodeInputs": {
           "1E39cOOZzRWcHAcKPnwJ-0": {
@@ -5897,7 +5897,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Alinhamento do ConteÃºdo - alignContent",
+          "pt-br": "Alinhamento do Conteúdo - alignContent",
           "en": "alignContent"
         },
         "capsVersionCreatedAt": {
@@ -5908,7 +5908,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.alignContent({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a distribuiÃ§Ã£o de linhas ao longo do eixo cruzado",
+          "pt-br": "Define a distribuição de linhas ao longo do eixo cruzado",
           "en": "Defines the distribution of lines along the cross-axis."
         },
         "capsCodeInputs": {
@@ -5919,7 +5919,7 @@
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
               "capsIptCapsDescription": {
-                "pt-br": "Escreva uma das opÃ§Ãµes: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"space-between\" ou \"space-around\"",
+                "pt-br": "Escreva uma das opções: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"space-between\" ou \"space-around\"",
                 "en": "Write one of the options: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"space-between\" or \"space-around\""
               },
               "capsIptCapsLabel": {
@@ -5959,7 +5959,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.alignItems({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Propriedade para alinhar os filhos dentro do eixo transversal de seu contÃªiner",
+          "pt-br": "Propriedade para alinhar os filhos dentro do eixo transversal de seu contêiner",
           "en": "Property to align children along the cross axis of their container."
         },
         "capsCodeInputs": {
@@ -5974,7 +5974,7 @@
                 "en": "Value"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Escreva uma das opÃ§Ãµes: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"baseline\"",
+                "pt-br": "Escreva uma das opções: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"baseline\"",
                 "en": "Write one of the options: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"baseline\""
               },
               "capsIptCapsDfCode": "'flex-start'",
@@ -5999,7 +5999,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Alinhamento PrÃ³prio - alignSelf",
+          "pt-br": "Alinhamento Próprio - alignSelf",
           "en": "alignSelf"
         },
         "capsVersionCreatedAt": {
@@ -6010,7 +6010,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.alignSelf({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Pode aplicar essa propriedade a um Ãºnico filho para alterar seu alinhamento dentro do pai.",
+          "pt-br": "Pode aplicar essa propriedade a um único filho para alterar seu alinhamento dentro do pai.",
           "en": "You can apply this property to a single child to change its alignment within the parent."
         },
         "capsCodeInputs": {
@@ -6025,7 +6025,7 @@
                 "en": "Value"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Escreva uma das opÃ§Ãµes: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"baseline\"",
+                "pt-br": "Escreva uma das opções: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"baseline\"",
                 "en": "Write one of the options: \"flex-start\", \"flex-end\", \"stretch\", \"center\", \"baseline\""
               },
               "capsIptCapsDfCode": "'auto'",
@@ -6050,7 +6050,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "DimensÃ£o - aspectRatio",
+          "pt-br": "Dimensão - aspectRatio",
           "en": "aspectRatio"
         },
         "capsVersionCreatedAt": {
@@ -6061,7 +6061,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.aspectRatio({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "A proporÃ§Ã£o controla o tamanho da dimensÃ£o indefinida de um nÃ³.",
+          "pt-br": "A proporção controla o tamanho da dimensão indefinida de um nó.",
           "en": "Aspect ratio controls the size of the undefined dimension of a node."
         },
         "capsCodeInputs": {
@@ -6305,7 +6305,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Espessura da Borda (InÃ­cio) - borderStartWidth",
+          "pt-br": "Espessura da Borda (Início) - borderStartWidth",
           "en": "borderStartWidth"
         },
         "capsVersionCreatedAt": {
@@ -6469,7 +6469,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.bottom({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define o nÃºmero de pixels lÃ³gicos para deslocar a borda inferior deste componente",
+          "pt-br": "Define o número de pixels lógicos para deslocar a borda inferior deste componente",
           "en": "Define the number of logical pixels to offset the bottom edge of this component."
         },
         "capsCodeInputs": {
@@ -6509,7 +6509,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "DireÃ§Ã£o(iOS) - direction",
+          "pt-br": "Direção(iOS) - direction",
           "en": "direction"
         },
         "capsVersionCreatedAt": {
@@ -6520,7 +6520,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.direction({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Direction especifica o fluxo direcional da interface do usuÃ¡rio.",
+          "pt-br": "Direction especifica o fluxo direcional da interface do usuário.",
           "en": "Direction specifies the directional flow of the user interface."
         },
         "capsCodeInputs": {
@@ -6535,7 +6535,7 @@
                 "en": "Value"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Escreva uma das opÃ§Ãµes: \"inherit\", \"ltr\", \"rtl\"",
+                "pt-br": "Escreva uma das opções: \"inherit\", \"ltr\", \"rtl\"",
                 "en": "Write one of the options: \"inherit\", \"ltr\", \"rtl\""
               },
               "capsIptCapsDfCode": "'inherit'",
@@ -6560,7 +6560,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "ExibiÃ§Ã£o - display",
+          "pt-br": "Exibição - display",
           "en": "display"
         },
         "capsVersionCreatedAt": {
@@ -6571,7 +6571,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.display({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define o tipo de exibiÃ§Ã£o deste componente",
+          "pt-br": "Define o tipo de exibição deste componente",
           "en": "Display sets the display type of this component."
         },
         "capsCodeInputs": {
@@ -6587,7 +6587,7 @@
                 "en": "Value"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Escreva uma das opÃ§Ãµes: \"none\", \"flex\"",
+                "pt-br": "Escreva uma das opções: \"none\", \"flex\"",
                 "en": "Write one of the options: \"none\", \"flex\""
               },
               "capsIptCapsTypesToAdd": ["string process"]
@@ -6622,7 +6622,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.end({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Quando a direÃ§Ã£o Ã© ltr, end equivale Ã  direita. Quando a direÃ§Ã£o Ã© rtl, end equivale Ã  esquerda.",
+          "pt-br": "Quando a direção é ltr, end equivale à direita. Quando a direção é rtl, end equivale à esquerda.",
           "en": "When the direction is ltr, end is equivalent to right. When the direction is rtl, end is equivalent to left."
         },
         "capsCodeInputs": {
@@ -6673,7 +6673,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.flex({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define como funciona a flexibilidade de um componente em relaÃ§Ã£o ao espaÃ§o disponÃ­vel",
+          "pt-br": "Define como funciona a flexibilidade de um componente em relação ao espaço disponível",
           "en": "Defines how the flexibility of a component works in relation to the available space"
         },
         "capsCodeInputs": {
@@ -6688,7 +6688,7 @@
                 "en": "Value"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Escreva uma das opÃ§Ãµes: \"-1\", \"0\", \"1\", \"2\"",
+                "pt-br": "Escreva uma das opções: \"-1\", \"0\", \"1\", \"2\"",
                 "en": "Write one of the options: \"-1\", \"0\", \"1\", \"2\""
               },
               "capsIptCapsDfCode": "'1'",
@@ -6724,8 +6724,8 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.flexBasis({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Fornece o tamanho padrÃ£o de um item ao longo do eixo principal",
-          "en": "flexBasis Ã© uma maneira independente do eixo de fornecer o tamanho padrÃ£o de um item ao longo do eixo principal."
+          "pt-br": "Fornece o tamanho padrão de um item ao longo do eixo principal",
+          "en": "flexBasis é uma maneira independente do eixo de fornecer o tamanho padrão de um item ao longo do eixo principal."
         },
         "capsCodeInputs": {
           "58lPYsZNbXYuRCIclKM9-0": {
@@ -6826,7 +6826,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.flexGrow({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Descreve como qualquer espaÃ§o dentro de um contÃªiner deve ser distribuÃ­do entre seus filhos ao longo do eixo principal",
+          "pt-br": "Descreve como qualquer espaço dentro de um contêiner deve ser distribuído entre seus filhos ao longo do eixo principal",
           "en": "Describes how any space within a container should be distributed among its children along the main axis."
         },
         "capsCodeInputs": {
@@ -6877,7 +6877,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.flexShrink({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Descreve como encolher filhos ao longo do eixo principal no caso em que o tamanho total das crianÃ§as transborda o tamanho do contÃªiner no eixo principal",
+          "pt-br": "Descreve como encolher filhos ao longo do eixo principal no caso em que o tamanho total das crianças transborda o tamanho do contêiner no eixo principal",
           "en": "Describes how to shrink children along the main axis in the case in which the total size of the children overflows the size of the container on the main axis."
         },
         "capsCodeInputs": {
@@ -6928,7 +6928,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.flexWrap({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Controla se os filhos podem se enrolar depois de atingirem o final de um contÃªiner flexÃ­vel",
+          "pt-br": "Controla se os filhos podem se enrolar depois de atingirem o final de um contêiner flexível",
           "en": "Controls whether children can wrap around after they hit the end of a flex container."
         },
         "capsCodeInputs": {
@@ -7019,7 +7019,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Ajuste do ConteÃºdo - justifyContent",
+          "pt-br": "Ajuste do Conteúdo - justifyContent",
           "en": "justifyContent"
         },
         "capsVersionCreatedAt": {
@@ -7030,7 +7030,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.justifyContent({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Propriedade para alinhar os filhos dentro do eixo principal de seu contÃªiner",
+          "pt-br": "Propriedade para alinhar os filhos dentro do eixo principal de seu contêiner",
           "en": "Property to align children within the main axis of their container"
         },
         "capsCodeInputs": {
@@ -7045,7 +7045,7 @@
                 "en": "Value"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Escreva uma das opÃ§Ãµes: \"flex-start\", \"flex-end\", \"space-between\", \"space-around\", \"space-evenly\"",
+                "pt-br": "Escreva uma das opções: \"flex-start\", \"flex-end\", \"space-between\", \"space-around\", \"space-evenly\"",
                 "en": "Write one of the options: \"flex-start\", \"flex-end\", \"space-between\", \"space-around\", \"space-evenly\""
               },
               "capsIptCapsDfCode": "'center'",
@@ -7081,7 +7081,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.left({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define o nÃºmero de pixels lÃ³gicos para deslocar a borda esquerda deste componente.",
+          "pt-br": "Define o número de pixels lógicos para deslocar a borda esquerda deste componente.",
           "en": "Set the number of logical pixels to offset the left edge of this component."
         },
         "capsCodeInputs": {
@@ -7132,7 +7132,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.margin({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea ao redor de um elemento",
+          "pt-br": "Define a área ao redor de um elemento",
           "en": "Defines the area around an element"
         },
         "capsCodeInputs": {
@@ -7183,7 +7183,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.marginBottom({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea abaixo de um elemento",
+          "pt-br": "Define a área abaixo de um elemento",
           "en": "Defines the area below an element"
         },
         "capsCodeInputs": {
@@ -7234,7 +7234,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.marginEnd({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea depois de um elemento",
+          "pt-br": "Define a área depois de um elemento",
           "en": "Defines the area after an element"
         },
         "capsCodeInputs": {
@@ -7285,7 +7285,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.marginHorizontal({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea nos dois lados de um elemento",
+          "pt-br": "Define a área nos dois lados de um elemento",
           "en": "Defines the area on both sides of an element"
         },
         "capsCodeInputs": {
@@ -7336,7 +7336,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.marginLeft({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea no lado esquerdo de um elemento",
+          "pt-br": "Define a área no lado esquerdo de um elemento",
           "en": "Sets the area on the left side of an element"
         },
         "capsCodeInputs": {
@@ -7387,7 +7387,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.marginRight({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea no lado direito de um elemento",
+          "pt-br": "Define a área no lado direito de um elemento",
           "en": "Sets the area on the right side of an element"
         },
         "capsCodeInputs": {
@@ -7427,7 +7427,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Margem InÃ­cio - marginStart",
+          "pt-br": "Margem Início - marginStart",
           "en": "marginStart"
         },
         "capsVersionCreatedAt": {
@@ -7438,7 +7438,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.marginStart({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea antes de um elemento",
+          "pt-br": "Define a área antes de um elemento",
           "en": "Sets the area before an element"
         },
         "capsCodeInputs": {
@@ -7489,7 +7489,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.marginTop({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea acima de um elemento",
+          "pt-br": "Define a área acima de um elemento",
           "en": "Sets the area above an element"
         },
         "capsCodeInputs": {
@@ -7540,7 +7540,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.marginVertical({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a Ã¡rea acima e abaixo de um elemento",
+          "pt-br": "Define a área acima e abaixo de um elemento",
           "en": "Defines the area above and below an element"
         },
         "capsCodeInputs": {
@@ -7580,7 +7580,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Altura MÃ¡xima - maxHeight",
+          "pt-br": "Altura Máxima - maxHeight",
           "en": "maxHeight"
         },
         "capsVersionCreatedAt": {
@@ -7591,7 +7591,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.maxHeight({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a altura mÃ¡xima do componente",
+          "pt-br": "Define a altura máxima do componente",
           "en": "Sets the maximum height of the component"
         },
         "capsCodeInputs": {
@@ -7631,7 +7631,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Largura MÃ¡xima - maxWidth",
+          "pt-br": "Largura Máxima - maxWidth",
           "en": "maxWidth"
         },
         "capsVersionCreatedAt": {
@@ -7642,7 +7642,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.maxWidth({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a largura mÃ¡xima deste componente",
+          "pt-br": "Define a largura máxima deste componente",
           "en": "Sets the maximum width of this component"
         },
         "capsCodeInputs": {
@@ -7682,7 +7682,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Altura MÃ­nima - minHeight",
+          "pt-br": "Altura Mínima - minHeight",
           "en": "minHeight"
         },
         "capsVersionCreatedAt": {
@@ -7693,7 +7693,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.minHeight({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a altura mÃ­nima do componente",
+          "pt-br": "Define a altura mínima do componente",
           "en": "Sets the minimum height of the component"
         },
         "capsCodeInputs": {
@@ -7733,7 +7733,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "Largura MÃ­nima - minWidth",
+          "pt-br": "Largura Mínima - minWidth",
           "en": "minWidth"
         },
         "capsVersionCreatedAt": {
@@ -7744,7 +7744,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.minWidth({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a largura mÃ­nima deste componente",
+          "pt-br": "Define a largura mínima deste componente",
           "en": "Sets the minimum width of this component"
         },
         "capsCodeInputs": {
@@ -7795,7 +7795,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.overflow({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Controla como os filhos sÃ£o medidos e exibidos",
+          "pt-br": "Controla como os filhos são medidos e exibidos",
           "en": "Controls how children are measured and displayed"
         },
         "capsCodeInputs": {
@@ -7835,7 +7835,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno Geral - padding",
+          "pt-br": "Espaço Interno Geral - padding",
           "en": "padding"
         },
         "capsVersionCreatedAt": {
@@ -7846,7 +7846,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.padding({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno",
+          "pt-br": "Define espaço interno",
           "en": "Define internal space"
         },
         "capsCodeInputs": {
@@ -7886,7 +7886,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno de Baixo - paddingBottom",
+          "pt-br": "Espaço Interno de Baixo - paddingBottom",
           "en": "paddingBottom"
         },
         "capsVersionCreatedAt": {
@@ -7897,7 +7897,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.paddingBottom({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno de baixo",
+          "pt-br": "Define espaço interno de baixo",
           "en": "Defines internal space from below"
         },
         "capsCodeInputs": {
@@ -7937,7 +7937,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno Final - paddingEnd",
+          "pt-br": "Espaço Interno Final - paddingEnd",
           "en": "paddingEnd"
         },
         "capsVersionCreatedAt": {
@@ -7948,7 +7948,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.paddingEnd({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno final",
+          "pt-br": "Define espaço interno final",
           "en": "Defines final internal space"
         },
         "capsCodeInputs": {
@@ -7988,7 +7988,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno Horizontal - paddingHorizontal",
+          "pt-br": "Espaço Interno Horizontal - paddingHorizontal",
           "en": "paddingHorizontal"
         },
         "capsVersionCreatedAt": {
@@ -7999,7 +7999,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.paddingHorizontal({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno horizontal",
+          "pt-br": "Define espaço interno horizontal",
           "en": "Defines horizontal internal space"
         },
         "capsCodeInputs": {
@@ -8039,7 +8039,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno da Esquerda - paddingLeft",
+          "pt-br": "Espaço Interno da Esquerda - paddingLeft",
           "en": "paddingLeft"
         },
         "capsVersionCreatedAt": {
@@ -8050,7 +8050,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.paddingLeft({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno da esquerda",
+          "pt-br": "Define espaço interno da esquerda",
           "en": "Sets inner left space"
         },
         "capsCodeInputs": {
@@ -8090,7 +8090,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno da Direita - paddingRight",
+          "pt-br": "Espaço Interno da Direita - paddingRight",
           "en": "paddingRight"
         },
         "capsVersionCreatedAt": {
@@ -8101,7 +8101,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.paddingRight({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno da direita",
+          "pt-br": "Define espaço interno da direita",
           "en": "Sets inner right space"
         },
         "capsCodeInputs": {
@@ -8141,7 +8141,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno Inicial - paddingStart",
+          "pt-br": "Espaço Interno Inicial - paddingStart",
           "en": "paddingStart"
         },
         "capsVersionCreatedAt": {
@@ -8152,7 +8152,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.paddingStart({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno inicial",
+          "pt-br": "Define espaço interno inicial",
           "en": "Defines initial internal space"
         },
         "capsCodeInputs": {
@@ -8192,7 +8192,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno de Cima - paddingTop",
+          "pt-br": "Espaço Interno de Cima - paddingTop",
           "en": "paddingTop"
         },
         "capsVersionCreatedAt": {
@@ -8203,7 +8203,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.paddingTop({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno superior",
+          "pt-br": "Define espaço interno superior",
           "en": "Defines superior internal space"
         },
         "capsCodeInputs": {
@@ -8243,7 +8243,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "EspaÃ§o Interno Vertical - paddingVertical",
+          "pt-br": "Espaço Interno Vertical - paddingVertical",
           "en": "paddingVertical"
         },
         "capsVersionCreatedAt": {
@@ -8254,7 +8254,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.paddingVertical({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define espaÃ§o interno vertical",
+          "pt-br": "Define espaço interno vertical",
           "en": "Defines vertical internal space"
         },
         "capsCodeInputs": {
@@ -8294,7 +8294,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "PosiÃ§Ã£o - position",
+          "pt-br": "Posição - position",
           "en": "position"
         },
         "capsVersionCreatedAt": {
@@ -8305,7 +8305,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.position({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define a posiÃ§Ã£o do componente em relaÃ§Ã£o ao pai",
+          "pt-br": "Define a posição do componente em relação ao pai",
           "en": "Sets the position of the component relative to the parent"
         },
         "capsCodeInputs": {
@@ -8320,7 +8320,7 @@
                 "en": "Value"
               },
               "capsIptCapsDescription": {
-                "pt-br": "Escreva uma das opÃ§Ãµes: \"absolute\", \"relative\"",
+                "pt-br": "Escreva uma das opções: \"absolute\", \"relative\"",
                 "en": "Write one of the options: \"absolute\", \"relative\""
               },
               "capsIptCapsDfCode": "'absolute'",
@@ -8356,7 +8356,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.right({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Define o nÃºmero de pixels lÃ³gicos para deslocar a borda direita deste componente",
+          "pt-br": "Define o número de pixels lógicos para deslocar a borda direita deste componente",
           "en": "Set the number of logical pixels to offset the right edge of this component."
         },
         "capsCodeInputs": {
@@ -8396,7 +8396,7 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "InÃ­cio - start",
+          "pt-br": "Início - start",
           "en": "start"
         },
         "capsVersionCreatedAt": {
@@ -8407,7 +8407,7 @@
         "capsCodeVersionID": "1",
         "capsCodeText": "stls.start({ pass: { arrayValue: [!#!1!#!] }})",
         "capsDescription": {
-          "pt-br": "Quando a direÃ§Ã£o Ã© ltr, o inÃ­cio equivale Ã  esquerda. Quando a direÃ§Ã£o Ã© rtl, start equivale Ã  direita.",
+          "pt-br": "Quando a direção é ltr, o início equivale à esquerda. Quando a direção é rtl, start equivale à direita.",
           "en": "When the direction is ltr, start is equivalent to left. When the direction is rtl, start is equivalent to right."
         },
         "capsCodeInputs": {
@@ -8426,6 +8426,109 @@
                 "en": "Set a property \"direction\""
               },
               "capsIptCapsDfCode": "'1px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+ 
+   "9DH2j9CCLpCdxI6CTYjm": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 788000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "9DH2j9CCLpCdxI6CTYjm"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderRightColor - Cor da Borda Direita",
+          "en": "borderRightColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 788000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderRightColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da borda direita da imagem",
+          "en": "Defines the border right color on an element"
+        },
+        "capsCodeInputs": {
+          "9DH2j9CCLpCdxI6CTYjm-0": {
+            "capsIptCodeID": "9DH2j9CCLpCdxI6CTYjm-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor da borda",
+                "en": "Set the border color"
+              },
+              "capsIptCapsDfCode": "'white'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "AMY30ZAt8VP7CGckK9xt": {
+    "capsDB": {
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 777000000
+      },
+      "capsID": "AMY30ZAt8VP7CGckK9xt",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderStartColor - Cor do Início da Borda",
+          "en": "borderStartColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 777000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderStartColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da borda inicial",
+          "en": "Defines the start border color on an element"
+        },
+        "capsCodeInputs": {
+          "AMY30ZAt8VP7CGckK9xt-0": {
+            "capsIptCodeID": "AMY30ZAt8VP7CGckK9xt-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor da borda",
+                "en": "Set the border color"
+              },
+              "capsIptCapsDfCode": "'white'",
               "capsIptCapsTypesToAdd": ["string process"]
             }
           }
@@ -8506,5 +8609,4 @@
       }
     }
   }
- 
  }
