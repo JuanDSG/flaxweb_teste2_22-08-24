@@ -8435,7 +8435,1967 @@
     "capsType": "code"
   },
  
-   
+   "m6sIAepkAlqF1ZjIiGca": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 783000000
+      },
+      "capsID": "m6sIAepkAlqF1ZjIiGca"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "top",
+          "en": "top"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 783000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Layout"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.top({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o número de pixels lógicos para deslocar a borda superior deste componente",
+          "en": "Set the number of logical pixels to offset the top edge of this component."
+        },
+        "capsCodeInputs": {
+          "m6sIAepkAlqF1ZjIiGca-0": {
+            "capsIptCodeID": "m6sIAepkAlqF1ZjIiGca-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'1px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "1Ap2stmKx2eJ4H31mqOt": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 766000000
+      },
+      "capsID": "1Ap2stmKx2eJ4H31mqOt",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Largura - width",
+          "en": "Width"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 766000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem", "Estilo Layout"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.width({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a largura deste componente",
+          "en": "Sets the width of this component."
+        },
+        "capsCodeInputs": {
+          "1Ap2stmKx2eJ4H31mqOt-0": {
+            "capsIptCodeID": "1Ap2stmKx2eJ4H31mqOt-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "10",
+              "capsIptCapsTypesToAdd": ["string process", "number"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "0GFiYStv2nMKpQ1BnfjK": {
+    "capsDB": {
+      "capsID": "0GFiYStv2nMKpQ1BnfjK",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 784000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Empilhamento - zIndex",
+          "en": "zIndex"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 784000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Layout"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.zIndex({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Controla quais componentes são exibidos em cima de outros",
+          "en": "Controls which components display on top of others."
+        },
+        "capsCodeInputs": {
+          "0GFiYStv2nMKpQ1BnfjK-0": {
+            "capsIptCodeID": "0GFiYStv2nMKpQ1BnfjK-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'1'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "ccc_shadows": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 784000000
+      },
+      "capsID": "ccc_shadows"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "shadows",
+          "en": "shadows"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 784000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem", "Estilo Layout"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.shadows({ pass: {\n          shadowColor: [!#!1!#!],\n          shadowOffset: [!#!2!#!],\n          shadowOpacity: [!#!3!#!],\n          shadowRadius: [!#!4!#!],\n        }})",
+        "capsDescription": {
+          "pt-br": "Defina um valor de opacidade da sombra",
+          "en": "Sets the drop shadow opacity"
+        },
+        "capsCodeInputs": {
+          "ccc_shadows-0": {
+            "capsIptCodeID": "ccc_shadows-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "cor da sombra",
+                "en": ""
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "'#000'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_shadows-1": {
+            "capsIptCodeID": "ccc_shadows-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "direção da sombra",
+                "en": ""
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "'{width: 0, height: 0}'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_shadows-2": {
+            "capsIptCodeID": "ccc_shadows-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "transparência da sombra",
+                "en": ""
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "'0.4px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_shadows-3": {
+            "capsIptCodeID": "ccc_shadows-3",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "desfoque da sombra",
+                "en": ""
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "'20px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "d6UQNdQeUZjXzhhTSASV": {
+    "capsDB": {
+      "capsID": "d6UQNdQeUZjXzhhTSASV",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 786000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Cor da Sombra do Texto - textShadowColor",
+          "en": "textShadowColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 786000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.textShadowColor({ pass: { A: \"!#!1!#!\" }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da sombra projetada",
+          "en": "Sets the color of the drop shadow"
+        },
+        "capsCodeInputs": {
+          "d6UQNdQeUZjXzhhTSASV-0": {
+            "capsIptCodeID": "d6UQNdQeUZjXzhhTSASV-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor",
+                "en": "Set the color"
+              },
+              "capsIptCapsDfCode": "'black'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "BtjgtNPZ576eceFVmATc": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 787000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "BtjgtNPZ576eceFVmATc"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Sombreamento do Texto - textShadowOffset",
+          "en": "textShadowOffset"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 787000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.textShadowOffset({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o valor de deslocamento do sombreamento do texto",
+          "en": "Sets the text shading offset value"
+        },
+        "capsCodeInputs": {
+          "BtjgtNPZ576eceFVmATc-0": {
+            "capsIptCodeID": "BtjgtNPZ576eceFVmATc-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'{ width?: 2, height?: 2 }'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "fjstSf1LVd9Jvu2Oe4AV": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 784000000
+      },
+      "capsID": "fjstSf1LVd9Jvu2Oe4AV"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "NÃO USAR - shadowOpacity_OLD",
+          "en": "shadowOpacity"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 784000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.shadowOpacity({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Defina um valor de opacidade da sombra",
+          "en": "Sets the drop shadow opacity"
+        },
+        "capsCodeInputs": {
+          "fjstSf1LVd9Jvu2Oe4AV-0": {
+            "capsIptCodeID": "fjstSf1LVd9Jvu2Oe4AV-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'0.5px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "FXHJH7mRdZfGASuoL5i9": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "FXHJH7mRdZfGASuoL5i9",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 784000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "NÃO USAR - shadowRadius_OLD",
+          "en": "shadowRadius"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 784000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.shadowRadius({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o raio de desfoque da sombra projetada.",
+          "en": "Sets the drop shadow blur radius."
+        },
+        "capsCodeInputs": {
+          "FXHJH7mRdZfGASuoL5i9-0": {
+            "capsIptCodeID": "FXHJH7mRdZfGASuoL5i9-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'16px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "ccc_shadowColor": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "ccc_shadowColor",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 784000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "NÃO USAR - shadowColor_OLD",
+          "en": "shadowColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 784000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.shadowColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeInputs": {
+          "ccc_shadowColor-0": {
+            "capsIptCodeID": "ccc_shadowColor-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'black'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "ccc_shadowOffset": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "ccc_shadowOffset",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 784000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "NÃO USAR - shadowOffset_OLD",
+          "en": "shadowOffset"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 784000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.shadowOffset({ pass: {\n          arrayValue1: [!#!1!#!],\n          arrayValue2: [!#!2!#!],\n        }})",
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeInputs": {
+          "ccc_shadowOffset-0": {
+            "capsIptCodeID": "ccc_shadowOffset-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor Width",
+                "en": "Width Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'0px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_shadowOffset-1": {
+            "capsIptCodeID": "ccc_shadowOffset-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor Height",
+                "en": "Height Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'0px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "ccc_boxShadow": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "ccc_boxShadow",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 784000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "NÃO USAR - boxShadow_OLD",
+          "en": "boxShadow"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 784000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.boxShadow({ pass: {\n          arrayValue1: [!#!1!#!],\n          arrayValue2: [!#!2!#!],\n          arrayValue3: [!#!3!#!],\n          arrayValue4: [!#!4!#!],\n        }})",
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeInputs": {
+          "ccc_boxShadow-0": {
+            "capsIptCodeID": "ccc_boxShadow-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "shadowOffset",
+                "en": "shadowOffset"
+              },
+              "capsIptCapsDfCode": "'{width: 0px, height: 0px}'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_boxShadow-1": {
+            "capsIptCodeID": "ccc_boxShadow-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "shadowColor",
+                "en": "shadowColor"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'black'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_boxShadow-2": {
+            "capsIptCodeID": "ccc_boxShadow-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "shadowOpacity",
+                "en": "shadowOpacity"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'0.5px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          },
+          "ccc_boxShadow-3": {
+            "capsIptCodeID": "ccc_boxShadow-3",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "shadowRadius",
+                "en": "shadowRadius"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'16px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "EEEr3Rnha7QHwiAetHvV": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "EEEr3Rnha7QHwiAetHvV",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 771000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Cor do Texto - color",
+          "en": "color"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 771000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.color({ pass: { arrayValue: [!#!Text Value!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor do texto",
+          "en": "Sets the text color"
+        },
+        "capsCodeInputs": {
+          "EEEr3Rnha7QHwiAetHvV-0": {
+            "capsIptCodeID": "EEEr3Rnha7QHwiAetHvV-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor de Texto",
+                "en": "Text Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor",
+                "en": "Set the color"
+              },
+              "capsIptCapsDfCode": "\"white\"",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "O2JXj1aYecWji8mS9dpA": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "O2JXj1aYecWji8mS9dpA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 785000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Família da Fonte - fontFamily",
+          "en": "fontFamily"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 785000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.fontFamily({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Especifica a família da fonte",
+          "en": "Specifies the font family"
+        },
+        "capsCodeInputs": {
+          "O2JXj1aYecWji8mS9dpA-0": {
+            "capsIptCodeID": "O2JXj1aYecWji8mS9dpA-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'Roboto'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "bas7tiO0yQjgpKlvFS26": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 771000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "bas7tiO0yQjgpKlvFS26",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Tamanho da Fonte - fontSize",
+          "en": "fontSize"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 771000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.fontSize({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o tamanho da fonte",
+          "en": "Sets the font size"
+        },
+        "capsCodeInputs": {
+          "bas7tiO0yQjgpKlvFS26-0": {
+            "capsIptCodeID": "bas7tiO0yQjgpKlvFS26-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Define o tamanho da fonte do texto",
+                "en": "Sets the font size of the text"
+              },
+              "capsIptCapsDfCode": "14",
+              "capsIptCapsTypesToAdd": ["string process", "number"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "uKuIZTKvbGxSHCfWzlls": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 772000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "uKuIZTKvbGxSHCfWzlls",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Estilização do Texto - fontStyle",
+          "en": "fontStyle"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 772000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.fontWeight({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o estilo da fonte do texto",
+          "en": "Sets the text font style"
+        },
+        "capsCodeInputs": {
+          "uKuIZTKvbGxSHCfWzlls-0": {
+            "capsIptCodeID": "uKuIZTKvbGxSHCfWzlls-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Define o estilo da fonte do texto",
+                "en": "Sets the text font style"
+              },
+              "capsIptCapsDfCode": "'italic'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "mERYGLBNUat1mJvbvA1p": {
+    "capsDB": {
+      "capsID": "mERYGLBNUat1mJvbvA1p",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 772000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Expessura da Fonte - fontWeight",
+          "en": "fontWeight"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 772000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.fontWeight({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Especifica a espessura da fonte",
+          "en": "Specifies the font weight"
+        },
+        "capsCodeInputs": {
+          "mERYGLBNUat1mJvbvA1p-0": {
+            "capsIptCodeID": "mERYGLBNUat1mJvbvA1p-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Especifica a espessura da fonte",
+                "en": "Specifies the font weight"
+              },
+              "capsIptCapsDfCode": "'regular'",
+              "capsIptCapsTypesToAdd": ["string process", "number"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "ygeycn2jrHGlKs4j2ARW": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "ygeycn2jrHGlKs4j2ARW",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 785000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Espaçamento Interno da Fonte(Android) - includeFontPadding",
+          "en": "includeFontPadding"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 785000000
+        },
+        "capsCodeTypes": ["Estilo Text"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.t6({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Defina para remover o preenchimento de fonte extra destinado a abrir espaço para certos ascendentes / descendentes.",
+          "en": "Set to remove extra font padding intended to make room for certain ascenders / descenders."
+        },
+        "capsCodeInputs": {
+          "ygeycn2jrHGlKs4j2ARW-0": {
+            "capsIptCodeID": "ygeycn2jrHGlKs4j2ARW-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'true'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "JrhzKWjHgue92uBlZ2Jl": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 785000000
+      },
+      "capsID": "JrhzKWjHgue92uBlZ2Jl",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Variação da Fonte - fontVariant",
+          "en": "fontVariant"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 785000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.fontVariant({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o estilo de variação da fonte",
+          "en": "Sets the font variation style"
+        },
+        "capsCodeInputs": {
+          "JrhzKWjHgue92uBlZ2Jl-0": {
+            "capsIptCodeID": "JrhzKWjHgue92uBlZ2Jl-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'small-caps'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "zTmwJ7JbxlPcndRHaJbw": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 785000000
+      },
+      "capsID": "zTmwJ7JbxlPcndRHaJbw",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Altura da Linha - lineHeight",
+          "en": "lineHeight"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 785000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.lineHeight({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Aumentar ou diminuir o espaçamento entre a altura vertical do texto",
+          "en": "Increase or decrease the spacing between text vertical height"
+        },
+        "capsCodeInputs": {
+          "zTmwJ7JbxlPcndRHaJbw-0": {
+            "capsIptCodeID": "zTmwJ7JbxlPcndRHaJbw-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'2'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "au1glFAym1oXuR6aviQO": {
+    "capsDB": {
+      "capsID": "au1glFAym1oXuR6aviQO",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 772000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Alinhamento do Texto - textAlign",
+          "en": "textAlign"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 772000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.textAlign({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Especifica o alinhamento do texto",
+          "en": "Specify text alignment"
+        },
+        "capsCodeInputs": {
+          "au1glFAym1oXuR6aviQO-0": {
+            "capsIptCodeID": "au1glFAym1oXuR6aviQO-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'center'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "0AnYSAoXUTqhDccXDnAV": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 785000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "0AnYSAoXUTqhDccXDnAV"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Alinhamento do Texto - textAlignVertical",
+          "en": "textAlignVertical"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 785000000
+        },
+        "capsCodeTypes": ["Estilo Caixa"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.textAlignVertical({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o alinhamento do texto no eixo vertical",
+          "en": "Sets text alignment on the vertical axis"
+        },
+        "capsCodeInputs": {
+          "0AnYSAoXUTqhDccXDnAV-0": {
+            "capsIptCodeID": "0AnYSAoXUTqhDccXDnAV-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'none'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "KBP0mtgU6NvAs99MVlav": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 785000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "KBP0mtgU6NvAs99MVlav",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Cor da Decoração do Texto - textDecorationColor",
+          "en": "textDecorationColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 785000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.textDecorationColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "É utilizada para definir a cor da decoração de texto, como sublinhado ou linha através do texto",
+          "en": "Is used to set the color of text decoration, such as underlining or line through text"
+        },
+        "capsCodeInputs": {
+          "KBP0mtgU6NvAs99MVlav-0": {
+            "capsIptCodeID": "KBP0mtgU6NvAs99MVlav-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor",
+                "en": "Set the color"
+              },
+              "capsIptCapsDfCode": "'black'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "5JVxnju6F6OZJK0sfcle": {
+    "capsDB": {
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "5JVxnju6F6OZJK0sfcle",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 786000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Decoração da Linha do Texto - textDecorationLine",
+          "en": "textDecorationLine"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 786000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.textDecorationLine({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "É usada para definir o estilo da decoração de texto",
+          "en": "It is used to define the text decoration style"
+        },
+        "capsCodeInputs": {
+          "5JVxnju6F6OZJK0sfcle-0": {
+            "capsIptCodeID": "5JVxnju6F6OZJK0sfcle-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "'none'",
+              "capsIptTxtDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptTxtLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              }
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "l47zYufCqpGJjgPiM4fD": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 786000000
+      },
+      "capsID": "l47zYufCqpGJjgPiM4fD"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Estilo de Decoração de Texto - textDecorationStyle",
+          "en": "textDecorationStyle"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 786000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.textDecorationStyle({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define estilo de decoração do Texto",
+          "en": "Defines Text decoration style"
+        },
+        "capsCodeInputs": {
+          "l47zYufCqpGJjgPiM4fD-0": {
+            "capsIptCodeID": "l47zYufCqpGJjgPiM4fD-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'solid'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "tGHlzwsqy5wIwbdoZXRT": {
+    "capsDB": {
+      "capsID": "tGHlzwsqy5wIwbdoZXRT",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 776000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Capitular - textTransForm",
+          "en": "textTransForm"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 776000000
+        },
+        "capsCodeTypes": ["Estilo Texto"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.textTransForm({ pass: { A: \"!#!1!#!\" }})",
+        "capsDescription": {
+          "pt-br": "Transforma o texto no padrão escolhido",
+          "en": "Transforms the text into the chosen pattern"
+        },
+        "capsCodeInputs": {
+          "tGHlzwsqy5wIwbdoZXRT-0": {
+            "capsIptCodeID": "tGHlzwsqy5wIwbdoZXRT-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'uppercase'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "bABFRjkkkawjfUhyrHBj": {
+    "capsDB": {
+      "capsID": "bABFRjkkkawjfUhyrHBj",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 787000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "backfaceVisibility - Visibilidade da Face Oposta",
+          "en": "backfaceVisibility"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 787000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.backfaceVisibility({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define se a face traseira de uma imagem girada deve ou não estar visível",
+          "en": "Sets whether the back face of an element is visible when turned towards the user."
+        },
+        "capsCodeInputs": {
+          "bABFRjkkkawjfUhyrHBj-0": {
+            "capsIptCodeID": "bABFRjkkkawjfUhyrHBj-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'visible'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "fmmSzO0wRHS5RRy7Vm7g": {
+    "capsDB": {
+      "capsID": "fmmSzO0wRHS5RRy7Vm7g",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 765000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "backgroundColor - Cor de Fundo",
+          "en": "backgroundColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 765000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.backgroundColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor de fundo",
+          "en": "Sets the background color of an element."
+        },
+        "capsCodeInputs": {
+          "fmmSzO0wRHS5RRy7Vm7g-0": {
+            "capsIptCodeID": "fmmSzO0wRHS5RRy7Vm7g-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor",
+                "en": "Set the color"
+              },
+              "capsIptCapsDfCode": "'white'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "jY2bTwsqy5wIwbdoZXRT": {
+    "capsDB": {
+      "capsID": "jY2bTwsqy5wIwbdoZXRT",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 776000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderBottomColor - Cor da Borda de Baixo",
+          "en": "borderBottomColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 776000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderBottomColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da borda inferior da imagem",
+          "en": "Sets the color of an elements bottom border."
+        },
+        "capsCodeInputs": {
+          "jY2bTwsqy5wIwbdoZXRT-0": {
+            "capsIptCodeID": "jY2bTwsqy5wIwbdoZXRT-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor",
+                "en": "Set the color"
+              },
+              "capsIptCapsDfCode": "'white'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "jPAgx2wuoUP5f5p8lY70": {
+    "capsDB": {
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 787000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "jPAgx2wuoUP5f5p8lY70"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Arredondamento borderBottomEndRadius - da Borda de Baixo(final)",
+          "en": "borderBottomEndRadius"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 787000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderBottomEndRadius({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o arredondamento da borda inferior final",
+          "en": "Defines the bottom end border radius on an element,"
+        },
+        "capsCodeInputs": {
+          "jPAgx2wuoUP5f5p8lY70-0": {
+            "capsIptCodeID": "jPAgx2wuoUP5f5p8lY70-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'10px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "xowM5FZs9SuSfYyCui96": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 787000000
+      },
+      "capsID": "xowM5FZs9SuSfYyCui96"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderBottomLeftRadius - Arredondamento da Borda de Baixo(Esquerda)",
+          "en": "borderBottomLeftRadius"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 787000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderBottomLeftRadius({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o arredondamento da borda inferior esquerda",
+          "en": "Defines the bottom left border radius on an element,"
+        },
+        "capsCodeInputs": {
+          "xowM5FZs9SuSfYyCui96-0": {
+            "capsIptCodeID": "xowM5FZs9SuSfYyCui96-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'10px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "VhiM9nBwuBe4XLpL8Rps": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "VhiM9nBwuBe4XLpL8Rps",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 788000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderBottomRightRadius - Arredondamento da Borda de Baixo(Direita)",
+          "en": "borderBottomRightRadius"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 788000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderBottomRightRadius({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o arredondamento da borda inferior direita",
+          "en": "Defines the bottom right border radius on an element"
+        },
+        "capsCodeInputs": {
+          "VhiM9nBwuBe4XLpL8Rps-0": {
+            "capsIptCodeID": "VhiM9nBwuBe4XLpL8Rps-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'10px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "87yo6dIws0viF3culLw1": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "87yo6dIws0viF3culLw1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 788000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderBottomStartRadius - Arredondamento da Borda de Baixo(Início)",
+          "en": "borderBottomStartRadius"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 788000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderBottomStartRadius({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o arredondamento da borda inferior inicial",
+          "en": "Defines the bottom start border radius on an element"
+        },
+        "capsCodeInputs": {
+          "87yo6dIws0viF3culLw1-0": {
+            "capsIptCodeID": "87yo6dIws0viF3culLw1-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "'10px'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "jkl8Twsqy5wIwbdoZXRT": {
+    "capsDB": {
+      "capsID": "jkl8Twsqy5wIwbdoZXRT",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 776000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderColor - Cor da Borda Geral",
+          "en": "borderColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 776000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da borda geral",
+          "en": "Defines the border color on an element"
+        },
+        "capsCodeInputs": {
+          "jkl8Twsqy5wIwbdoZXRT-0": {
+            "capsIptCodeID": "jkl8Twsqy5wIwbdoZXRT-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsTypesToAdd": ["string process"],
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor da borda",
+                "en": "Set the border color"
+              },
+              "capsIptCapsDfCode": "'white'"
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "DWpBPvh0dnbrFPfLiuTQ": {
+    "capsDB": {
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "DWpBPvh0dnbrFPfLiuTQ",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 777000000
+      }
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderEndColor - Cor do Fim da Borda",
+          "en": "borderEndColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 777000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderEndColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da borda final de um elemento",
+          "en": "Defines the border end color on an element"
+        },
+        "capsCodeInputs": {
+          "DWpBPvh0dnbrFPfLiuTQ-0": {
+            "capsIptCodeID": "DWpBPvh0dnbrFPfLiuTQ-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor da borda",
+                "en": "Set the border color"
+              },
+              "capsIptCapsDfCode": "'white'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "4u9VOGWh22S9LWlW6QN4": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 777000000
+      },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "4u9VOGWh22S9LWlW6QN4"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderLeftColor - Cor da Borda Esquerda",
+          "en": "borderLeftColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 777000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderLeftColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da borda esquerda de um elemento",
+          "en": "Defines the border left color on an element"
+        },
+        "capsCodeInputs": {
+          "4u9VOGWh22S9LWlW6QN4-0": {
+            "capsIptCodeID": "4u9VOGWh22S9LWlW6QN4-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor da borda",
+                "en": "Set the border color"
+              },
+              "capsIptCapsDfCode": "'white'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "YrccQLG0AGbfCFkGU4Wi": {
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 791000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "YrccQLG0AGbfCFkGU4Wi",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderRadius - Arredondamento da Borda",
+          "en": "borderRadius"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 791000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderRadius({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define o arredondamento das bordas",
+          "en": "Defines the border radius on an element"
+        },
+        "capsCodeInputs": {
+          "YrccQLG0AGbfCFkGU4Wi-0": {
+            "capsIptCodeID": "YrccQLG0AGbfCFkGU4Wi-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Valor"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina um valor",
+                "en": "Set a value"
+              },
+              "capsIptCapsDfCode": "10",
+              "capsIptCapsTypesToAdd": ["string process", "number"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
  
 
   "sss_joinfreeValue": {
