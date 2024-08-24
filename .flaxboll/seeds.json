@@ -8507,5 +8507,106 @@
     }
   }
  
-   
+   "9DH2j9CCLpCdxI6CTYjm": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 788000000
+      },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "9DH2j9CCLpCdxI6CTYjm"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderRightColor - Cor da Borda Direita",
+          "en": "borderRightColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 788000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderRightColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da borda direita da imagem",
+          "en": "Defines the border right color on an element"
+        },
+        "capsCodeInputs": {
+          "9DH2j9CCLpCdxI6CTYjm-0": {
+            "capsIptCodeID": "9DH2j9CCLpCdxI6CTYjm-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor da borda",
+                "en": "Set the border color"
+              },
+              "capsIptCapsDfCode": "'white'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
+  "AMY30ZAt8VP7CGckK9xt": {
+    "capsDB": {
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 777000000
+      },
+      "capsID": "AMY30ZAt8VP7CGckK9xt",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "borderStartColor - Cor do Início da Borda",
+          "en": "borderStartColor"
+        },
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 777000000
+        },
+        "capsCodeTypes": ["Estilo Caixa", "Estilo Imagem"],
+        "capsCodeVersionID": "1",
+        "capsCodeText": "stls.borderStartColor({ pass: { arrayValue: [!#!1!#!] }})",
+        "capsDescription": {
+          "pt-br": "Define a cor da borda inicial",
+          "en": "Defines the start border color on an element"
+        },
+        "capsCodeInputs": {
+          "AMY30ZAt8VP7CGckK9xt-0": {
+            "capsIptCodeID": "AMY30ZAt8VP7CGckK9xt-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor",
+                "en": "Value"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Defina a cor da borda",
+                "en": "Set the border color"
+              },
+              "capsIptCapsDfCode": "'white'",
+              "capsIptCapsTypesToAdd": ["string process"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code"
+  },
  }
