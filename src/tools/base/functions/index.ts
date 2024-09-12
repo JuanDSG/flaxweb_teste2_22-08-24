@@ -1,12 +1,12 @@
 
-export { firebase } from './firebase';
+//export { firebase } from './firebase';
 
-export { funcGroup } from './funcGroup';
+ export { funcGroup } from './funcGroup';
 
-export { setVar } from './setVar';
-export { arrayPush } from './arrayPush';
-export { condition } from './condition';
-export { setEditFields } from './setEditFields';
+ export { setVar } from './setVar';
+ //export { arrayPush } from './arrayPush';
+ export { condition } from './condition';
+ export { setEditFields } from './setEditFields';
 
-export { loginGoogle } from './loginGoogle';
+ export { loginGoogle } from './loginGoogle';
 
