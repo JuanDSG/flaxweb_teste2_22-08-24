@@ -14,7 +14,9 @@ export { DynView } from './DynView';
 // export { MapPlaces } from './MapPlaces';
 
 export { IptPicker1 } from './IptPicker1';
-export { SvgView1 } from './SvgView1';
+// export { SvgView1 } from './SvgView1';
+export const SvgView1 = () => <></>;
+
 export { Screen1 } from './Screen1';
 export { Screen3 } from './Screen3';
 
