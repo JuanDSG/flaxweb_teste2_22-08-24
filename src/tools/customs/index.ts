@@ -3,7 +3,6 @@
 
 // ----------- JS Functions
 
-
 // export { checkCurrSecondsValue } from './checkCurrSecondsValue';
 // export { processCheckout } from './processCheckout';
 // export { currencyString } from './currencyString';
@@ -23,5 +22,5 @@ export { IptPicker } from './IptPicker';
 
 // ----- generic names
 
-// export { FilePicker } from './FilePicker';
+export { FilePicker } from './FilePicker';
 
